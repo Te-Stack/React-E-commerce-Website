@@ -1,5 +1,11 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
+import {ImFacebook} from "react-icons/im";
+import {GiWorld} from "react-icons/gi";
+import {BsInstagram} from "react-icons/bs";
+import {BsGithub} from "react-icons/bs";
+import {AiOutlineSearch} from "react-icons/ai";
+import {AiOutlineShoppingCart} from "react-icons/ai";
 import { FaBars, FaTimes } from "react-icons/fa";
 import  "./navbar.scss";
 import "../button/Button"
