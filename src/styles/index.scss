@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +11,8 @@
 @import 'mixins';
 
 body{
-    color: rebeccapurple;
+    font-family: $main-font;
+    color:$BlackColor ;
 }
 
 
