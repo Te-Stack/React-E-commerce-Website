@@ -3,7 +3,7 @@
 
 .NavbarItems{
     position: relative;
-    background:$very-light-gray;
+    background:$WhiteBackground;
     height: 80px;
     @include setFlex(row,center,center);
     font-size: 1.2rem;
