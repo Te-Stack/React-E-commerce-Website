@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 import { FaBars, FaTimes } from "react-icons/fa";
-import  "./navbar.scss"
+import  "./navbar.scss";
+import "../button/Button"
 
 
 
@@ -24,19 +25,19 @@ const Navbar = () => {
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
                 <li>
-                    <Link href="#"><a className={styles.navlinks}>Pricing</a></Link>
+                    <Link href="#"><a className="navlinks">Pricing</a></Link>
                 </li>
                 <li>
-                    <Link  href="#"><a className={styles.navlinks}>Product</a></Link>
+                    <Link  href="#"><a className="navlinks">Product</a></Link>
                 </li> 
                 <li>
-                    <Link href="#"><a className={styles.navlinks}>About Us</a></Link>
+                    <Link href="#"><a className="navlinks">About Us</a></Link>
                 </li>
                 <li>
-                    <Link href="#"><a className={styles.navlinks}>Careers</a></Link>
+                    <Link href="#"><a className="navlinks">Careers</a></Link>
                 </li>
                 <li>
-                    <Link href="#"><a className={styles.navlinks}>Community</a></Link>
+                    <Link href="#"><a className="navlinks">Community</a></Link>
                 </li>      
             </ul>
             <Button text={"Get Started"} />
