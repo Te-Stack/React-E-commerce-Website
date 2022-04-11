@@ -26,8 +26,8 @@ const Navbar = () => {
     return ( 
         <>
         <nav className="NavbarItems">
-            <Link href="/"><img className="styles.navbarlogo" src={Logo} /></Link>
-            <div className="styles.menuicon" onClick={toggleLinks}> 
+            <Link href="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+            <div className="menuicon" onClick={toggleLinks}> 
             {active ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
@@ -51,7 +51,7 @@ const Navbar = () => {
         </nav>
 
         <nav>
-            
+
         </nav>
             
         </>
