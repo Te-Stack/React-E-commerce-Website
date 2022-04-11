@@ -1,2 +1,134 @@
 @import "../../styles/mixins";
 @import "../../styles/variables";
+
+.NavbarItems{
+    position: relative;
+    background:$very-light-gray;
+    height: 80px;
+    @include setFlex(row,center,center);
+    font-size: 1.2rem;
+
+    .navbarlogo{
+        position: absolute;
+        left: 3rem;
+        justify-self: start;
+        cursor: pointer;
+        text-decoration: none;
+        height: 3rem;
+        width: 8rem;
+    }
+
+    .menuicon{
+        display: none;
+    }
+
+    .navmenu{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 5px;
+        list-style: none;
+        text-align: center;
+        width: 50vw;
+        justify-content:end;
+        margin-right: 2rem;
+        
+
+
+        .navlinks{
+            color:#312F2F;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            
+
+            &:hover{
+                border-radius: 4px;
+                color: $Bright-red;
+                transition: all 0.5s ease-in;
+                transform: scale(0.9);
+           }
+        }
+
+        
+
+    }
+
+    button{
+        display: block;
+        position: absolute;
+        right: 2rem;
+        padding: 1rem;
+        transition: 0.4s;
+
+        &:hover{
+            transform: scale(0.85);
+
+        }
+    } 
+}
+
+
+
+
+@media screen and (max-width:828px){
+    .NavbarItems{
+        position: relative;
+
+        .navbarlogo{
+            position: absolute;
+            top: 0.4rem;
+            left: 0;
+            transform:translate(25%,50%);
+            height: 3rem;
+            width: 6rem; 
+        }
+
+        .menuicon{
+             display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-100%, 60%);
+            font-size: 1.8rem;
+            cursor: pointer;
+
+        }
+
+        .navmenu{
+            @include setFlex(column,center,center);
+            width: 100%;
+            height: 500px;
+            position: absolute;
+            top: 80px;
+            left: -100%;
+            opacity: 1;
+            transition: all 0.5s ease;
+
+            &.active{     
+                background: #FEFCFB;
+                left: 0;
+                opacity: 1;
+                transition: all 0.5s ease;
+                z-index: 1;
+            }
+
+            .navlinks{
+                text-align: center;
+                padding: 2rem;
+                width: 100%;
+                display: table;
+                &:hover{
+                    color: $Bright-red;
+                }
+            }
+
+            button{
+                display: none;
+            }
+        }
+
+        button{
+            display: none;
+            opacity: 0;
+        }
+    }
+}
