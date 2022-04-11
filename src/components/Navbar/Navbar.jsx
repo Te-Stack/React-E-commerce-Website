@@ -28,7 +28,7 @@ const Navbar = () => {
         <nav className="NavbarItems">
             <Link href="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
             <div className="menuicon" onClick={toggleLinks}> 
-            {active ? <FaTimes /> : <FaBars />}
+            {active ? <RiBarChartHorizontalLine /> : <FaBars />}
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
                 <li>
@@ -51,7 +51,28 @@ const Navbar = () => {
         </nav>
 
         <nav className="NavbarItem1">
-
+        <Link href="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+            <AiOutlineShoppingCart/>
+            <div className="menuicon" onClick={toggleLinks}> 
+            {active ? <RiBarChartHorizontalLine/> : <FaBars />}
+            </div>
+            <ul className={active ? "navmenu active": "navmenu"}>
+                <li>
+                    <Link href="#"><a className="navlinks">Pricing</a></Link>
+                </li>
+                <li>
+                    <Link  href="#"><a className="navlinks">Product</a></Link>
+                </li> 
+                <li>
+                    <Link href="#"><a className="navlinks">About Us</a></Link>
+                </li>
+                <li>
+                    <Link href="#"><a className="navlinks">Careers</a></Link>
+                </li>
+                <li>
+                    <Link href="#"><a className="navlinks">Community</a></Link>
+                </li>      
+            </ul>
         </nav>
             
         </>
