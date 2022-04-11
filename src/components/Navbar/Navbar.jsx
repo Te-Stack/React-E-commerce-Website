@@ -50,7 +50,7 @@ const Navbar = () => {
             <Button text={"Get Started"} />      
         </nav>
 
-        <nav>
+        <nav className="NavbarItem1">
 
         </nav>
             

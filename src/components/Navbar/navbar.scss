@@ -66,11 +66,20 @@
     } 
 }
 
+.NavbarItems1{
+    display: none;
+}
 
 
 
 @media screen and (max-width:828px){
+
     .NavbarItems{
+        display: none;
+    }
+
+
+    .NavbarItems1{
         position: relative;
 
         .navbarlogo{
