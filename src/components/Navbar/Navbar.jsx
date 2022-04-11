@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return ( 
         <>
-            <nav className="NavbarItems">
+        <nav className="NavbarItems">
             <Link href="/"><img className="styles.navbarlogo" src={Logo} /></Link>
             <div className="styles.menuicon" onClick={toggleLinks}> 
             {active ? <FaTimes /> : <FaBars />}
@@ -47,8 +47,10 @@ const Navbar = () => {
                     <Link href="#"><a className="navlinks">Community</a></Link>
                 </li>      
             </ul>
-            <Button text={"Get Started"} />
+            <Button text={"Get Started"} />      
+        </nav>
 
+        <nav>
             
         </nav>
             
