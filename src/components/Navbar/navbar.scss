@@ -2,6 +2,7 @@
 @import "../../styles/variables";
 
 .NavbarItems{
+    display: block;
     position: relative;
     background:$WhiteBackground;
     height: 80px;
@@ -48,7 +49,7 @@
 
             &:hover{
                 border-radius: 4px;
-                color: $Bright-red;
+                color: $BrightRed;
                 transition: all 0.5s ease-in;
                 transform: scale(0.9);
            }
@@ -132,7 +133,7 @@
                 width: 100%;
                 display: table;
                 &:hover{
-                    color: $Bright-red;
+                    color: $BrightRed;
                 }
             }
 

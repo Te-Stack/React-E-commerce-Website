@@ -9,10 +9,6 @@ import {AiOutlineDribbble} from "react-icons/ai";
 import {RiBarChartHorizontalLine} from "react-icons/ri"
 import { FaBars, FaTimes } from "react-icons/fa";
 import  "./navbar.scss";
-import "../button/Button"
-
-
-
 
 
 const Navbar = () => {
@@ -32,22 +28,23 @@ const Navbar = () => {
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
                 <li>
-                    <Link href="#"><a className="navlinks">Pricing</a></Link>
+                    <Link to="#"><a className="navlinks">Pricing</a></Link>
                 </li>
                 <li>
-                    <Link  href="#"><a className="navlinks">Product</a></Link>
+                    <Link  to="#"><a className="navlinks">Product</a></Link>
                 </li> 
                 <li>
-                    <Link href="#"><a className="navlinks">About Us</a></Link>
+                    <Link to="#"><a className="navlinks">About Us</a></Link>
                 </li>
                 <li>
-                    <Link href="#"><a className="navlinks">Careers</a></Link>
+                    <Link to="#"><a className="navlinks">Careers</a></Link>
                 </li>
                 <li>
-                    <Link href="#"><a className="navlinks">Community</a></Link>
+                    <Link to="#"><a className="navlinks">Community</a></Link>
                 </li>      
             </ul>
-            <Button text={"Get Started"} />      
+            <AiOutlineSearch/>
+            <AiOutlineShoppingCart/>    
         </nav>
 
         <nav className="NavbarItem1">
