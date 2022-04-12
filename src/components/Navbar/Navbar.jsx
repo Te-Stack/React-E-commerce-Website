@@ -28,19 +28,19 @@ const Navbar = () => {
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
                 <li>
-                    <Link to="#"><a className="navlinks">Pricing</a></Link>
+                    <Link to="#" className="navlinks">Pricing</Link>
                 </li>
                 <li>
-                    <Link  to="#"><a className="navlinks">Product</a></Link>
+                    <Link className="navlinks"  to="#">Product</Link>
                 </li> 
                 <li>
-                    <Link to="#"><a className="navlinks">About Us</a></Link>
+                    <Link className="navlinks" to="#">About Us</Link>
                 </li>
                 <li>
-                    <Link to="#"><a className="navlinks">Careers</a></Link>
+                    <Link className="navlinks" to="#">Careers</Link>
                 </li>
                 <li>
-                    <Link to="#"><a className="navlinks">Community</a></Link>
+                    <Link className="navlinks" to="#">Community</Link>
                 </li>      
             </ul>
             <AiOutlineSearch/>
