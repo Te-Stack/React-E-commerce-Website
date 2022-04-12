@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Navbar/>
       
-      <p className="text-5xl font-bold">E commerce1</p>
+      <p className="text-5xl font-bold">E commerce2</p>
     </div>
   );
 }
