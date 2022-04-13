@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram} from "react-icons/bs";
 import {BsGithub} from "react-icons/bs";
@@ -28,20 +28,24 @@ const Navbar = () => {
                 </div>
                 <ul className={active ? "navmenu active": "navmenu"}>
                     <li>
-                        <Link to="#" className="navlinks"><ImFacebook/></Link>
+                        <a href="#" className="navlinks"><ImFacebook/></a>
                     </li>
                     <li>
-                        <Link className="navlinks"  to="#"><BsInstagram/></Link>
+                        <a className="navlinks" href="#" ><BsInstagram/></a>
                     </li> 
                     <li>
-                        <Link className="navlinks" to="#"><BsGithub/></Link>
+                        <a className="navlinks" href="#"><BsGithub/></a>
                     </li>
                     <li>
-                        <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
+                        <a className="navlinks" href="#"><AiOutlineDribbble/></a>
                     </li>    
                 </ul>
+                <div>
                 <AiOutlineSearch/>
-                <AiOutlineShoppingCart/>    
+                <Link to="/Cart" ><AiOutlineShoppingCart/></Link>
+                </div>
+                
+                   
             </nav>
 
             <nav className="NavbarItem1">
@@ -51,17 +55,17 @@ const Navbar = () => {
                 {active ? <RiBarChartHorizontalLine/> : <FaBars />}
                 </div>
                 <ul className={active ? "navmenu active": "navmenu"}>
-                <li>
-                        <Link to="#" className="navlinks"><ImFacebook/></Link>
+                    <li>
+                        <a href="#" className="navlinks"><ImFacebook/></a>
                     </li>
                     <li>
-                        <Link className="navlinks"  to="#"><BsInstagram/></Link>
+                        <a className="navlinks" href="#"><BsInstagram/></a>
                     </li> 
                     <li>
-                        <Link className="navlinks" to="#"><BsGithub/></Link>
+                        <a className="navlinks" href="#"><BsGithub/></a>
                     </li>
                     <li>
-                        <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
+                        <a className="navlinks" href="#"><AiOutlineDribbble/></a>
                     </li>    
                 </ul>
             </nav>
