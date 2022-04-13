@@ -25,7 +25,10 @@
 
         .broad{
             @include setFlex(row, center, center);
-            z-index: 1;
+            width: 90rem;
+            background-color: $GrayColor3;
+            color: $mainBackground
+            // z-index: 1;
 
         }
 
