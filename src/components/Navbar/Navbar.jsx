@@ -22,24 +22,26 @@ const Navbar = () => {
     return ( 
         <div>
             <nav className="NavbarItems">
-                <Link to="/"><h1 className="navbarlogo text-3xl font-bold"  > PAYNA</h1></Link>
-                <div className="menuicon" onClick={toggleLinks}> 
-                {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
+                <div className="Part">
+                    <div className="menuicon" onClick={toggleLinks}> 
+                    {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
+                    </div>
+                    <ul className="navmenu">
+                        <li>
+                            <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
+                        </li>
+                        <li>
+                            <a className="navlinks" href="https://github.com/Te-Stack" ><BsInstagram/></a>
+                        </li> 
+                        <li>
+                            <a className="navlinks" href="https://github.com/Te-Stack"><BsGithub/></a>
+                        </li>
+                        <li>
+                            <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
+                        </li>    
+                    </ul>
                 </div>
-                <ul className={active ? "navmenu active": "navmenu"}>
-                    <li>
-                        <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
-                    </li>
-                    <li>
-                        <a className="navlinks" href="https://github.com/Te-Stack" ><BsInstagram/></a>
-                    </li> 
-                    <li>
-                        <a className="navlinks" href="https://github.com/Te-Stack"><BsGithub/></a>
-                    </li>
-                    <li>
-                        <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
-                    </li>    
-                </ul>
+                <Link to="/"><h1 className="navbarlogo text-3xl font-bold"  > PAYNA</h1></Link>
                 <div className="Search">
                 <AiOutlineSearch/>
                 <Link to="/Cart" ><AiOutlineShoppingCart/></Link>
