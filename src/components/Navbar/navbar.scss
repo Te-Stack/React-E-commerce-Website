@@ -4,7 +4,7 @@
 .NavbarItems{
     display: block;
     position: relative;
-    background:$WhiteBackground;
+    background:$mainBackground;
     height: 80px;
     @include setFlex(row,center,center);
     font-size: 1.2rem;
@@ -73,7 +73,7 @@
     } 
 }
 
-.NavbarItems1{
+.MobileNavbarItems{
     display: none;
 }
 
@@ -86,7 +86,8 @@
     }
 
 
-    .NavbarItems1{
+    .MobileNavbarItems{
+        display: block;
         position: relative;
 
         .navbarlogo{

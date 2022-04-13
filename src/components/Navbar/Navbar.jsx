@@ -9,7 +9,7 @@ import {AiOutlineDribbble} from "react-icons/ai";
 import {RiBarChartHorizontalLine} from "react-icons/ri"
 import {  FaTimes } from "react-icons/fa";
 import  "./navbar.scss";
-
+ 
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
@@ -48,7 +48,7 @@ const Navbar = () => {
                    
             </nav>
 
-            <nav className="NavbarItem1">
+            <nav className="MobileNavbarItem">
                 <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
                 <AiOutlineShoppingCart/>
                 <div className="menuicon" onClick={toggleLinks}> 
