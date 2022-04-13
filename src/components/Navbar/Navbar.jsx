@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram} from "react-icons/bs";
 import {BsGithub} from "react-icons/bs";
@@ -7,7 +7,7 @@ import {AiOutlineSearch} from "react-icons/ai";
 import {AiOutlineShoppingCart} from "react-icons/ai";
 import {AiOutlineDribbble} from "react-icons/ai";
 import {RiBarChartHorizontalLine} from "react-icons/ri"
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import  "./navbar.scss";
 
 
@@ -22,53 +22,47 @@ const Navbar = () => {
     return ( 
         <>
         <nav className="NavbarItems">
-            <Link href="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+            <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
             <div className="menuicon" onClick={toggleLinks}> 
             {active ? <RiBarChartHorizontalLine /> : <FaBars />}
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
                 <li>
-                    <Link to="#" className="navlinks">Pricing</Link>
+                    <Link to="#" className="navlinks"><ImFacebook/></Link>
                 </li>
                 <li>
-                    <Link className="navlinks"  to="#">Product</Link>
+                    <Link className="navlinks"  to="#"><BsInstagram/></Link>
                 </li> 
                 <li>
-                    <Link className="navlinks" to="#">About Us</Link>
+                    <Link className="navlinks" to="#"><BsGithub/></Link>
                 </li>
                 <li>
-                    <Link className="navlinks" to="#">Careers</Link>
-                </li>
-                <li>
-                    <Link className="navlinks" to="#">Community</Link>
-                </li>      
+                    <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
+                </li>    
             </ul>
             <AiOutlineSearch/>
             <AiOutlineShoppingCart/>    
         </nav>
 
         <nav className="NavbarItem1">
-        <Link href="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+        <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
             <AiOutlineShoppingCart/>
             <div className="menuicon" onClick={toggleLinks}> 
             {active ? <RiBarChartHorizontalLine/> : <FaBars />}
             </div>
             <ul className={active ? "navmenu active": "navmenu"}>
-                <li>
-                    <Link href="#"><a className="navlinks">Pricing</a></Link>
+            <li>
+                    <Link to="#" className="navlinks"><ImFacebook/></Link>
                 </li>
                 <li>
-                    <Link  href="#"><a className="navlinks">Product</a></Link>
+                    <Link className="navlinks"  to="#"><BsInstagram/></Link>
                 </li> 
                 <li>
-                    <Link href="#"><a className="navlinks">About Us</a></Link>
+                    <Link className="navlinks" to="#"><BsGithub/></Link>
                 </li>
                 <li>
-                    <Link href="#"><a className="navlinks">Careers</a></Link>
-                </li>
-                <li>
-                    <Link href="#"><a className="navlinks">Community</a></Link>
-                </li>      
+                    <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
+                </li>    
             </ul>
         </nav>
             
