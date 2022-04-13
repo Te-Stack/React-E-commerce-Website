@@ -23,6 +23,14 @@
             margin-top: 2rem;
         }
 
+        .broad{
+            display: block;
+        }
+
+        .broad-close{
+            display: none;
+        }
+
         .navmenu{
             display: grid;
             grid-template-columns: repeat(5, auto);

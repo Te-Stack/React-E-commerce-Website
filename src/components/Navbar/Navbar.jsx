@@ -26,6 +26,37 @@ const Navbar = () => {
                     <ul className="navmenu">
                         <div className="menuicon" onClick={toggleLinks}> 
                         {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
+                        <div className={active? "broad" :"broad-close"}>
+                            <div>
+                                <h1>Home</h1>
+                                <p>Demo Group 01</p>
+                                <p>Demo Group 02</p>
+                                <p>Demo Group 03</p>
+                            </div>
+                            <div>
+                                <h1>Shop</h1>
+                                <p>Shop Layout</p>
+                                <p>Product Layout</p>
+                                <p>Shop Page</p>
+                            </div>
+                            <div>
+                                <h1>Pages</h1>
+                                <p>About Us</p>
+                                <p>Contact US</p>
+                                <p>FAQ</p>
+                                <p>Coming Soon</p>
+                                <p>Page 404</p>
+                            </div>
+                            <div>
+                                <h1>Blog</h1>
+                                <p>Blog Sidebar</p>
+                                <p>Blog No Sidebar</p>
+                                <p>Blog 03 Columns</p>
+                                <p>Blog Mansory</p>
+                                <p>Single Post</p>
+                            </div>
+
+                        </div>
                         </div>
                         <li>
                             <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
