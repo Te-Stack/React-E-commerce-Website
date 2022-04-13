@@ -15,22 +15,22 @@
 
     .Part{
         position: absolute;
-        left: 1rem;
+        left: 2rem;
         justify-content: start;
 
         .menuicon{
-            display: none;
+            display: block;
+            margin-top: 2rem;
         }
 
         .navmenu{
             display: grid;
             grid-template-columns: repeat(5, auto);
-            grid-gap: 15px;
+            grid-gap: 35px;
             list-style: none;
             text-align: center;
-            width: 10vw;
+            width: 20vw;
             justify-content:end;
-            margin-right: 2rem;
     
             // &.active{     
             //     background:black;
@@ -67,6 +67,8 @@
         text-decoration: none;
         height: 3rem;
         width: 8rem;
+        letter-spacing: 1.7rem;
+        font-weight:1000;
     }
     
 
