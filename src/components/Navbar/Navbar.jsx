@@ -20,53 +20,53 @@ const Navbar = () => {
     
 
     return ( 
-        <>
-        <nav className="NavbarItems">
-            <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
-            <div className="menuicon" onClick={toggleLinks}> 
-            {active ? <RiBarChartHorizontalLine /> : <FaBars />}
-            </div>
-            <ul className={active ? "navmenu active": "navmenu"}>
-                <li>
-                    <Link to="#" className="navlinks"><ImFacebook/></Link>
-                </li>
-                <li>
-                    <Link className="navlinks"  to="#"><BsInstagram/></Link>
-                </li> 
-                <li>
-                    <Link className="navlinks" to="#"><BsGithub/></Link>
-                </li>
-                <li>
-                    <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
-                </li>    
-            </ul>
-            <AiOutlineSearch/>
-            <AiOutlineShoppingCart/>    
-        </nav>
+        <div>
+            <nav className="NavbarItems">
+                <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+                <div className="menuicon" onClick={toggleLinks}> 
+                {active ? <RiBarChartHorizontalLine /> : <FaBars />}
+                </div>
+                <ul className={active ? "navmenu active": "navmenu"}>
+                    <li>
+                        <Link to="#" className="navlinks"><ImFacebook/></Link>
+                    </li>
+                    <li>
+                        <Link className="navlinks"  to="#"><BsInstagram/></Link>
+                    </li> 
+                    <li>
+                        <Link className="navlinks" to="#"><BsGithub/></Link>
+                    </li>
+                    <li>
+                        <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
+                    </li>    
+                </ul>
+                <AiOutlineSearch/>
+                <AiOutlineShoppingCart/>    
+            </nav>
 
-        <nav className="NavbarItem1">
-        <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
-            <AiOutlineShoppingCart/>
-            <div className="menuicon" onClick={toggleLinks}> 
-            {active ? <RiBarChartHorizontalLine/> : <FaBars />}
-            </div>
-            <ul className={active ? "navmenu active": "navmenu"}>
-            <li>
-                    <Link to="#" className="navlinks"><ImFacebook/></Link>
-                </li>
+            <nav className="NavbarItem1">
+                <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+                <AiOutlineShoppingCart/>
+                <div className="menuicon" onClick={toggleLinks}> 
+                {active ? <RiBarChartHorizontalLine/> : <FaBars />}
+                </div>
+                <ul className={active ? "navmenu active": "navmenu"}>
                 <li>
-                    <Link className="navlinks"  to="#"><BsInstagram/></Link>
-                </li> 
-                <li>
-                    <Link className="navlinks" to="#"><BsGithub/></Link>
-                </li>
-                <li>
-                    <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
-                </li>    
-            </ul>
-        </nav>
+                        <Link to="#" className="navlinks"><ImFacebook/></Link>
+                    </li>
+                    <li>
+                        <Link className="navlinks"  to="#"><BsInstagram/></Link>
+                    </li> 
+                    <li>
+                        <Link className="navlinks" to="#"><BsGithub/></Link>
+                    </li>
+                    <li>
+                        <Link className="navlinks" to="#"><AiOutlineDribbble/></Link>
+                    </li>    
+                </ul>
+            </nav>
             
-        </>
+        </div>
      );
 }
  
