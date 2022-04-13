@@ -24,7 +24,9 @@
         }
 
         .broad{
-            display: block;
+            @include setFlex(row, center, center);
+            z-index: 1;
+
         }
 
         .broad-close{

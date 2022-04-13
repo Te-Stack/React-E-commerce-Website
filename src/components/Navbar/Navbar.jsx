@@ -26,6 +26,7 @@ const Navbar = () => {
                     <ul className="navmenu">
                         <div className="menuicon" onClick={toggleLinks}> 
                         {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
+                        </div>
                         <div className={active? "broad" :"broad-close"}>
                             <div>
                                 <h1>Home</h1>
@@ -56,7 +57,6 @@ const Navbar = () => {
                                 <p>Single Post</p>
                             </div>
 
-                        </div>
                         </div>
                         <li>
                             <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
