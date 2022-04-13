@@ -24,13 +24,7 @@
     }
 
     .menuicon{
-        display: block;
-        position: absolute;
-        top: 1.5rem;
-        right: 26rem;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
+        display: none;
     }
 
     .navmenu{
@@ -145,15 +139,6 @@
                     color: $BrightRed;
                 }
             }
-
-            button{
-                display: none;
-            }
-        }
-
-        button{
-            display: none;
-            opacity: 0;
         }
     }
 }
