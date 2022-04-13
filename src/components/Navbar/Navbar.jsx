@@ -22,7 +22,7 @@ const Navbar = () => {
     return ( 
         <div>
             <nav className="NavbarItems">
-                <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
+                <Link to="/"><h1 className="navbarlogo text-3xl font-bold"  > PAYNA</h1></Link>
                 <div className="menuicon" onClick={toggleLinks}> 
                 {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
                 </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
                     </li>    
                 </ul>
-                <div>
+                <div className="Search">
                 <AiOutlineSearch/>
                 <Link to="/Cart" ><AiOutlineShoppingCart/></Link>
                 </div>

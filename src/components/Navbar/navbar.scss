@@ -38,7 +38,7 @@
         margin-right: 2rem;
 
         &.active{     
-            background: #FEFCFB;
+            background:black;
             left: 0;
             opacity: 1;
             transition: all 0.5s ease;
@@ -63,7 +63,7 @@
 
     }
 
-    button{
+    .Search{
         display: block;
         position: absolute;
         right: 2rem;
