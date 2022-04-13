@@ -1,6 +1,10 @@
 @import "../../styles/mixins";
 @import "../../styles/variables";
 
+.MobileNavbarItem{
+    display: none;
+}
+
 .NavbarItems{
     display: block;
     position: relative;
@@ -73,9 +77,7 @@
     } 
 }
 
-.MobileNavbarItems{
-    display: none;
-}
+
 
 
 
@@ -86,7 +88,7 @@
     }
 
 
-    .MobileNavbarItems{
+    .MobileNavbarItem{
         display: block;
         position: relative;
 
