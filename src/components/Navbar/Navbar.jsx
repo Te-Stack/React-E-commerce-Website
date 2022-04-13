@@ -7,7 +7,7 @@ import {AiOutlineSearch} from "react-icons/ai";
 import {AiOutlineShoppingCart} from "react-icons/ai";
 import {AiOutlineDribbble} from "react-icons/ai";
 import {RiBarChartHorizontalLine} from "react-icons/ri"
-import { FaBars } from "react-icons/fa";
+import {  FaTimes } from "react-icons/fa";
 import  "./navbar.scss";
 
 
@@ -24,20 +24,20 @@ const Navbar = () => {
             <nav className="NavbarItems">
                 <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
                 <div className="menuicon" onClick={toggleLinks}> 
-                {active ? <RiBarChartHorizontalLine /> : <FaBars />}
+                {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
                 </div>
                 <ul className={active ? "navmenu active": "navmenu"}>
                     <li>
-                        <a href="#" className="navlinks"><ImFacebook/></a>
+                        <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
                     </li>
                     <li>
-                        <a className="navlinks" href="#" ><BsInstagram/></a>
+                        <a className="navlinks" href="https://github.com/Te-Stack" ><BsInstagram/></a>
                     </li> 
                     <li>
-                        <a className="navlinks" href="#"><BsGithub/></a>
+                        <a className="navlinks" href="https://github.com/Te-Stack"><BsGithub/></a>
                     </li>
                     <li>
-                        <a className="navlinks" href="#"><AiOutlineDribbble/></a>
+                        <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
                     </li>    
                 </ul>
                 <div>
@@ -52,20 +52,20 @@ const Navbar = () => {
                 <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
                 <AiOutlineShoppingCart/>
                 <div className="menuicon" onClick={toggleLinks}> 
-                {active ? <RiBarChartHorizontalLine/> : <FaBars />}
+                {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
                 </div>
                 <ul className={active ? "navmenu active": "navmenu"}>
                     <li>
-                        <a href="#" className="navlinks"><ImFacebook/></a>
+                        <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
                     </li>
                     <li>
-                        <a className="navlinks" href="#"><BsInstagram/></a>
+                        <a className="navlinks" href="https://github.com/Te-Stack"><BsInstagram/></a>
                     </li> 
                     <li>
-                        <a className="navlinks" href="#"><BsGithub/></a>
+                        <a className="navlinks" href="https://github.com/Te-Stack"><BsGithub/></a>
                     </li>
                     <li>
-                        <a className="navlinks" href="#"><AiOutlineDribbble/></a>
+                        <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
                     </li>    
                 </ul>
             </nav>
