@@ -25,12 +25,18 @@
 
     .menuicon{
         display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 26rem;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
     }
 
     .navmenu{
         display: grid;
         grid-template-columns: repeat(5, auto);
-        grid-gap: 5px;
+        grid-gap: 15px;
         list-style: none;
         text-align: center;
         width: 50vw;
