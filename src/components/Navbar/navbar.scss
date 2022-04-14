@@ -24,11 +24,12 @@
         }
 
         .broad{
-            @include setFlex(row, center, center);
-            width: 90rem;
-            background-color: $GrayColor3;
-            color: $mainBackground
-            // z-index: 1;
+            // @include setFlex(row, center, center);
+            // width: 90rem;
+            // background-color: $GrayColor3;
+            // color: $mainBackground
+            // // z-index: 1;
+            display: block;
 
         }
 
