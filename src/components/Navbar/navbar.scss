@@ -60,19 +60,7 @@
         }
     }
 
-    .broad{
-        // @include setFlex(row, center, center);
-        // width: 90rem;
-        // background-color: $GrayColor3;
-        // color: $mainBackground
-        // // z-index: 1;
-        display: block;
-
-    }
-
-    .broad-close{
-        display: none;
-    }
+    
 
 
     .navbarlogo{
@@ -115,6 +103,20 @@
             }
         }
     } 
+}
+
+.broad{
+    @include setFlex(row, center, center);
+    width: 90rem;
+    background-color: $GrayColor3;
+    color: $mainBackground;
+    z-index: 1;
+
+
+}
+
+.broad-close{
+    display: none;
 }
 
 

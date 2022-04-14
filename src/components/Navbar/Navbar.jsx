@@ -41,7 +41,17 @@ const Navbar = () => {
                         </li>    
                     </ul>
                 </div>
-                <div className={active? "broad" :"broad-close"}>
+                <Link to="/"><h1 className="navbarlogo text-3xl "  > PAYNA</h1></Link>
+                    <div className="Search">
+                    <p>English <span>/italy</span></p>
+                    <div className="icons">
+                        < AiOutlineSearch/>
+                    </div>
+                    
+                    <Link className="icons" to="/Cart" ><AiOutlineShoppingCart/></Link>
+                </div>        
+            </nav>
+            <div className={active? "broad" :"broad-close"}>
                             <div>
                                 <h1>Home</h1>
                                 <p>Demo Group 01</p>
@@ -72,18 +82,6 @@ const Navbar = () => {
                             </div>
 
                         </div>
-                <Link to="/"><h1 className="navbarlogo text-3xl "  > PAYNA</h1></Link>
-                    <div className="Search">
-                    <p>English <span>/italy</span></p>
-                    <div className="icons">
-                        < AiOutlineSearch/>
-                    </div>
-                    
-                    <Link className="icons" to="/Cart" ><AiOutlineShoppingCart/></Link>
-                </div>
-                
-                   
-            </nav>
 
             <nav className="MobileNavbarItem">
                 <Link to="/"><h1 className="navbarlogo"  > PAYNA</h1></Link>
