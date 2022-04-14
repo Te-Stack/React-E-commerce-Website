@@ -27,7 +27,21 @@ const Navbar = () => {
                         <div className="menuicon" onClick={toggleLinks}> 
                         {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
                         </div>
-                        <div className={active? "broad" :"broad-close"}>
+                        <li>
+                            <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
+                        </li>
+                        <li>
+                            <a className="navlinks" href="https://github.com/Te-Stack" ><BsInstagram/></a>
+                        </li> 
+                        <li>
+                            <a className="navlinks" href="https://github.com/Te-Stack"><BsGithub/></a>
+                        </li>
+                        <li>
+                            <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
+                        </li>    
+                    </ul>
+                </div>
+                <div className={active? "broad" :"broad-close"}>
                             <div>
                                 <h1>Home</h1>
                                 <p>Demo Group 01</p>
@@ -58,20 +72,6 @@ const Navbar = () => {
                             </div>
 
                         </div>
-                        <li>
-                            <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
-                        </li>
-                        <li>
-                            <a className="navlinks" href="https://github.com/Te-Stack" ><BsInstagram/></a>
-                        </li> 
-                        <li>
-                            <a className="navlinks" href="https://github.com/Te-Stack"><BsGithub/></a>
-                        </li>
-                        <li>
-                            <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
-                        </li>    
-                    </ul>
-                </div>
                 <Link to="/"><h1 className="navbarlogo text-3xl "  > PAYNA</h1></Link>
                     <div className="Search">
                     <p>English <span>/italy</span></p>
