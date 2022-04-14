@@ -23,20 +23,7 @@
             margin-top: 2rem;
         }
 
-        .broad{
-            // @include setFlex(row, center, center);
-            // width: 90rem;
-            // background-color: $GrayColor3;
-            // color: $mainBackground
-            // // z-index: 1;
-            display: none;
-
-        }
-
-        .broad-close{
-            display: none;
-        }
-
+        
         .navmenu{
             display: grid;
             grid-template-columns: repeat(5, auto);
@@ -72,6 +59,21 @@
     
         }
     }
+
+    .broad{
+        // @include setFlex(row, center, center);
+        // width: 90rem;
+        // background-color: $GrayColor3;
+        // color: $mainBackground
+        // // z-index: 1;
+        display: block;
+
+    }
+
+    .broad-close{
+        display: none;
+    }
+
 
     .navbarlogo{
        display: block;
