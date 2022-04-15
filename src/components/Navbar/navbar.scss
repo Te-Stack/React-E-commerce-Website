@@ -106,7 +106,7 @@
 }
 
 .broad{
-    @include setFlex(row, center, center);
+    @include setFlex(row, space-evenly, center);
     width: 95vw;
     background-color: $GrayColor3;
     color: $mainBackground;
