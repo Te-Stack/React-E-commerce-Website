@@ -179,7 +179,7 @@
         .navmenu{
             @include setFlex(column,center,center);
             width: 70%;
-            height: 500px;
+            height: 700px;
             position: absolute;
             top: 80px;
             right: -100%;
@@ -188,6 +188,7 @@
 
             &.active{     
                 background: #FEFCFB;
+                color: #312F2F;
                 right: 0;
                 opacity: 1;
                 transition: all 1s ease;
