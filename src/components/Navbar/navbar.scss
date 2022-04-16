@@ -185,6 +185,7 @@
             right: -100%;
             opacity: 1;
             transition: all 0.5s ease;
+            padding: 2rem 0;
 
             &.active{     
                 background: #FEFCFB;
@@ -194,16 +195,37 @@
                 transition: all 1s ease;
                 z-index: 1;
             }
-
-            .navlinks{
-                text-align: center;
-                padding: 2rem;
-                width: 100%;
-                display: table;
-                &:hover{
-                    color: $BrightRed;
-                }
+            .port1{
+                
             }
+            .port2{
+
+            }
+            .port2{
+
+            }
+            .port3{
+
+            }
+            .port4{
+
+            }
+
+            .port5{
+                @include setFlex(row-reverse, space-evenly, flex-start);
+                width: 100%;
+
+                .navlinks{
+                    text-align: center;
+                    padding: 2rem;
+                    &:hover{
+                        color: $BrightRed;
+                    }
+                }
+
+            }
+
+            
         }
     }
 
