@@ -85,7 +85,7 @@ const Navbar = () => {
 
             <nav className="MobileNavbarItem">
                 <Link to="/"><h1 className="navbarlogo text-3xl"  > PAYNA</h1></Link>
-                <Link  to="/Cart" ><AiOutlineShoppingCart/></Link>
+                <Link className="icons"  to="/Cart" ><AiOutlineShoppingCart/></Link>
                 <div className="menuicon" onClick={toggleLinks}> 
                 {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
                 </div>
