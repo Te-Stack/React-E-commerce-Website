@@ -51,7 +51,7 @@ const Navbar = () => {
                     <Link className="icons" to="/Cart" ><AiOutlineShoppingCart/></Link>
                 </div>        
             </nav>
-            <div className={active? "broad" :"broad-close"}>
+            <div className={active? "broad active" :"broad"}>
                             <div>
                                 <h1>Home</h1>
                                 <p>Demo Group 01</p>

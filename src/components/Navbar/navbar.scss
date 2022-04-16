@@ -21,6 +21,7 @@
         .menuicon{
             display: block;
             margin-top: 2rem;
+            cursor: pointer;
         }
 
         
@@ -107,16 +108,36 @@
 
 .broad{
     @include setFlex(row, space-evenly, center);
-    width: 95vw;
-    background-color: $GrayColor3;
-    color: $mainBackground;
-    z-index: 1;
+    width: 100%;
+    height:530px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+
+    h1{
+        margin: 2rem 0;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    p{
+        padding: 0.5rem 0;
+    }
+
+    &.active{
+        background-color: rgba(0,0,0,1);
+        // background-color: $GrayColor3;
+        color: $mainBackground;
+        left: 0;
+        opacity: 0.85;
+        transition: all 0.5s ease;
+        z-index: 1;
+
+    }
 
 
-}
-
-.broad-close{
-    display: none;
 }
 
 
