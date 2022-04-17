@@ -10,9 +10,13 @@ import MobileNav from "./MobileNav"
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
+    const [active1, setActive1] = useState(false);
 
     const toggleLinks = () => {
         setActive(!active);
+      };
+    const toggleLinks1 = () => {
+        setActive1(!active1);
       };
     
 
@@ -50,10 +54,14 @@ const Navbar = () => {
             </nav>
             <div className={active? "broad active" :"broad"}>
                             <div>
+                                <div className="p1" onClick={toggleLinks1}>
                                 <h1>Home</h1><AiOutlineDown/>
-                                <p>Demo Group 01</p>
-                                <p>Demo Group 02</p>
-                                <p>Demo Group 03</p>
+                                </div>
+                                <div className={active1 ? "notshow" : "show" }>
+                                    <p>Demo Group 01</p>
+                                    <p>Demo Group 02</p>
+                                    <p>Demo Group 03</p>
+                                </div>
                             </div>
                             <div>
                                 <h1>Shop</h1>

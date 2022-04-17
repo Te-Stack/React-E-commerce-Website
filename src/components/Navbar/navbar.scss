@@ -108,6 +108,10 @@
     opacity: 1;
     transition: all 0.5s ease;
 
+
+
+    
+
     h1{
         margin: 2rem 0;
         font-size: larger;
@@ -127,6 +131,18 @@
         transition: all 0.5s ease;
         z-index: 1;
 
+    }
+
+    .p1{
+        @include setFlex(row,space-between, center);
+    }
+
+    .show{
+        display: block;
+    }
+
+    .notshow{
+        display: none;
     }
 
 
