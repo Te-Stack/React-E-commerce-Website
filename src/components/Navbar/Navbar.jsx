@@ -58,7 +58,7 @@ const Navbar = () => {
                                 <h1>Home</h1>
                                 <div className="drop"><AiOutlineDown/></div>
                                 </div>
-                                <div className={active1 ? "notshow" : "show" }>
+                                <div className={active1 ? "show" : "show active" }>
                                     <p>Demo Group 01</p>
                                     <p>Demo Group 02</p>
                                     <p>Demo Group 03</p>

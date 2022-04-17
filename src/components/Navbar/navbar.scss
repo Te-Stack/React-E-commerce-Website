@@ -120,6 +120,12 @@
 
     p{
         padding: 0.5rem 0;
+
+        &:hover{
+            color: $BrightRed ;
+            cursor: pointer;
+
+        }
     }
 
     &.active{
@@ -152,7 +158,15 @@
     }
 
     .show{
-        display: block;
+        // display: none;
+        opacity: 0;
+        transition: all 0.5s ease;
+
+
+        &.active{
+            // display:block ;
+            opacity: 1;
+        }
     }
 
     .notshow{
