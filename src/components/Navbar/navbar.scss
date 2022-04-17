@@ -135,6 +135,20 @@
 
     .p1{
         @include setFlex(row,space-between, center);
+        cursor: pointer;
+        transition: all 0.5s ease;
+
+        .drop{
+            display: none;
+        }
+
+        &:hover{
+            color: $BrightRed;
+
+            .drop{
+                display: block;
+            }
+        }
     }
 
     .show{

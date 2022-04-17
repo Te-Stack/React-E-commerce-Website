@@ -55,7 +55,8 @@ const Navbar = () => {
             <div className={active? "broad active" :"broad"}>
                             <div>
                                 <div className="p1" onClick={toggleLinks1}>
-                                <h1>Home</h1><AiOutlineDown/>
+                                <h1>Home</h1>
+                                <div className="drop"><AiOutlineDown/></div>
                                 </div>
                                 <div className={active1 ? "notshow" : "show" }>
                                     <p>Demo Group 01</p>
