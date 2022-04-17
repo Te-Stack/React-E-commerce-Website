@@ -1,13 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
-import {BsInstagram} from "react-icons/bs";
-import {BsGithub} from "react-icons/bs";
-import {AiOutlineSearch} from "react-icons/ai";
-import {AiOutlineShoppingCart} from "react-icons/ai";
-import {AiOutlineDribbble} from "react-icons/ai";
-import {RiBarChartHorizontalLine} from "react-icons/ri"
-import {  FaTimes } from "react-icons/fa";
+import {BsInstagram,BsGithub} from "react-icons/bs";
+import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import  "./navbar.scss";
  
 
@@ -26,7 +21,7 @@ const MobileNav = () => {
                 <Link to="/"><h1 className="navbarlogo text-3xl"  > PAYNA</h1></Link>
                 <Link className="icons"  to="/Cart" ><AiOutlineShoppingCart/></Link>
                 <div className="menuicon" onClick={toggleLinks}> 
-                {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
+                {active ? <AiOutlineClose/> : <AiOutlineAlignLeft />}
                 </div>
                 <ul className={active ? "navmenu active": "navmenu"}>
                     <div className="port1">

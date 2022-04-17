@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram} from "react-icons/bs";
 import {BsGithub} from "react-icons/bs";
-import {AiOutlineSearch} from "react-icons/ai";
-import {AiOutlineShoppingCart} from "react-icons/ai";
-import {AiOutlineDribbble} from "react-icons/ai";
-import {RiBarChartHorizontalLine} from "react-icons/ri"
-import {  FaTimes } from "react-icons/fa";
+import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import  "./navbar.scss";
 import MobileNav from "./MobileNav"
  
@@ -26,7 +22,7 @@ const Navbar = () => {
                 <div className="Part"> 
                     <ul className="navmenu">
                         <div className="menuicon" onClick={toggleLinks}> 
-                        {active ? <FaTimes/> : <RiBarChartHorizontalLine />}
+                        {active ? <AiOutlineClose/> : <AiOutlineAlignLeft/>}
                         </div>
                         <li>
                             <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
@@ -54,7 +50,7 @@ const Navbar = () => {
             </nav>
             <div className={active? "broad active" :"broad"}>
                             <div>
-                                <h1>Home</h1>
+                                <h1>Home</h1><AiOutlineDown/>
                                 <p>Demo Group 01</p>
                                 <p>Demo Group 02</p>
                                 <p>Demo Group 03</p>
