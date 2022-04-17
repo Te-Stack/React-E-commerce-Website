@@ -11,12 +11,25 @@ import MobileNav from "./MobileNav"
 const Navbar = () => {
     const [active, setActive] = useState(false);
     const [active1, setActive1] = useState(false);
+    const [active2, setActive2] = useState(false);
+    const [active3, setActive3] = useState(false);
+    const [active4, setActive4] = useState(false);
 
     const toggleLinks = () => {
         setActive(!active);
       };
     const toggleLinks1 = () => {
         setActive1(!active1);
+      };
+    const toggleLinks2= () => {
+        setActive2(!active2);
+      };
+    
+    const toggleLinks3= () => {
+        setActive3(!active3);
+      };
+    const toggleLinks4= () => {
+        setActive4(!active4);
       };
     
 
@@ -65,10 +78,15 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div>
+                            <div className="p1" onClick={toggleLinks2}>
                                 <h1>Shop</h1>
-                                <p>Shop Layout</p>
-                                <p>Product Layout</p>
-                                <p>Shop Page</p>
+                                <div className="drop"><AiOutlineDown/></div>
+                                </div>
+                                <div className={active2 ? "show" : "show active" }>
+                                    <p>Shop Layout</p>
+                                    <p>Product Layout</p>
+                                    <p>Shop Page</p>
+                                </div>
                             </div>
                             <div>
                                 <h1>Pages</h1>
