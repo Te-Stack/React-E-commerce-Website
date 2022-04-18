@@ -89,12 +89,17 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div>
+                            <div className="p1" onClick={toggleLinks3}>
                                 <h1>Pages</h1>
-                                <p>About Us</p>
-                                <p>Contact US</p>
-                                <p>FAQ</p>
-                                <p>Coming Soon</p>
-                                <p>Page 404</p>
+                                <div className="drop"><AiOutlineDown/></div>
+                                </div>
+                                <div className={active3 ? "show" : "show active" }>
+                                    <p>About Us</p>
+                                    <p>Contact Us</p>
+                                    <p>FAQ</p>
+                                    <p>Coming Soon</p>
+                                    <p>Page 404</p>
+                            </div>
                             </div>
                             <div>
                                 <h1>Blog</h1>
