@@ -223,15 +223,15 @@
         }
 
         .navmenu{
-            @include setFlex(column,center,center);
-            width: 70%;
-            height: 700px;
+            @include setFlex(column,space-between,center);
+            width: 75%;
+            height: 1200px;
             position: absolute;
             top: 80px;
             right: -100%;
             opacity: 1;
             transition: all 0.5s ease;
-            padding: 2rem 0;
+            padding: 3rem 0;
 
             &.active{     
                 background: #FEFCFB;
