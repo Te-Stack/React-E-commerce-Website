@@ -89,25 +89,30 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div>
-                            <div className="p1" onClick={toggleLinks3}>
-                                <h1>Pages</h1>
-                                <div className="drop"><AiOutlineDown/></div>
+                                <div className="p1" onClick={toggleLinks3}>
+                                    <h1>Pages</h1>
+                                    <div className="drop"><AiOutlineDown/></div>
+                                    </div>
+                                    <div className={active3 ? "show" : "show active" }>
+                                        <p>About Us</p>
+                                        <p>Contact Us</p>
+                                        <p>FAQ</p>
+                                        <p>Coming Soon</p>
+                                        <p>Page 404</p>
                                 </div>
-                                <div className={active3 ? "show" : "show active" }>
-                                    <p>About Us</p>
-                                    <p>Contact Us</p>
-                                    <p>FAQ</p>
-                                    <p>Coming Soon</p>
-                                    <p>Page 404</p>
-                            </div>
                             </div>
                             <div>
-                                <h1>Blog</h1>
-                                <p>Blog Sidebar</p>
-                                <p>Blog No Sidebar</p>
-                                <p>Blog 03 Columns</p>
-                                <p>Blog Mansory</p>
-                                <p>Single Post</p>
+                                <div className="p1" onClick={toggleLinks3}>
+                                    <h1>Blog</h1>
+                                    <div className="drop"><AiOutlineDown/></div>
+                                    </div>
+                                    <div className={active3 ? "show" : "show active" }>
+                                        <p>Blog Sidebar</p>
+                                        <p>Blog No Sidebar</p>
+                                        <p>Blog 03 Columns</p>
+                                        <p>Blog Mansory</p>
+                                        <p>Single Post</p>
+                                </div>
                             </div>
 
                         </div>
