@@ -274,27 +274,22 @@
                     transition: all 0.5s ease;
             
                     .drop{
-                        display: none;
+                        display: block;
+                        transition: all 1s ease;
+
                     }
             
-                    &:hover{
-                        color: $BrightRed;
-            
-                        .drop{
-                            display: block;
-                        }
-                    }
                 }
             
                 .show{
-                    // display: none;
-                    opacity: 0;
+                    display: none;
+                    // opacity: 0;
                     transition: all 0.5s ease;
             
             
                     &.active{
-                        // display:block ;
-                        opacity: 1;
+                        display:block ;
+                        // opacity: 1;
                     transition: all 2s ease;
             
                     }

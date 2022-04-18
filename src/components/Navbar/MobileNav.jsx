@@ -49,9 +49,9 @@ const MobileNav = () => {
                     </div>
                     <div className="port2">
                         <div>
-                            <div className="p1" onClick={toggleLinks1}>
+                            <div className="p1" >
                                 <h1>Home</h1>
-                                <div className="drop">{active1 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                <div className="drop" onClick={toggleLinks1}>{active1 ? <AiOutlinePlus/> : <AiOutlineMinus/>}</div>
                                 </div>
                                 <div className={active1 ? "show" : "show active" }>
                                     <p>Demo Group 01</p>
