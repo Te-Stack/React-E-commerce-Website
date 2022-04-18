@@ -223,7 +223,7 @@
         }
 
         .navmenu{
-            @include setFlex(column,space-between,center);
+            @include setFlex(column,space-between,space-between);
             width: 75%;
             height: 1200px;
             position: absolute;
@@ -231,7 +231,7 @@
             right: -100%;
             opacity: 1;
             transition: all 0.5s ease;
-            padding: 3rem 0;
+            padding: 3rem 1rem;
 
             &.active{     
                 background: #FEFCFB;
@@ -269,7 +269,7 @@
                 padding: 1rem 0;
 
                 .p1{
-                    @include setFlex(row,space-between, center);
+                    @include setFlex(row,space-between, space-between);
                     cursor: pointer;
                     transition: all 0.5s ease;
             
@@ -283,14 +283,14 @@
             
                 .show{
                     display: none;
-                    // opacity: 0;
+                    opacity: 0;
                     transition: all 0.5s ease;
             
             
                     &.active{
                         display:block ;
-                        // opacity: 1;
-                    transition: all 2s ease;
+                        opacity: 1;
+                        transition: all 2s ease;
             
                     }
                 }
