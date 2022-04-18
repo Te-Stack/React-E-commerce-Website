@@ -225,7 +225,7 @@
         .navmenu{
             @include setFlex(column,space-between,space-between);
             width: 75%;
-            height: 1200px;
+            // height: 1200px;
             position: absolute;
             top: 80px;
             right: -100%;
@@ -266,6 +266,7 @@
             }
             .port2{
                 border-bottom: 1px solid black;
+                padding: 1rem 0;
 
                 .p1{
                     @include setFlex(row,space-between, space-between);
