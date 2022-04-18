@@ -256,15 +256,50 @@
                 .searchcon{
                     position: absolute;
                     // z-index: 1;
+                    padding: 0 0.5rem;
                     top: 1.3rem;
                     right: 0.5rem;
                     font-size: 1.5rem;
+                    border-left: 1px solid black;
                 }
                 
             }
             .port2{
                 border-bottom: 1px solid black;
                 padding: 1rem 0;
+
+                .p1{
+                    @include setFlex(row,space-between, center);
+                    cursor: pointer;
+                    transition: all 0.5s ease;
+            
+                    .drop{
+                        display: none;
+                    }
+            
+                    &:hover{
+                        color: $BrightRed;
+            
+                        .drop{
+                            display: block;
+                        }
+                    }
+                }
+            
+                .show{
+                    // display: none;
+                    opacity: 0;
+                    transition: all 0.5s ease;
+            
+            
+                    &.active{
+                        // display:block ;
+                        opacity: 1;
+                    transition: all 2s ease;
+            
+                    }
+                }
+            
 
             }
             .port2{

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram,BsGithub} from "react-icons/bs";
-import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
+import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import  "./navbar.scss";
  
 
@@ -49,15 +49,15 @@ const MobileNav = () => {
                     </div>
                     <div className="port2">
                         <div>
-                            <div>
+                            <div className="p1" onClick={toggleLinks1}>
                                 <h1>Home</h1>
-                                <div className="Ncon" onClick={toggleLinks}></div>
-                            </div>
-                            <div className={active ? "show active" : "show"}>
-                                <p>Demo Group 01</p>
-                                <p>Demo Group 02</p>
-                                <p>Demo Group 03</p>
-                            </div>
+                                <div className="drop">{active1 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                </div>
+                                <div className={active1 ? "show" : "show active" }>
+                                    <p>Demo Group 01</p>
+                                    <p>Demo Group 02</p>
+                                    <p>Demo Group 03</p>
+                                </div>
                         </div>
                         <div>
                             <h1>Shop</h1>
