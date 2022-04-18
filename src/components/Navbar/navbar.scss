@@ -224,7 +224,7 @@
 
         .navmenu{
             @include setFlex(column,space-between,center);
-            width: 85%;
+            width: 75%;
             height: 1200px;
             position: absolute;
             top: 80px;
@@ -246,6 +246,7 @@
                 @include setFlex(row, center, center);
                 position: relative;
                 border-bottom: 1px solid black;
+                padding: 1rem 0;
 
                 input{
                     width: 15rem;
@@ -254,8 +255,8 @@
 
                 .searchcon{
                     position: absolute;
-                    z-index: 1;
-                    top: 0.5rem;
+                    // z-index: 1;
+                    top: 1.3rem;
                     right: 0.5rem;
                     font-size: 1.5rem;
                 }
