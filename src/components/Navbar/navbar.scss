@@ -268,6 +268,10 @@
                 border-bottom: 1px solid black;
                 padding: 1rem 0;
 
+                div, p {
+                    padding: 0.2rem 0;
+                }
+
                 .p1{
                     @include setFlex(row,space-between, space-between);
                     cursor: pointer;
@@ -275,7 +279,6 @@
             
                     .drop{
                         display: block;
-                        transition: all 1s ease;
 
                     }
             
@@ -284,13 +287,13 @@
                 .show{
                     display: none;
                     opacity: 0;
-                    transition: all 0.5s ease;
+                    
             
             
                     &.active{
                         display:block ;
                         opacity: 1;
-                        transition: all 2s ease;
+                        transition: all 0.5s ease;
             
                     }
                 }

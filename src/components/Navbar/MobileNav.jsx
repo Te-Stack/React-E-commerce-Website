@@ -96,6 +96,9 @@ const MobileNav = () => {
                                     <p>Single Post</p>
                                 </div>
                         </div>
+                        <div>
+                            <h1>Contact Us</h1>
+                        </div>
                     </div>
                     <div className="port3">
                         <div>
