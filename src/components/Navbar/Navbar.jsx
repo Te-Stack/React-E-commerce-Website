@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram} from "react-icons/bs";
 import {BsGithub} from "react-icons/bs";
-import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus, AiOutlineUp} from "react-icons/ai";
+import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp} from "react-icons/ai";
 import  "./navbar.scss";
 import MobileNav from "./MobileNav"
  
