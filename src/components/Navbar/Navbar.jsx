@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram} from "react-icons/bs";
 import {BsGithub} from "react-icons/bs";
-import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
+import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus, AiOutlineUp} from "react-icons/ai";
 import  "./navbar.scss";
 import MobileNav from "./MobileNav"
  
@@ -69,7 +69,7 @@ const Navbar = () => {
                             <div>
                                 <div className="p1" onClick={toggleLinks1}>
                                 <h1>Home</h1>
-                                <div className="drop"><AiOutlineDown/></div>
+                                <div className="drop">{active1 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                 </div>
                                 <div className={active1 ? "show" : "show active" }>
                                     <p>Demo Group 01</p>
@@ -80,7 +80,7 @@ const Navbar = () => {
                             <div>
                             <div className="p1" onClick={toggleLinks2}>
                                 <h1>Shop</h1>
-                                <div className="drop"><AiOutlineDown/></div>
+                                <div className="drop">{active2 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                 </div>
                                 <div className={active2 ? "show" : "show active" }>
                                     <p>Shop Layout</p>
@@ -91,7 +91,7 @@ const Navbar = () => {
                             <div>
                                 <div className="p1" onClick={toggleLinks3}>
                                     <h1>Pages</h1>
-                                    <div className="drop"><AiOutlineDown/></div>
+                                    <div className="drop">{active3 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                     </div>
                                     <div className={active3 ? "show" : "show active" }>
                                         <p>About Us</p>
@@ -102,11 +102,11 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="p1" onClick={toggleLinks3}>
+                                <div className="p1" onClick={toggleLinks4}>
                                     <h1>Blog</h1>
-                                    <div className="drop"><AiOutlineDown/></div>
+                                    <div className="drop">{active4 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                     </div>
-                                    <div className={active3 ? "show" : "show active" }>
+                                    <div className={active4 ? "show" : "show active" }>
                                         <p>Blog Sidebar</p>
                                         <p>Blog No Sidebar</p>
                                         <p>Blog 03 Columns</p>
