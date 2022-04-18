@@ -224,7 +224,7 @@
 
         .navmenu{
             @include setFlex(column,space-between,center);
-            width: 75%;
+            width: 85%;
             height: 1200px;
             position: absolute;
             top: 80px;
@@ -241,7 +241,24 @@
                 transition: all 1s ease;
                 z-index: 1;
             }
+
             .port1{
+                @include setFlex(row, center, center);
+                position: relative;
+                border-bottom: 1px solid black;
+
+                input{
+                    width: 15rem;
+                    height:45px;
+                }
+
+                .searchcon{
+                    position: absolute;
+                    z-index: 1;
+                    top: 0.5rem;
+                    right: 0.5rem;
+                    font-size: 1.5rem;
+                }
                 
             }
             .port2{

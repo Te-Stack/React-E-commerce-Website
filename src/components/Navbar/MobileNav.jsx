@@ -25,7 +25,8 @@ const MobileNav = () => {
                 </div>
                 <ul className={active ? "navmenu active": "navmenu"}>
                     <div className="port1">
-                        <input type="text" placeholder="Search entire store...." />< AiOutlineSearch/>
+                        <input type="text" placeholder="Search entire store...." /><div className="searchcon">
+                        < AiOutlineSearch/></div>
                     </div>
                     <div className="port2">
                         <div>
