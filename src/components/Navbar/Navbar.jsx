@@ -82,7 +82,7 @@ const Navbar = () => {
                             <div>
                                 <div className="p1" onClick={toggleLinks1}>
                                 <h1>Home</h1>
-                                <div className="drop">{active1 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                <div className="drop">{active1 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                 </div>
                                 <div className={active1 ? "show" : "show active" }>
                                     <p>Demo Group 01</p>
@@ -93,12 +93,12 @@ const Navbar = () => {
                             <div>
                             <div className="p1" onClick={toggleLinks2}>
                                 <h1>Shop</h1>
-                                <div className="drop">{active2 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                <div className="drop">{active2 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                 </div>
                                 <div className={active2 ? "show" : "show active" }>
                                     <div className="p1" onClick={toggleLinks5}>
                                     <p>Shop Layout</p>
-                                    <div className="drop">{active5 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    <div className="drop">{active5 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                     </div>
                                     <div className={active5 ? "show" : "show active" }>
                                         <p>Shop Instagram</p>
@@ -107,7 +107,7 @@ const Navbar = () => {
                                     </div>
                                     <div className="p1" onClick={toggleLinks6}>
                                     <p>Product Layout</p>
-                                    <div className="drop">{active6 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    <div className="drop">{active6 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                     </div>
                                     <div className={active6 ? "show" : "show active" }>
                                         <p>Product Grouped</p>
@@ -116,7 +116,7 @@ const Navbar = () => {
                                     </div>
                                     <div className="p1" onClick={toggleLinks7}>
                                     <p>Shop Page</p>
-                                    <div className="drop">{active7 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    <div className="drop">{active7 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                     </div>
                                     <div className={active7 ? "show" : "show active" }>
                                         <p>Shopping Cart</p>
@@ -128,7 +128,7 @@ const Navbar = () => {
                             <div>
                                 <div className="p1" onClick={toggleLinks3}>
                                     <h1>Pages</h1>
-                                    <div className="drop">{active3 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    <div className="drop">{active3 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                     </div>
                                     <div className={active3 ? "show" : "show active" }>
                                         <p>About Us</p>
@@ -141,7 +141,7 @@ const Navbar = () => {
                             <div>
                                 <div className="p1" onClick={toggleLinks4}>
                                     <h1>Blog</h1>
-                                    <div className="drop">{active4 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    <div className="drop">{active4 ? <AiOutlineDown/> : <AiOutlineUp/>}</div>
                                     </div>
                                     <div className={active4 ? "show" : "show active" }>
                                         <p>Blog Sidebar</p>
