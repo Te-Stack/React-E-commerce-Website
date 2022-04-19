@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram,BsGithub} from "react-icons/bs";
-import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
+import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import  "./navbar.scss";
  
 
@@ -12,6 +12,9 @@ const MobileNav = () => {
     const [active2, setActive2] = useState(false);
     const [active3, setActive3] = useState(false);
     const [active4, setActive4] = useState(false);
+    const [active5, setActive5] = useState(false);
+    const [active6, setActive6] = useState(false);
+    const [active7, setActive7] = useState(false);
 
 
     const toggleLinks = () => {
@@ -30,6 +33,15 @@ const MobileNav = () => {
       };
     const toggleLinks4= () => {
         setActive4(!active4);
+      };
+    const toggleLinks5= () => {
+        setActive5(!active5);
+      };
+    const toggleLinks6= () => {
+        setActive6(!active6);
+      };
+    const toggleLinks7= () => {
+        setActive7(!active7);
       };
     
 
@@ -102,10 +114,15 @@ const MobileNav = () => {
                     </div>
                     <div className="port3">
                         <div>
-                            <h1>Language</h1>
-                            <p>English(US)</p>
-                            <p>English(UK)</p>
-                            <p>Spanish</p>
+                        <div className="p1" >
+                                <h1>Language</h1>
+                                <div className="drop" onClick={toggleLinks5}><AiOutlineDown/></div>
+                                </div>
+                                <div className={active5 ? "show" : "show active" }>
+                                    <p>English(US)</p>
+                                    <p>English(UK)</p>
+                                    <p>Spanish</p>
+                                </div>
                         </div>
                         <div>
                             <h1>Currency</h1>

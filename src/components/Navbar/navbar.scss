@@ -228,7 +228,7 @@
             // height: 1200px;
             position: absolute;
             top: 80px;
-            right: -100%;
+            left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
             padding: 1rem 1rem;
@@ -236,7 +236,7 @@
             &.active{     
                 background: #FEFCFB;
                 color: #312F2F;
-                right: 0;
+                left: 0;
                 opacity: 1;
                 transition: all 1s ease;
                 z-index: 1;
@@ -286,14 +286,23 @@
             
                 .show{
                     display: none;
-                    opacity: 0;
+                    z-index: 99;
+                    transition: all 0.4s ease 0s;
+                    -webkit-transition: all 0.4s ease 0s;
+                    -moz-transition: all 0.4s ease 0s;
+                    -o-transition: all 0.4s ease 0s;
+                    -ms-transition: all 0.4s ease 0s;
                     
             
             
                     &.active{
                         display:block ;
-                        opacity: 1;
-                        transition: all 0.5s ease;
+                        z-index: 99;
+                        transition: all 0.4s ease 0s;
+                        -webkit-transition: all 0.4s ease 0s;
+                        -moz-transition: all 0.4s ease 0s;
+                        -o-transition: all 0.4s ease 0s;
+                        -ms-transition: all 0.4s ease 0s;
             
                     }
                 }
