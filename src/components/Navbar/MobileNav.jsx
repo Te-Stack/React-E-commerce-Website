@@ -114,7 +114,7 @@ const MobileNav = () => {
                     </div>
                     <div className="port3">
                         <div>
-                        <div className="p1" >
+                            <div className="p1" >
                                 <h1>Language</h1>
                                 <div className="drop" onClick={toggleLinks5}><AiOutlineDown/></div>
                                 </div>
@@ -125,17 +125,29 @@ const MobileNav = () => {
                                 </div>
                         </div>
                         <div>
-                            <h1>Currency</h1>
-                            <p>USD</p>
-                            <p>EUR</p>
-                            <p>Real</p>
-                            <p>BDT</p>
+                            <div className="p1" >
+                                <h1>Currency</h1>
+                                <div className="drop" onClick={toggleLinks6}><AiOutlineDown/></div>
+                                </div>
+                                <div className={active5 ? "show" : "show active" }>
+                                <p>USD</p>
+                                <p>EUR</p>
+                                <p>Real</p>
+                                <p>BDT</p>
+                                </div>
+                              
                         </div>
                         <div>
-                            <h1>My Account</h1>
-                            <p>Login</p>
-                            <p>Create Account</p>
-                            <p>My Account</p>
+                            <div className="p1" >
+                                <h1>My Account</h1>
+                                <div className="drop" onClick={toggleLinks7}><AiOutlineDown/></div>
+                                </div>
+                                <div className={active7 ? "show" : "show active" }>
+                                <p>Login</p>
+                                <p>Create Account</p>
+                                <p>My Account</p>
+                                </div>
+                            
                         </div>
                     </div>
                     <div className="port4">
