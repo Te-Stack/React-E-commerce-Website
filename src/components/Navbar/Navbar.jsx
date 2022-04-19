@@ -14,6 +14,9 @@ const Navbar = () => {
     const [active2, setActive2] = useState(false);
     const [active3, setActive3] = useState(false);
     const [active4, setActive4] = useState(false);
+    const [active5, setActive5] = useState(false);
+    const [active6, setActive6] = useState(false);
+    const [active7, setActive7] = useState(false);
 
     const toggleLinks = () => {
         setActive(!active);
@@ -30,6 +33,16 @@ const Navbar = () => {
       };
     const toggleLinks4= () => {
         setActive4(!active4);
+      };
+
+    const toggleLinks5= () => {
+        setActive5(!active5);
+      };
+    const toggleLinks6= () => {
+        setActive6(!active6);
+      };
+    const toggleLinks7= () => {
+        setActive7(!active7);
       };
     
 
@@ -83,9 +96,40 @@ const Navbar = () => {
                                 <div className="drop">{active2 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                 </div>
                                 <div className={active2 ? "show" : "show active" }>
+                                    <div className="p1" onClick={toggleLinks5}>
                                     <p>Shop Layout</p>
+                                    <div className="drop">{active5 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    </div>
+                                    <div className={active5 ? "show" : "show active" }>
+                                        <p>Shop Fullwidth</p>
+                                        <p>Shop Instagram</p>
+                                        <p>Shop Mansory</p>
+                                        <p>Shop Instagram</p>
+                                        <p>Collection Classic</p>
+                                        <p>Collection Modern</p>
+                                    </div>
+                                    <div className="p1" onClick={toggleLinks6}>
                                     <p>Product Layout</p>
+                                    <div className="drop">{active6 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    </div>
+                                    <div className={active6 ? "show" : "show active" }>
+                                        <p>Product Carousel</p>
+                                        <p>Product Grouped</p>
+                                        <p>Product Affilate</p>
+                                        <p>Product Configurable</p>
+                                    </div>
+                                    <div className="p1" onClick={toggleLinks7}>
                                     <p>Shop Page</p>
+                                    <div className="drop">{active7 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
+                                    </div>
+                                    <div className={active7 ? "show" : "show active" }>
+                                        <p>Shopping Cart</p>
+                                        <p>Check Out</p>
+                                        <p>My Account</p>
+                                        <p>Wishlist</p>
+                                        <p>Composure</p>
+                                        <p>Order Tracking</p>
+                                    </div>
                                 </div>
                             </div>
                             <div>
