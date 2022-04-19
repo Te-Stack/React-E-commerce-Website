@@ -36,9 +36,11 @@ const Navbar = () => {
       };
 
     const toggleLinks5= () => {
-        setActive5(!active5);
+        setActive5(!active5) && setActive6(!active6);
+        setActive5(!active5)
       };
     const toggleLinks6= () => {
+        setActive5(!active5) && setActive6(!active6);
         setActive6(!active6);
       };
     const toggleLinks7= () => {
