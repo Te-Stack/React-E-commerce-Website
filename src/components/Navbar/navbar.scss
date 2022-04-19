@@ -321,14 +321,10 @@
             
                 .show{
                     display: none;
-                    z-index: 99;
-                    
                     transition: all 0.4s ease 0s;
     
                     &.active{
                         display:block ;
-                        background: $mainBackground;
-                        z-index: 99;
                         transition: all 0.4s ease 0s;
             
                     }
