@@ -129,7 +129,7 @@ const MobileNav = () => {
                                 <h1>Currency</h1>
                                 <div className="drop" onClick={toggleLinks6}><AiOutlineDown/></div>
                                 </div>
-                                <div className={active5 ? "show" : "show active" }>
+                                <div className={active6 ? "show" : "show active" }>
                                 <p>USD</p>
                                 <p>EUR</p>
                                 <p>Real</p>
