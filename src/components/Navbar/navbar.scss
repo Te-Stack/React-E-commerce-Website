@@ -101,7 +101,8 @@
 .broad{
     @include setFlex(row, space-evenly, center);
     width: 100%;
-    height:615px;
+    height:100%;
+    // height:615px;
     position: absolute;
     top: 0;
     left: -100%;

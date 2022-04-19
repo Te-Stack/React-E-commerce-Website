@@ -36,11 +36,9 @@ const Navbar = () => {
       };
 
     const toggleLinks5= () => {
-        setActive5(!active5) && setActive6(!active6);
-        setActive5(!active5)
+        setActive5(!active5);
       };
     const toggleLinks6= () => {
-        setActive5(!active5) && setActive6(!active6);
         setActive6(!active6);
       };
     const toggleLinks7= () => {
@@ -103,9 +101,6 @@ const Navbar = () => {
                                     <div className="drop">{active5 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                     </div>
                                     <div className={active5 ? "show" : "show active" }>
-                                        <p>Shop Fullwidth</p>
-                                        <p>Shop Instagram</p>
-                                        <p>Shop Mansory</p>
                                         <p>Shop Instagram</p>
                                         <p>Collection Classic</p>
                                         <p>Collection Modern</p>
@@ -127,9 +122,6 @@ const Navbar = () => {
                                         <p>Shopping Cart</p>
                                         <p>Check Out</p>
                                         <p>My Account</p>
-                                        <p>Wishlist</p>
-                                        <p>Composure</p>
-                                        <p>Order Tracking</p>
                                     </div>
                                 </div>
                             </div>
