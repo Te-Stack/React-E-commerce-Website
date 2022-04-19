@@ -14,9 +14,9 @@ const Navbar = () => {
     const [active2, setActive2] = useState(false);
     const [active3, setActive3] = useState(false);
     const [active4, setActive4] = useState(false);
-    const [active5, setActive5] = useState(false);
-    const [active6, setActive6] = useState(false);
-    const [active7, setActive7] = useState(false);
+    const [active5, setActive5] = useState(true);
+    const [active6, setActive6] = useState(true);
+    const [active7, setActive7] = useState(true);
 
     const toggleLinks = () => {
         setActive(!active);
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <div className="Part"> 
                     <ul className="navmenu">
                         <div className="menuicon" onClick={toggleLinks}> 
-                        {active ? <AiOutlineClose/> : <AiOutlineAlignLeft/>}
+                            <AiOutlineAlignLeft/>
                         </div>
                         <li>
                             <a href="https://github.com/Te-Stack" className="navlinks"><ImFacebook/></a>
@@ -115,7 +115,6 @@ const Navbar = () => {
                                     <div className="drop">{active6 ? <AiOutlineUp/> : <AiOutlineDown/>}</div>
                                     </div>
                                     <div className={active6 ? "show" : "show active" }>
-                                        <p>Product Carousel</p>
                                         <p>Product Grouped</p>
                                         <p>Product Affilate</p>
                                         <p>Product Configurable</p>
@@ -159,6 +158,9 @@ const Navbar = () => {
                                         <p>Blog Mansory</p>
                                         <p>Single Post</p>
                                 </div>
+                            </div>
+                            <div onClick={toggleLinks} className="close">
+                                <AiOutlineClose/>
                             </div>
 
                         </div>
