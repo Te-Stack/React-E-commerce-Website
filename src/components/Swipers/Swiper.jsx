@@ -10,23 +10,33 @@ const Swiper = () => {
         slideToPrevItem, 
         slideToNextItem 
       } = useTransitionCarousel({
+        withLoop: true, // -> make me loop!
         items: [
             {
                 id: "1",
                 renderItem: (
-                  <div className="items">Item 1</div>
+                    <div>
+                        <div className="items">Item 1</div>
+
+                    </div>
+                  
                 )
             },
             {
                 id: "2",
                 renderItem: (
-                  <div className="items">Item 2</div>
+                    <div>
+                        <div className="items">Item 2</div>
+
+                    </div>
                 )
             },
             {
                 id: "3",
                 renderItem: (
-                  <div className="items" >Item 3</div>
+                    <div>
+                        <div className="items">Item 3</div>
+                    </div>
                 )
             }
         ]
