@@ -5,6 +5,12 @@
     height: 100vh;
     @include setFlex(row, flex-start, center);
 
+    button{
+        padding:1rem 1rem;
+        color: white;
+        background-color: $GrayColor1;
+    }
+
 
     .items{
         padding: 10rem 10rem;

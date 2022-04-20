@@ -59,7 +59,7 @@ const Swiper = () => {
      useEffect(() => {
         const timer = setInterval(() => {
           slideToNextItem();
-        }, 1500);
+        }, 4500);
         return () => {
           window.clearInterval(timer);
         };
@@ -68,9 +68,9 @@ const Swiper = () => {
   
     return ( 
       <div className="swiper">
-        <button onClick={slideToPrevItem}>Prev item</button>
+        <button onClick={slideToPrevItem}>&lt;</button>
         {carouselFragment}
-        <button onClick={slideToNextItem}>Next item</button>
+        <button onClick={slideToNextItem}>&gt;</button>
       </div>
      );
 }
