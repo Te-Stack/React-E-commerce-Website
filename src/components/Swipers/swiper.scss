@@ -3,7 +3,7 @@
 
 .swiper{
     height: 100vh;
-    @include setFlex(row, center, center);
+    @include setFlex(row, flex-start, center);
 
 
     .items{
