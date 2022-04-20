@@ -2,10 +2,12 @@
 @import "../../styles/variables";
 
 .swiper{
+    position: relative;
     height: 100vh;
     @include setFlex(row, flex-start, center);
 
     button{
+        display: none;
         padding:1rem 1rem;
         color: white;
         background-color: $GrayColor1;

@@ -68,9 +68,9 @@ const Swiper = () => {
   
     return ( 
       <div className="swiper">
-        <button onClick={slideToPrevItem}>&lt;</button>
+        <button className="but1" onClick={slideToPrevItem}>&lt;</button>
         {carouselFragment}
-        <button onClick={slideToNextItem}>&gt;</button>
+        <button className="but2" onClick={slideToNextItem}>&gt;</button>
       </div>
      );
 }
