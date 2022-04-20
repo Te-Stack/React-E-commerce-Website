@@ -3,12 +3,14 @@
 
 .swiper{
     height: 100vh;
-    @include setFlex(row, center center);
+    @include setFlex(row, center, center);
 
 
     .items{
         padding: 10rem 10rem;
         background-color: green;
         color: whitesmoke;
+        @include setFlex(row, space-evenly, center);
+
     }
 }

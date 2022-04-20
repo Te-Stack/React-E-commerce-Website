@@ -1,7 +1,7 @@
 import { useTransitionCarousel } from 'react-spring-carousel'
 import  { useEffect } from 'react';
 import "./swiper.scss"
-
+import img1 from "../../assets/images/slider/img-slide2-01-4.jpg";
 
 
 const Swiper = () => {
@@ -16,7 +16,21 @@ const Swiper = () => {
                 id: "1",
                 renderItem: (
                     <div>
-                        <div className="items">Item 1</div>
+                        <div className="items">
+                            <div>
+                                <p>#coatCollection</p>
+                                <div>
+                                    <p></p>
+                                    <h1>Chunky Knit Sweater</h1>
+                                </div>
+                                <p>$69.99</p>
+                                <button>Shop Now</button> 
+                            </div>
+                            <div>
+                                <img src={img1} />
+
+                            </div>
+                        </div>
 
                     </div>
                   
