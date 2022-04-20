@@ -8,6 +8,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
+    "react-spring": "^9.4.4",
     "react-spring-carousel": "^2.0.13",
     "sass": "^1.49.11",
     "web-vitals": "^2.1.4"
