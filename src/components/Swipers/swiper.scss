@@ -1,0 +1,14 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.swiper{
+    height: 100vh;
+    @include setFlex(row, center center);
+
+
+    .items{
+        padding: 10rem 10rem;
+        background-color: green;
+        color: whitesmoke;
+    }
+}
