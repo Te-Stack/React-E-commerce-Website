@@ -2,7 +2,8 @@ import { useTransitionCarousel } from 'react-spring-carousel'
 import  { useEffect } from 'react';
 import "./swiper.scss"
 import img1 from "../../assets/images/slider/img-slide2-01-4.jpg";
-
+import img2 from "../../assets/images/slider/img-slide2-03-2.jpg";
+import img3 from "../../assets/images/slider/img-slide2-04-1.jpg";
 
 const Swiper = () => {
     const { 
@@ -40,7 +41,21 @@ const Swiper = () => {
                 id: "2",
                 renderItem: (
                     <div>
-                        <div className="items">Item 2</div>
+                      <div className="items">
+                            <div>
+                                <p>#coatCollection</p>
+                                <div>
+                                    <p></p>
+                                    <h1>Chunky Knit Sweater</h1>
+                                </div>
+                                <p>$69.99</p>
+                                <button>Shop Now</button> 
+                            </div>
+                            <div>
+                                <img src={img2} />
+
+                            </div>
+                        </div>
 
                     </div>
                 )
@@ -49,7 +64,21 @@ const Swiper = () => {
                 id: "3",
                 renderItem: (
                     <div>
-                        <div className="items">Item 3</div>
+                        <div className="items">
+                            <div>
+                                <p>#coatCollection</p>
+                                <div>
+                                    <p></p>
+                                    <h1>Chunky Knit Sweater</h1>
+                                </div>
+                                <p>$69.99</p>
+                                <button>Shop Now</button> 
+                            </div>
+                            <div>
+                                <img src={img3} />
+
+                            </div>
+                        </div>
                     </div>
                 )
             }
