@@ -9,14 +9,14 @@
     button{
         display: none;
         padding:1rem 1rem;
-        color: white;
+        color: $BlackColor;
         background-color: $GrayColor1;
     }
 
 
     .items{
         padding: 10rem 10rem;
-        background-color: green;
+        background-color: transparent;
         color: whitesmoke;
         @include setFlex(row, space-evenly, center);
 
