@@ -15,10 +15,22 @@
 
 
     .items{
-        padding: 10rem 10rem;
+        padding: 1rem 1rem;
         background-color: transparent;
         color: whitesmoke;
-        @include setFlex(row, space-evenly, center);
+        @include setFlex(row, space-between, center);
+
+        .text{
+            height: 30rem;
+            width: 30rem;
+            background-color: $GrayColor1;
+        }
+
+        img{
+            height: 30rem;
+            width: 30rem;
+        }
+
 
     }
 }

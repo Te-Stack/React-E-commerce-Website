@@ -18,7 +18,7 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                         <div className="items">
-                            <div>
+                            <div className="text">
                                 <p>#coatCollection</p>
                                 <div>
                                     <p></p>
@@ -42,7 +42,7 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                       <div className="items">
-                            <div>
+                            <div className='text'>
                                 <p>#coatCollection</p>
                                 <div>
                                     <p></p>
@@ -65,7 +65,7 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                         <div className="items">
-                            <div>
+                            <div  className='text'>
                                 <p>#coatCollection</p>
                                 <div>
                                     <p></p>
