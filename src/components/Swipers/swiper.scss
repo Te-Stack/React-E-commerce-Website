@@ -36,10 +36,7 @@
             .border{
                 @include setFlex(row, center, center);
     
-                p{
-                    border-bottom: 1px solid $BlackColor;
-                    
-                }
+                
             }
         }
 
