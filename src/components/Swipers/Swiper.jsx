@@ -19,12 +19,12 @@ const Swiper = () => {
                     <div>
                         <div className="items">
                             <div className="text">
-                                <p>#coatCollection</p>
+                                <p>#boots collection</p>
                                 <div>
                                     <p></p>
-                                    <h1>Chunky Knit Sweater</h1>
+                                    <h1>Lace-Up leather shoes</h1>
                                 </div>
-                                <p>$69.99</p>
+                                <p>$99.99</p>
                                 <button>Shop Now</button> 
                             </div>
                             <div>

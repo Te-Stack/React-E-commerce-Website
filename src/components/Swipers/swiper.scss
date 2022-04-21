@@ -9,7 +9,6 @@
     button{
         display: none;
         padding:1rem 1rem;
-        color: $BlackColor;
         background-color: $GrayColor1;
     }
 
@@ -17,11 +16,13 @@
     .items{
         padding: 1rem 1rem;
         background-color: $GrayColor1;
-        color: whitesmoke;
         @include setFlex(row, space-evenly, center);
 
         button{
             display: block;
+            background-color: $BlackColor;
+            color: $mainBackground;
+            padding: 1rem 1rem;
         }
         .text{
             padding: 2rem 2rem;
