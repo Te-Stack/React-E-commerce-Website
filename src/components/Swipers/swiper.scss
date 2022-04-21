@@ -24,8 +24,23 @@
             color: $mainBackground;
             padding: 1rem 1rem;
         }
+
+
+
+        
+
+
         .text{
             padding: 2rem 2rem;
+
+            .border{
+                @include setFlex(row, center, center);
+    
+                p{
+                    border-bottom: 1px solid $BlackColor;
+                    
+                }
+            }
         }
 
         img{

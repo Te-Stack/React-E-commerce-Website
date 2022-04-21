@@ -20,7 +20,7 @@ const Swiper = () => {
                         <div className="items">
                             <div className="text">
                                 <p>#boots collection</p>
-                                <div>
+                                <div className="border">
                                     <p></p>
                                     <h1>Lace-Up leather shoes</h1>
                                 </div>
@@ -44,7 +44,7 @@ const Swiper = () => {
                       <div className="items">
                             <div className='text'>
                                 <p>#coatCollection</p>
-                                <div>
+                                <div className="border">
                                     <p></p>
                                     <h1>Chunky Knit Sweater</h1>
                                 </div>
@@ -66,10 +66,10 @@ const Swiper = () => {
                     <div>
                         <div className="items">
                             <div  className='text'>
-                                <p>#coatCollection</p>
-                                <div>
+                                <p>#kidCollection</p>
+                                <div className="border">
                                     <p></p>
-                                    <h1>Chunky Knit Sweater</h1>
+                                    <h1>Hood quilted coat</h1>
                                 </div>
                                 <p>$69.99</p>
                                 <button>Shop Now</button> 
