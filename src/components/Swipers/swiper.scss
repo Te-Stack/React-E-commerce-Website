@@ -16,14 +16,12 @@
 
     .items{
         padding: 1rem 1rem;
-        background-color: transparent;
+        background-color: $GrayColor1;
         color: whitesmoke;
-        @include setFlex(row, space-between, center);
+        @include setFlex(row, space-evenly, center);
 
         .text{
-            height: 30rem;
-            width: 30rem;
-            background-color: $GrayColor1;
+            padding: 2rem 2rem;
         }
 
         img{
