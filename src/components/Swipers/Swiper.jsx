@@ -43,7 +43,7 @@ const Swiper = () => {
                     <div>
                       <div className="items">
                             <div className='text'>
-                                <p>#coatCollection</p>
+                                <p className="text-sm">#coatCollection</p>
                                 <div className="border">
                                     <p></p>
                                     <h1>Chunky Knit Sweater</h1>
