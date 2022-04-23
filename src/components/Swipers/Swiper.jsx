@@ -46,7 +46,7 @@ const Swiper = () => {
                                 <p className="text-sm">#coatCollection</p>
                                 <div className="border">
                                     <p></p>
-                                    <h1>Chunky Knit Sweater</h1>
+                                    <h1>Chunky Knit Sweaters</h1>
                                 </div>
                                 <p>$69.99</p>
                                 <button>Shop Now</button> 
