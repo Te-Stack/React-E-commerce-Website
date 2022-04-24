@@ -69,7 +69,7 @@ const Swiper = () => {
                                 <p>#kidCollection</p>
                                 <div className="border">
                                     <p></p>
-                                    <h1>Hood quilted coat</h1>
+                                    <h1>Hood quilted coats</h1>
                                 </div>
                                 <p>$69.99</p>
                                 <button>Shop Now</button> 
