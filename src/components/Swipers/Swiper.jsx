@@ -65,17 +65,14 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                         <div className="items">
-                            <div  className='text-div'>
-                                <div className="text">
-                                    <p>#kidCollection</p>
+                            <div className='text'>
+                                    <p className='text-sm'>#kidCollection</p>
                                     <div className="bor">
                                         <p>________</p>
                                         <h1 className="text-3xl">Hood quilted coats</h1>
                                     </div>
                                     <p>$69.99</p>
-                                    <button>Shop Now</button>
-                                </div>
-                                 
+                                    <button>Shop Now</button>   
                             </div>
                             <div>
                                 <img alt="coats" src={img3} />
