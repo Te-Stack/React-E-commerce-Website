@@ -18,15 +18,18 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                         <div className="items">
-                            <div className="text">
-                                <p>#boots collection</p>
-                                <div className="bor">
-                                    <p>________</p>
-                                    <h1 className="text-3xl">Lace-Up leather shoes</h1>
+                            <div className="text-div">
+                                <div className="text">
+                                    <p>#boots collection</p>
+                                    <div className="bor">
+                                        <p>________</p>
+                                        <h1 className="text-3xl">Lace-Up leather shoes</h1>
+                                    </div>
+                                    <p className="dollars" >$99.99</p>
+                                    <button>Shop Now</button> 
                                 </div>
-                                <p className="dollars" >$99.99</p>
-                                <button>Shop Now</button> 
                             </div>
+                            
                             <div>
                                 <img alt="shoes" src={img1} />
 
@@ -42,15 +45,18 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                       <div className="items">
+                          <div className="text-div">
                             <div className='text'>
-                                <p className="text-sm">#coatCollection</p>
-                                <div className="bor">
-                                    <p>________</p>
-                                    <h1 className="text-3xl">Chunky Knit Sweaters</h1>
+                                    <p className="text-sm">#coatCollection</p>
+                                    <div className="bor">
+                                        <p>________</p>
+                                        <h1 className="text-3xl">Chunky Knit Sweaters</h1>
+                                    </div>
+                                    <p className="dollars">$69.99</p>
+                                    <button>Shop Now</button> 
                                 </div>
-                                <p className="dollars">$69.99</p>
-                                <button>Shop Now</button> 
-                            </div>
+                          </div>
+                            
                             <div>
                                 <img alt="Sweaters" src={img2} />
 
@@ -65,15 +71,19 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                         <div className="items">
-                            <div className='text'>
-                                    <p className='text-sm'>#kidCollection</p>
-                                    <div className="bor">
-                                        <p>________</p>
-                                        <h1 className="text-3xl">Hood quilted coats</h1>
-                                    </div>
-                                    <p className="dollars">$69.99</p>
-                                    <button>Shop Now</button>   
+                            <div className="text-div">
+                                <div className='text'>
+                                        <p className='text-sm'>#kidCollection</p>
+                                        <div className="bor">
+                                            <p>________</p>
+                                            <h1 className="text-3xl">Hood quilted coats</h1>
+                                        </div>
+                                        <p className="dollars">$69.99</p>
+                                        <button>Shop Now</button>   
+                                </div>
+
                             </div>
+                            
                             <div>
                                 <img alt="coats" src={img3} />
 

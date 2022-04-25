@@ -37,36 +37,25 @@
                 position: absolute;
                 left: 50%;
                 bottom: 30%;
-                transform: translate(-50%,-50%);
-
-            }
-
-            .dollars{
-                color: $BrightRed;
-                font-size:3rem;
-            }
+                transform: translate(-50%,50%);
 
 
-
-           
-  
-            
-            
-
-
-            .bor{
-                @include setFlex(row, space-between, center);
-                width: 25rem;
-
-                p{
-                    font-weight: normal;
-                    font-size: 1rem;
+                .bor{
+                    @include setFlex(row, space-between, center);
+                    width: 25rem;
+    
+                    p{
+                        font-weight: normal;
+                        font-size: 1rem;
+                    }
                 }
 
+                .dollars{
+                    color: $BrightRed;
+                }
+
+            }    
                 
-    
-                
-            }
         }
 
         img{
