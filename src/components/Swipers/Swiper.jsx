@@ -28,7 +28,7 @@ const Swiper = () => {
                                 <button>Shop Now</button> 
                             </div>
                             <div>
-                                <img src={img1} />
+                                <img alt="shoes" src={img1} />
 
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Swiper = () => {
                                 <button>Shop Now</button> 
                             </div>
                             <div>
-                                <img src={img2} />
+                                <img alt="Sweaters" src={img2} />
 
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const Swiper = () => {
                                 <button>Shop Now</button> 
                             </div>
                             <div>
-                                <img src={img3} />
+                                <img alt="coats" src={img3} />
 
                             </div>
                         </div>
