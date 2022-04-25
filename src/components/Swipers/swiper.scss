@@ -16,7 +16,7 @@
     .items{
         padding: 1rem 1rem;
         background-color: transparent;
-        @include setFlex(row, space-evenly, center);
+        @include setFlex(row, space-evenly,center);
 
         button{
             display: block;
@@ -34,10 +34,10 @@
             position: relative;
 
             .text{
-                position: absolute;
-                left: 50%;
-                bottom: 30%;
-                transform: translate(-50%,50%);
+                // position: absolute;
+                // left: 50%;
+                // bottom: 30%;
+                // transform: translate(-50%,50%);
 
 
                 .bor{
