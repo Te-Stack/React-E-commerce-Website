@@ -15,7 +15,7 @@
 
     .items{
         padding: 1rem 1rem;
-        background-color: $GrayColor1;
+        background-color: transparent;
         @include setFlex(row, space-evenly, center);
 
         button{
@@ -30,11 +30,32 @@
         
 
 
-        .text{
-            padding: 2rem 2rem;
+        .text-div{
+            height: 40rem;
+            width: 37rem;
+            // padding: 2rem 2rem;
+            background-color: $GrayColor1;
+            position: relative;
+            
+            .text{
+                position: absolute;
+                left: 50%;
+                bottom: 30%;
+                transform: translate(-50%,-50%);
 
-            .border{
-                @include setFlex(row, center, center);
+
+            }
+            
+
+
+            .bor{
+                @include setFlex(row, space-between, center);
+                width: 25rem;
+
+                p{
+                    font-weight: bolder;
+                    font-size: 1rem;
+                }
 
                 
     

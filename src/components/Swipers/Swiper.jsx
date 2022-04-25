@@ -20,9 +20,9 @@ const Swiper = () => {
                         <div className="items">
                             <div className="text">
                                 <p>#boots collection</p>
-                                <div className="border">
-                                    <p></p>
-                                    <h1>Lace-Up leather shoes</h1>
+                                <div className="bor">
+                                    <p>________</p>
+                                    <h1 className="text-3xl">Lace-Up leather shoes</h1>
                                 </div>
                                 <p>$99.99</p>
                                 <button>Shop Now</button> 
@@ -44,9 +44,9 @@ const Swiper = () => {
                       <div className="items">
                             <div className='text'>
                                 <p className="text-sm">#coatCollection</p>
-                                <div className="border">
-                                    <p></p>
-                                    <h1>Chunky Knit Sweaters</h1>
+                                <div className="bor">
+                                    <p>________</p>
+                                    <h1 className="text-3xl">Chunky Knit Sweaters</h1>
                                 </div>
                                 <p>$69.99</p>
                                 <button>Shop Now</button> 
@@ -65,14 +65,17 @@ const Swiper = () => {
                 renderItem: (
                     <div>
                         <div className="items">
-                            <div  className='text'>
-                                <p>#kidCollection</p>
-                                <div className="border">
-                                    <p></p>
-                                    <h1>Hood quilted coats</h1>
+                            <div  className='text-div'>
+                                <div className="text">
+                                    <p>#kidCollection</p>
+                                    <div className="bor">
+                                        <p>________</p>
+                                        <h1 className="text-3xl">Hood quilted coats</h1>
+                                    </div>
+                                    <p>$69.99</p>
+                                    <button>Shop Now</button>
                                 </div>
-                                <p>$69.99</p>
-                                <button>Shop Now</button> 
+                                 
                             </div>
                             <div>
                                 <img alt="coats" src={img3} />
