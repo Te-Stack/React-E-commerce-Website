@@ -24,7 +24,7 @@ const Swiper = () => {
                                     <p>________</p>
                                     <h1 className="text-3xl">Lace-Up leather shoes</h1>
                                 </div>
-                                <p>$99.99</p>
+                                <p className="dollars" >$99.99</p>
                                 <button>Shop Now</button> 
                             </div>
                             <div>
@@ -48,7 +48,7 @@ const Swiper = () => {
                                     <p>________</p>
                                     <h1 className="text-3xl">Chunky Knit Sweaters</h1>
                                 </div>
-                                <p>$69.99</p>
+                                <p className="dollars">$69.99</p>
                                 <button>Shop Now</button> 
                             </div>
                             <div>
@@ -71,7 +71,7 @@ const Swiper = () => {
                                         <p>________</p>
                                         <h1 className="text-3xl">Hood quilted coats</h1>
                                     </div>
-                                    <p>$69.99</p>
+                                    <p className="dollars">$69.99</p>
                                     <button>Shop Now</button>   
                             </div>
                             <div>
