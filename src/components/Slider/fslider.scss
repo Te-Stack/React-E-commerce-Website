@@ -6,38 +6,21 @@
     padding: 1rem 1rem;
 
     .carouselCard{
-        position: relative;
-        background-color:$GrayColor1;
-       height: 15rem;
-       padding: 5rem 2rem;
-       border: 1rem solid $GrayColor2;
-
-       @media screen and (max-width:825px) {
-           height: 22rem;
-           
-       }
-        img{
-            position: absolute;
-            top: 0.2rem;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 5rem;
-            height: 5rem;
-        }
+        background-image: url(../../assets/images/slider/img-slide11-01.png);
+        height: 20rem;
+        width: 10rem;
+    }
+    .carouselCard2{
+        background-image: url(../../assets/images/slider/img-slide11-03.png);
+        height: 20rem;
+        width: 10rem;
+    }
+    .carouselCard3{
+        background-image: url(../../assets/images/slider/img-slide11-02.png);
+        height: 20rem;
+        width: 10rem;
     }
 
-    button{
-        position: absolute;
-        left: 50%;
-        bottom: -27%;
-        transform: translate(-50%,-50%);
-
-        @media screen and (max-width:825px) {
-            position: absolute;
-            left: 50%;
-            bottom: -22%;
-            transform: translate(-50%,-50%);
-        }
-    }
+    
     
 }
