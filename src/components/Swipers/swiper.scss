@@ -22,7 +22,7 @@
             display: block;
             background-color: $BlackColor;
             color: $mainBackground;
-            padding: 1rem 1rem;
+            padding: 0.5rem 1rem;
         }
 
 
@@ -30,33 +30,26 @@
         
 
 
-        .text-div{
-            position: relative;
-
             .text{
-                // position: absolute;
-                // left: 50%;
-                // bottom: 30%;
-                // transform: translate(-50%,50%);
 
 
                 .bor{
                     @include setFlex(row, space-between, center);
                     width: 25rem;
+                    padding: 0.5rem 0.5rem;
     
                     p{
-                        font-weight: normal;
                         font-size: 1rem;
                     }
                 }
 
                 .dollars{
                     color: $BrightRed;
+                    font-size: 1.5rem;
+                    padding: 0.1rem 0.1rem;
                 }
 
             }    
-                
-        }
 
         img{
             height: 40rem;
