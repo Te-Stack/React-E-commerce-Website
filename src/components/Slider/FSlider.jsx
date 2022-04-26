@@ -50,26 +50,26 @@ export default class Carousels extends Component {
         <div className="carousel">
           <Slider {...settings}>
             
-            <div className="category-wrap">
-              <link to="/ProductDetail" ><img src={img3} alt="product"/></link>
+            <div className="category-wrap default-overlay">
+              <Link to="/ProductDetail" ><img src={img3} alt="product"/></Link>
               <div className="category-content">
                     <h4><Link to="/ProductDetail">Men Jacket</Link></h4>
                  </div>
            </div>
-            <div className="category-wrap">
-              <link to="/ProductDetail" ><img src={img4} alt="product"/></link>
+            <div className="category-wrap default-overlay">
+              <Link to="/ProductDetail" ><img src={img4} alt="product"/></Link>
               <div className="category-content">
                     <h4><Link to="/ProductDetail">Women Dress</Link></h4>
                  </div>
            </div>
-            <div className="category-wrap">
-              <link to="/ProductDetail" ><img src={img5} alt="product"/></link>
+            <div className="category-wrap default-overlay">
+              <Link to="/ProductDetail" ><img src={img5} alt="product"/></Link>
               <div className="category-content">
                     <h4><Link to="/ProductDetail">Kid</Link></h4>
                  </div>
            </div>
-            <div className="category-wrap">
-              <link to="/ProductDetail" ><img src={img3} alt="product"/></link>
+            <div className="category-wrap default-overlay">
+              <Link to="/ProductDetail" ><img src={img4} alt="product"/></Link>
               <div className="category-content">
                     <h4><Link to="/ProductDetail">Women Dress</Link></h4>
                  </div>
