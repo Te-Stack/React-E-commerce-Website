@@ -2,23 +2,31 @@
 @import "../../styles/variables";
 
 .carousel{
-    position: relative;
+   display: flex;
+   justify-content: space-evenly;
+    
     padding: 1rem 1rem;
 
     .carouselCard{
-        background-image: url(../../assets/images/slider/img-slide11-01.png);
+        background-image: url(../../assets/images/product/category-1.jpg);
+        background-repeat: no-repeat;
         height: 20rem;
-        width: 10rem;
+        width: 20rem;
+        padding: 1rem 1rem;
+        
     }
     .carouselCard2{
-        background-image: url(../../assets/images/slider/img-slide11-03.png);
-        height: 20rem;
-        width: 10rem;
+        background-image: url(../../assets/images/product/category-2.jpg);
+        background-repeat: no-repeat;
+        height: auto;
+        margin: 0 1rem;
     }
     .carouselCard3{
-        background-image: url(../../assets/images/slider/img-slide11-02.png);
-        height: 20rem;
-        width: 10rem;
+        background-image: url(../../assets/images/product/category-3.jpg    );
+        background-repeat: no-repeat;
+        height: auto;
+        margin: 0 3rem;
+       
     }
 
     

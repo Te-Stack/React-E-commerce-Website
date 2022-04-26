@@ -45,7 +45,6 @@ export default class Carousels extends Component {
       };
       return (
         <div className="carousel">
-            <h1 className="text-2xl text-center xl:text-3xl font-bold"> What they've said </h1>
           <Slider {...settings}>
             <div className="carouselCard">
                 <div>
@@ -53,13 +52,13 @@ export default class Carousels extends Component {
                 </div>
             </div>
 
-            <div  className="carouselCard">
+            <div  className="carouselCard2">
               <div>
                 Women's Dress
               </div>
             </div>
 
-            <div  className="carouselCard">
+            <div  className="carouselCard3">
 
                 <div>
                   Kids
