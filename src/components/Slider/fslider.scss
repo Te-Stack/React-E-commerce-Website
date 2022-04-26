@@ -2,6 +2,8 @@
 @import "../../styles/variables";
 
 .carousel{
+    padding: 3rem 2rem;
+    overflow: hidden;
    
  .category-wrap{
     position: relative;
@@ -11,7 +13,7 @@
     transition: all .35s ease 0s;
 
     a img{
-        width: 100%;
+        width: 80%;
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
@@ -49,29 +51,24 @@
             color: #fff;
         }
 
-        &:hover{
+        
+    }
+    &:hover{
 
 
-            .category-content{
-                h4{
-                    letter-spacing: 1px;
-                }
+        .category-content{
+            h4{
+                letter-spacing: 1px;
             }
+        }
 
-            .default-overlay::before {
-                background-color: #000;
-                opacity: .4;
-                z-index: 1;
-                pointer-events: none;
-            }
+        .default-overlay::before {
+            background-color: #000;
+            opacity: .4;
+            z-index: 1;
+            pointer-events: none;
         }
     }
  }
-    
-
-
-    
-
-    
-    
+ 
 }
