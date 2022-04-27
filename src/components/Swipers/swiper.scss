@@ -6,6 +6,8 @@
     height: 100vh;
     @include setFlex(row, flex-start, center);
 
+    
+
     button{
         display: none;
         padding:1rem 1rem;
@@ -18,11 +20,20 @@
         background-color: transparent;
         @include setFlex(row, space-evenly,center);
 
+        @media screen and (max-width:600px) {
+            @include setFlex(column, space-evenly, center)
+            
+        }
+
         button{
             display: block;
             background-color: $BlackColor;
             color: $mainBackground;
             padding: 0.5rem 1rem;
+
+            &:hover{
+                background-color: $BrightRed
+            }
         }
 
 
@@ -54,6 +65,12 @@
         img{
             height: 40rem;
             width: 40rem;
+
+            @media screen and (max-width:600px) {
+               height: 30rem;
+               width: 30rem;
+                
+            }
         }
 
 
