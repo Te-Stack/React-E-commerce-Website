@@ -6,9 +6,10 @@
    flex-wrap: wrap;
    justify-content: space-evenly;
 
-   div{
+   .div{
        width: 100%;
-       max-width: 25%;
+       margin: 1rem 0;
+       max-width: 23%;
        padding: 10px;
        border: 1px solid pink;
 
@@ -19,6 +20,7 @@
 
        @media screen and (max-width:600px) {
            max-width: 100%;
+           margin: 1rem 1rem;
        }
    }
 }
