@@ -50,11 +50,14 @@ export default class Carousels extends Component {
         <div className="carousel">
           <Slider {...settings}>
             
-            <div className="category-wrap default-overlay">
+            <div className="category-wrap">
+              <div className="default-overlay">
               <Link to="/ProductDetail" ><img src={img3} alt="product"/></Link>
               <div className="category-content">
                     <h4><Link to="/ProductDetail">Men Jacket</Link></h4>
                  </div>
+              </div>
+              
            </div>
             <div className="category-wrap default-overlay">
               <Link to="/ProductDetail" ><img src={img4} alt="product"/></Link>
