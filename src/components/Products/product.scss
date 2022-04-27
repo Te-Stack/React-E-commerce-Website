@@ -4,6 +4,7 @@
 .products{
    display: flex;
    flex-wrap: wrap;
+   justify-content: space-evenly;
 
    div{
        width: 100%;
