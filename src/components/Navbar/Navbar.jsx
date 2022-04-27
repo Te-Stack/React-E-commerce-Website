@@ -5,7 +5,8 @@ import {BsInstagram} from "react-icons/bs";
 import {BsGithub} from "react-icons/bs";
 import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp} from "react-icons/ai";
 import  "./navbar.scss";
-import MobileNav from "./MobileNav"
+import MobileNav from "./MobileNav";
+import logo from "../../assets/images/logo/logo.png"
  
 
 const Navbar = () => {
@@ -68,7 +69,7 @@ const Navbar = () => {
                         </li>    
                     </ul>
                 </div>
-                <Link to="/"><h1 className="navbarlogo text-3xl "  > PAYNA</h1></Link>
+                <Link to="/"><img className="navbarlogo" src={logo} alt="logo" /></Link>
                     <div className="Search">
                     <p>English <span>/italy</span></p>
                     <div className="icons">
