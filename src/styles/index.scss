@@ -10,6 +10,7 @@
 @import 'mixins';
 
 body{
+    box-sizing: border-box;
     font-family: $main-font;
     color:$BlackColor ;
 }
