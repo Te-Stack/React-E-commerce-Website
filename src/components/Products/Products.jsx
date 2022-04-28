@@ -1,5 +1,7 @@
 import "./product.scss";
 import { Link } from "react-router-dom";
+
+
 const Product = () => {
     return ( 
         <div className="ProductArea"> 
@@ -26,7 +28,7 @@ const Product = () => {
                         </a>
                     </div>
                     <div className="more">
-                        <Link href="/">View more</Link>
+                        <Link to="/">View more</Link>
                     </div>
             </div>
 
