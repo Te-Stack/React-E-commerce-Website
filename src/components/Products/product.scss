@@ -28,6 +28,7 @@
 
     .tabs{
         position: relative;
+        margin: 2rem 2rem;
 
         .product-tab-list{
             display: flex;
@@ -91,6 +92,17 @@
                     -o-transition: all 0.3s;
                     transition: all 0.3s;
                 }
+
+                &:hover,.active{
+                  color: #262626;
+                    
+                }
+
+                &.active::before, &:hover::before {
+                    opacity: 1;
+                    width: 2px;
+                    height: 18px;
+                  }
 
                 
 
