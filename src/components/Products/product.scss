@@ -5,7 +5,7 @@
     padding: 2rem 1rem;
 
     .title{
-        
+
         h2{
             font-family: "Playfair Display", serif;
             font-size: 36px;
@@ -24,6 +24,43 @@
             margin: 0;
         }
 
+    }
+
+    .tabs{
+        position: relative;
+
+        .product-tab-list{
+            display: flex;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 60px auto 25px;
+        }
+
+        .more{
+            position: absolute;
+            right: 40px;
+            top: 0;
+
+            a {
+                font-size: 11px;
+                color: $BlackColor2;
+                display: inline-block;
+                position: relative;
+
+                &:hover{
+                    color: $BrightRed;
+                }
+            }
+
+            @media screen and (max-width:767px) {
+                position: static;
+                right: 0px;
+                left: 0;
+                text-align: center;
+                margin-bottom: 30px;
+                
+            }
+        }
     }
 
     
