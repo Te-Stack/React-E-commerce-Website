@@ -10,7 +10,7 @@ const Product = () => {
                     <p>Show popular your products</p>
             </div>
             <div className="tabs">
-                    <div className="product-tab-list ">
+                    <div className="product-tab-list tab-width ">
                         <a className="active" href="#product-1" >
                             Man
                         </a>
