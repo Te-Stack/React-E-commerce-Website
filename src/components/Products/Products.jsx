@@ -54,7 +54,7 @@ const Product = () => {
                 <div className="div">
                                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img1} alt=""/>
                                             <img className="hover-img" src={img2} alt=""/>
                                         </Link>
@@ -73,11 +73,11 @@ const Product = () => {
                                             <span>$29.00</span>
                                         </div>
                                         <div class="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ const Product = () => {
                 <div className="div">
                             <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img3} alt=""/>
                                             <img className="hover-img" src={img4} alt=""/>
                                             <span className="price-dec">-3.1%</span>
@@ -108,10 +108,10 @@ const Product = () => {
                                             <span>$75.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
                                             <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
@@ -121,7 +121,7 @@ const Product = () => {
                 <div className="div">
                             <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img5} alt=""/>
                                             <img className="hover-img" src={img6} alt=""/>
                                         </Link>
@@ -141,10 +141,10 @@ const Product = () => {
                                             <span>$65.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className=" yellow" ><AiTwotoneStar/></div>
+                                            <div className=" yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className=" yellow" ><AiTwotoneStar/></div>
                                             <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
@@ -154,7 +154,7 @@ const Product = () => {
                 <div className="div" >
                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img7} alt=""/>
                                             <img className="hover-img" src={img8} alt=""/>
                                         </Link>
@@ -174,10 +174,10 @@ const Product = () => {
                                             <span>$41.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
                                             <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
@@ -187,7 +187,7 @@ const Product = () => {
                 <div className="div">
                         <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img9} alt=""/>
                                             <img className="hover-img" src={img10} alt=""/>
                                             <span className="out-of-stock">Out of stock</span>
@@ -209,10 +209,10 @@ const Product = () => {
                                             <span>$65.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
+                                            <div className="i yellow" ><AiTwotoneStar/></div>
                                             <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
@@ -221,7 +221,7 @@ const Product = () => {
                 <div className="div">
                         <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img11} alt=""/>
                                             <img className="hover-img" src={img12} alt=""/>
                                             <span className="price-dec">-17.9%</span>
@@ -243,10 +243,10 @@ const Product = () => {
                                             <span>$50.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
                                             <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
@@ -256,7 +256,7 @@ const Product = () => {
                 <div className="div">
                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img13} alt=""/>
                                             <img className="hover-img" src={img14} alt=""/>
 
@@ -276,10 +276,10 @@ const Product = () => {
                                             <span>$18.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
-                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
                                             <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
@@ -288,7 +288,7 @@ const Product = () => {
                 <div className="div">
                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetails">
                                             <img className="default-img" src={img15} alt=""/>
                                             <img className="hover-img" src={img16} alt=""/>
                                             <span className="price-dec">-3.1%</span>
