@@ -34,6 +34,11 @@
             justify-content: center;
             max-width: 1000px;
             margin: 60px auto 25px;
+
+            a{
+                margin: 0 6px;
+
+            }
         }
 
         .more{
@@ -49,6 +54,19 @@
 
                 &:hover{
                     color: $BrightRed;
+                }
+
+                &::before{
+                    position: absolute;
+                    content: "";
+                    height: 1px;
+                    width: 30px;
+                    background-color: #ccc;
+                    right: -40px;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
                 }
             }
 
