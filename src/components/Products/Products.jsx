@@ -59,9 +59,9 @@ const Product = () => {
                                             <img className="hover-img" src={img2} alt=""/>
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a title="Buy on Themeforest" href="#">Buy Here</a>
@@ -73,11 +73,11 @@ const Product = () => {
                                             <span>$29.00</span>
                                         </div>
                                         <div class="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -93,9 +93,9 @@ const Product = () => {
 
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a href="#">Select Option</a>
@@ -108,11 +108,11 @@ const Product = () => {
                                             <span>$75.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -126,9 +126,9 @@ const Product = () => {
                                             <img className="hover-img" src={img6} alt=""/>
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a href="#">Add to Cart</a>
@@ -141,11 +141,11 @@ const Product = () => {
                                             <span>$65.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -159,9 +159,9 @@ const Product = () => {
                                             <img className="hover-img" src={img8} alt=""/>
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a href="#">Add to Cart</a>
@@ -174,11 +174,11 @@ const Product = () => {
                                             <span>$41.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -194,9 +194,9 @@ const Product = () => {
 
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a href="#">Add to Cart</a>
@@ -209,11 +209,11 @@ const Product = () => {
                                             <span>$65.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -228,9 +228,9 @@ const Product = () => {
 
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a href="#">Add to Cart</a>
@@ -243,11 +243,11 @@ const Product = () => {
                                             <span>$50.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -262,9 +262,9 @@ const Product = () => {
 
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <Link to="/ProductDetail">View Products</Link>
@@ -276,11 +276,11 @@ const Product = () => {
                                             <span>$18.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i to-yellow-400" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -295,9 +295,9 @@ const Product = () => {
 
                                         </Link>
                                         <div className="product-action"> 
-                                            <a title="Quick View" href="#"><AiOutlineZoomIn/><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><AiOutlineHeart/><span>Add to Wishlist</span></a>
-                                            <a title="Compare" href="#"><AiFillSignal/><span>Add to Compare</span></a>
+                                            <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
                                             <a href="#">Add to Cart</a>
@@ -310,11 +310,11 @@ const Product = () => {
                                             <span>$80.00</span>
                                         </div>
                                         <div className="product-rating">
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
-                                            <AiTwotoneStar/>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="yellow" ><AiTwotoneStar/></div>
+                                            <div className="i" ><AiTwotoneStar/></div>
                                         </div>
                                     </div>
                                 </div>
