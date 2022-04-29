@@ -365,12 +365,16 @@
                             opacity: 1;
                         }
 
-                        img{
-                            .hover-img{
-                                opacity: 1;
-
+                        .a{
+                            img{
+                                &.hover-img{
+                                    opacity: 1;
+    
+                                }
                             }
                         }
+
+                       
                     }
                   }
 
@@ -387,7 +391,7 @@
                         span{
                             font-size: 16px;
 
-                            .old{
+                            &.old{
                                 text-decoration: line-through;
                                 opacity: .6;
                                 margin-right: 2px;
@@ -407,7 +411,51 @@
                             color: #f5b223;
                         }
                     }
-                }  
+                }
+                
+                
+                  
+                &:hover{
+                    .product-action-2{
+                        -webkit-transform: translate(0px, 0);
+                        -ms-transform: translate(0px, 0);
+                            transform: translate(0px, 0);
+                        opacity: 1;
+                        visibility: visible;
+
+                    }
+                }
+                  
+                  
+                  .product-wrap:hover .default-overlay.pro-overlay-hover::before {
+                    background-color: rgba(38, 38, 38, 0.2);
+                    z-index: 9;
+                    -webkit-transition: all 250ms ease-out;
+                    -o-transition: all 250ms ease-out;
+                    transition: all 250ms ease-out;
+                    pointer-events: none;
+                    opacity: 1;
+                  }
+                  
+                  .product-wrap:hover .product-action a {
+                    left: 0;
+                    opacity: 1;
+                    visibility: visible;
+                  }
+                  
+                  .product-wrap:hover .product-content-11 {
+                    opacity: 1;
+                    visibility: visible;
+                  }
+                  
+                  @media only screen and (max-width: 767px) {
+                    .product-wrap.mb-55 {
+                      margin-bottom: 30px;
+                    }
+                    .product-wrap.mb-50 {
+                      margin-bottom: 30px;
+                    }
+                  }  
             }
 
         }
