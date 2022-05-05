@@ -263,7 +263,7 @@ const Product = () => {
                                         </Link>
                                         <div className="product-action"> 
                                             <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
-                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                                            <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlists</span></a>
                                             <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
