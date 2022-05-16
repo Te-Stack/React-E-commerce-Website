@@ -253,9 +253,13 @@
                             text-align: center;
                             visibility: hidden;
                             width: 45px;
+                            padding: 0.5rem 0.5rem;
 
                             .itag{
-                                line-height: 45px;
+                                line-height: 25px;
+                                // margin-left: 0.5rem;
+                        
+
                             }
 
                             &:nth-child(1){

@@ -53,7 +53,7 @@ const Product = () => {
             <div className="products">
                 <div className="div">
                                 <div className="product-wrap mb-55">
-                                    <div className="product-img default-overlay mb-20">
+                                    <div className="product-img default-overlay mb-5">
                                         <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img1} alt=""/>
                                             <img className="hover-img" src={img2} alt=""/>
