@@ -401,6 +401,7 @@
 
                     .product-rating{
                         line-height: 1;
+                        @include setFlex(row,flex-start,center);
 
                         .i{
                             // font-size: 12px;

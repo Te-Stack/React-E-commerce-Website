@@ -54,7 +54,7 @@ const Product = () => {
                 <div className="div">
                                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img1} alt=""/>
                                             <img className="hover-img" src={img2} alt=""/>
                                         </Link>
@@ -68,11 +68,11 @@ const Product = () => {
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h3><Link to="product-details.html">Slim-fit cotton shirt</Link></h3>
+                                        <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
                                         <div className="product-price">
                                             <span>$29.00</span>
                                         </div>
-                                        <div class="product-rating">
+                                        <div className="product-rating">
                                             <div className="yellow" ><AiTwotoneStar/></div>
                                             <div className="yellow" ><AiTwotoneStar/></div>
                                             <div className="yellow" ><AiTwotoneStar/></div>
