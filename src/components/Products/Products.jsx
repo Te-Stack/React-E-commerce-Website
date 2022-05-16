@@ -86,7 +86,7 @@ const Product = () => {
                 <div className="div">
                             <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img3} alt=""/>
                                             <img className="hover-img" src={img4} alt=""/>
                                             <span className="price-dec">-3.1%</span>
@@ -102,7 +102,7 @@ const Product = () => {
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h3><Link to="product-details.html">Slim-fit cotton shirt</Link></h3>
+                                        <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
                                         <div className="product-price">
                                         <span className="old">$85.00</span>
                                             <span>$75.00</span>
@@ -121,7 +121,7 @@ const Product = () => {
                 <div className="div">
                             <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img5} alt=""/>
                                             <img className="hover-img" src={img6} alt=""/>
                                         </Link>
@@ -135,7 +135,7 @@ const Product = () => {
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h3><Link to="product-details.html">Slim-fit cotton shirt</Link></h3>
+                                        <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
                                         <div className="product-price">
 
                                             <span>$65.00</span>
@@ -154,7 +154,7 @@ const Product = () => {
                 <div className="div" >
                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img7} alt=""/>
                                             <img className="hover-img" src={img8} alt=""/>
                                         </Link>
@@ -168,7 +168,7 @@ const Product = () => {
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h3><Link to="product-details.html">Slim-fit cotton shirt</Link></h3>
+                                        <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
                                         <div className="product-price">
 
                                             <span>$41.00</span>
@@ -187,7 +187,7 @@ const Product = () => {
                 <div className="div">
                         <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img9} alt=""/>
                                             <img className="hover-img" src={img10} alt=""/>
                                             <span className="out-of-stock">Out of stock</span>
@@ -203,7 +203,7 @@ const Product = () => {
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h3><Link to="product-details.html">Slim-fit cotton shirt</Link></h3>
+                                        <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
                                         <div className="product-price">
 
                                             <span>$65.00</span>
@@ -221,7 +221,7 @@ const Product = () => {
                 <div className="div">
                         <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img11} alt=""/>
                                             <img className="hover-img" src={img12} alt=""/>
                                             <span className="price-dec">-17.9%</span>
@@ -237,7 +237,7 @@ const Product = () => {
                                         </div>
                                     </div>
                                     <div className="product-content">
-                                        <h3><Link to="product-details.html">Slim-fit cotton shirt</Link></h3>
+                                        <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
                                         <div className="product-price">
                                         <span className="old">$60.00</span>
                                             <span>$50.00</span>
@@ -256,7 +256,7 @@ const Product = () => {
                 <div className="div">
                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img13} alt=""/>
                                             <img className="hover-img" src={img14} alt=""/>
 
@@ -288,7 +288,7 @@ const Product = () => {
                 <div className="div">
                 <div className="product-wrap mb-55">
                                     <div className="product-img default-overlay mb-20">
-                                        <Link className="a" to="/ProductDetails">
+                                        <Link className="a" to="/ProductDetail">
                                             <img className="default-img" src={img15} alt=""/>
                                             <img className="hover-img" src={img16} alt=""/>
                                             <span className="price-dec">-3.1%</span>
