@@ -424,10 +424,17 @@
                         visibility: visible;
 
                     }
+
+                    .product-action a{
+                        left: 0;
+                        opacity: 1;
+                        visibility: visible;
+                        
+                    }
                 }
                   
                   
-                  .product-wrap:hover .default-overlay.pro-overlay-hover::before {
+                &:hover .default-overlay.pro-overlay-hover::before {
                     background-color: rgba(38, 38, 38, 0.2);
                     z-index: 9;
                     -webkit-transition: all 250ms ease-out;
@@ -437,22 +444,6 @@
                     opacity: 1;
                   }
                   
-                  .product-wrap:hover .product-action a {
-                    left: 0;
-                    opacity: 1;
-                    visibility: visible;
-                  }
-                  
-                  
-                  
-                  @media only screen and (max-width: 767px) {
-                    .product-wrap.mb-55 {
-                      margin-bottom: 32px;
-                    }
-                    .product-wrap.mb-50 {
-                      margin-bottom: 30px;
-                    }
-                  }  
             }
 
         }
