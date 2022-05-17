@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer">
             <div className="firstRow">
                 <div>
-                    <img src={logo} />
+                    <img alt="logo" src={logo} />
                     
                 </div>
                 <div>
@@ -40,17 +40,27 @@ const Footer = () => {
             <div className="secondRow">
                 <div>
                     <ul>
-                        <li>Home</li>
-                        <li>Pricings</li>
-                        <li>Products</li>
-                        <li>About Us</li>
+                        <li>Help</li>
+                        <li>Returns</li>
+                        <li>Gift Vouchers</li>
+                        <li>Affiliate</li>
+                        <li>Work for us</li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li>Careers</li>
-                        <li>Community</li>
-                        <li>Privacy Policy</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Press</li>
+                        <li>Terms and Condition</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>The collections </li>
+                        <li>Size guide</li>
+                        <li>Compare</li>
+                        <li>My Account</li>
                     </ul>
                 </div>
             </div>
