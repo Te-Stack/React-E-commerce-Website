@@ -64,7 +64,7 @@ const Product = () => {
                                             <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
                                         </div>
                                         <div className="product-action-2">
-                                            <a title="Buy on Themeforest" href="#">Buy Here</a>
+                                            <a href="#">Buy Here</a>
                                         </div>
                                     </div>
                                     <div className="product-content">
