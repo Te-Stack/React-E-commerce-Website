@@ -6,7 +6,16 @@
     @include setFlex(row, space-evenly);
     background-color:$BlackColor;
     color: $mainBackground;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
+    grid-gap: 3rem;
+
+    h3{
+        font-weight: bold;
+    }
+
+    li{
+        font-weight: 400;
+    }
 
     @media screen and (max-width:798px){
         padding: 2rem 1rem;
@@ -15,7 +24,7 @@
 
     .firstRow{
         @include setFlex(column);
-        grid-gap: 5rem;
+        grid-gap: 3rem;
 
        div{
            @include setFlex(row);
@@ -34,7 +43,7 @@
     }
     .secondRow{
         @include setFlex(row);
-        grid-gap: 5rem;
+        grid-gap: 2rem;
         padding: 1rem 0;
 
         li{
@@ -49,23 +58,25 @@
 
     .thirdRow{
         @include setFlex(column);
-        grid-gap: 7rem;
+        grid-gap: 2rem;
 
         input {
-            width: 13.5rem;
-            height: 3rem;
-            border: none;
-            border-radius: 2rem;
+            width: 15rem;
+            height: 5rem;
+            background-color: transparent;
+            color: $mainBackground;
             text-align: center;
-            outline: none;
-        }
-        button{
-            padding: 0.5rem 1rem !important;
-            border-radius: 3rem !important;
+            border: 1px solid $mainBackground;
         }
         p{
             display: block;
             opacity: 0.7;
+        }
+
+        button{
+            padding: 1.5rem 5rem;
+            background-color: $BrightRed;
+            color: $mainBackground;
         }
     }
 }
@@ -84,7 +95,7 @@
     
            div{
             @include setFlex(row);
-            grid-gap: 2rem;
+            grid-gap: 1rem;
            }
     
         }
@@ -103,10 +114,9 @@
             grid-gap: 7rem;
     
             input {
-                width: 13rem;
-                height: 3rem;
+                width: 15rem;
+                height: 5rem;
                 border: none;
-                border-radius: 2rem;
                 text-align: center;
                 color: $BrightRed;
             }
@@ -117,6 +127,12 @@
             p{
                 display: none;
                 opacity: 0.7;
+            }
+
+            button{
+                padding: 3rem 2rem;
+                background-color: $BrightRed;
+                color: $mainBackground;
             }
         }
     }

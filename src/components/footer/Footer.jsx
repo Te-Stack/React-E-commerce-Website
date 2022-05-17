@@ -1,6 +1,6 @@
 // import Button from "../button/Button";
 import "./footer.scss"
-import logo from "../../assets/images/logo/logo.png"
+import logo from "../../assets/images/logo/logo-white.png";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble } from "react-icons/bs"
 
 const Footer = () => {
@@ -11,6 +11,14 @@ const Footer = () => {
                 <div>
                     <img alt="logo" src={logo} />
                     
+                    
+                </div>
+                <div>
+                <ul>
+                        <li>info@example.com</li>
+                        <li>+2349027499683</li>
+                        <li>035 Virginia Plaza Suite 331</li>
+                    </ul>
                 </div>
                 <div>
                     <div>
@@ -24,7 +32,6 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        
                         <div className="icons">
                             <BsYoutube/>
                         </div>
@@ -39,6 +46,7 @@ const Footer = () => {
 
             <div className="secondRow">
                 <div>
+                    <h3>COMPANY</h3>
                     <ul>
                         <li>Help</li>
                         <li>Returns</li>
@@ -48,6 +56,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
+                    <h3>USEFUL</h3>
                     <ul>
                         <li>About Us</li>
                         <li>Services</li>
@@ -56,6 +65,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
+                    <h3>QUICKLINKS</h3>
                     <ul>
                         <li>The collections </li>
                         <li>Size guide</li>
@@ -66,17 +76,14 @@ const Footer = () => {
             </div>
             <div className="thirdRow">
                 <div>
-                    <input type="text" name="text" placeholder="Updates in your inbox..." />
+                    <h3>JOIN OUR NEWSLETTER</h3>
+                    <input type="text" name="text" placeholder="Enter your email address..." />
                     {/* <Button text={"Go"} /> */}
                     <button>Subsribe</button>
 
                 </div>
-                
-
-                <p>Copyright 2020. All Rights Reserved</p>
 
             </div>
-            
 
         </div>
         
