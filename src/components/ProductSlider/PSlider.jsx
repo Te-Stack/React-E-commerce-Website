@@ -73,7 +73,7 @@ export default class PCarousels extends Component {
                   <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
               </div>
               <div className="product-action-2">
-                  <a href="#">Buy Here</a>
+                  <a href="#">Shop Here</a>
               </div>
           </div>
           <div className="product-content">
@@ -103,7 +103,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a href="#">Buy Here</a>
+              <a href="#">Shop Here</a>
           </div>
         </div>
       <div className="product-content">
@@ -133,7 +133,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a  href="#">Buy Here</a>
+              <a  href="#">Shop Here</a>
           </div>
         </div>
       <div className="product-content">
@@ -163,7 +163,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a href="#">Buy Here</a>
+              <a href="#">Shop Here</a>
           </div>
         </div>
       <div className="product-content">
