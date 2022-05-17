@@ -1,0 +1,124 @@
+@import "../../styles/mixins";
+
+@import "../../styles/variables";
+
+.footer{
+    @include setFlex(row, space-evenly);
+    background-color:$BlackColor;
+    color: $mainBackground;
+    padding: 3rem 2rem;
+
+    @media screen and (max-width:798px){
+        padding: 2rem 1rem;
+    }
+
+
+    .firstRow{
+        @include setFlex(column);
+        grid-gap: 5rem;
+
+       div{
+           @include setFlex(row);
+            grid-gap: 1rem;
+
+        .icons{
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                background-color: $BrightRed;
+                transform: scale(1.1);    
+            }
+        }
+       }
+
+    }
+    .secondRow{
+        @include setFlex(row);
+        grid-gap: 5rem;
+        padding: 1rem 0;
+
+        li{
+            padding: 0.4rem 0.5rem;
+            cursor: pointer;
+
+            &:hover{
+                color: $BrightRed
+            }
+        }
+    }
+
+    .thirdRow{
+        @include setFlex(column);
+        grid-gap: 7rem;
+
+        input {
+            width: 13.5rem;
+            height: 3rem;
+            border: none;
+            border-radius: 2rem;
+            text-align: center;
+            outline: none;
+        }
+        button{
+            padding: 0.5rem 1rem !important;
+            border-radius: 3rem !important;
+        }
+        p{
+            display: block;
+            opacity: 0.7;
+        }
+    }
+}
+
+
+@media screen and (max-width:650px) {
+    .footer{
+        @include setFlex(column-reverse,space-evenly);
+        background-color:$BlackColor;
+        color: $mainBackground;
+        padding: 3rem 3rem;
+    
+        .firstRow{
+            @include setFlex(column-reverse);
+            grid-gap: 3.5rem;
+    
+           div{
+            @include setFlex(row);
+            grid-gap: 2rem;
+           }
+    
+        }
+        .secondRow{
+            @include setFlex(row);
+            grid-gap: 5rem;
+            padding: 1rem 0;
+    
+    
+            li{
+                padding: 0.4rem 0.5rem;
+            }
+        }
+        .thirdRow{
+            @include setFlex(column);
+            grid-gap: 7rem;
+    
+            input {
+                width: 13rem;
+                height: 3rem;
+                border: none;
+                border-radius: 2rem;
+                text-align: center;
+                color: $BrightRed;
+            }
+            button{
+                padding: 0.5rem 1rem !important;
+                border-radius: 3rem !important;
+            }
+            p{
+                display: none;
+                opacity: 0.7;
+            }
+        }
+    }
+    
+}
