@@ -6,11 +6,12 @@
     @include setFlex(row, space-evenly);
     background-color:$BlackColor;
     color: $mainBackground;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 3rem 3rem;
     grid-gap: 3rem;
 
     h3{
         font-weight: bold;
+        margin-bottom: 6px;
     }
 
     li{
@@ -43,11 +44,11 @@
     }
     .secondRow{
         @include setFlex(row);
-        grid-gap: 2rem;
+        grid-gap: 1rem;
         padding: 1rem 0;
 
         li{
-            padding: 0.4rem 0.5rem;
+            padding: 0.4rem 0.1rem;
             cursor: pointer;
 
             &:hover{

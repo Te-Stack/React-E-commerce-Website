@@ -6,7 +6,7 @@ import {BsFacebook, BsTwitter,BsYoutube,BsDribbble } from "react-icons/bs"
 const Footer = () => {
     return ( 
         <>
-        <div className="footer">
+        <div className="footer text-center">
             <div className="firstRow">
                 <div>
                     <img alt="logo" src={logo} />
