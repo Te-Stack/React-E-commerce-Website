@@ -181,6 +181,36 @@ export default class PCarousels extends Component {
           </div>
       </div>
           </div>
+          <div className="product-wrap">
+          <div className="product-img default-overlay mb-5">
+              <Link className="a" to="/ProductDetail">
+                  <img className="default-img" src={img3} alt=""/>
+                  <img className="hover-img" src={img4} alt=""/>
+              </Link>
+              <div className="product-action"> 
+                  <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
+                  <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
+                  <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
+              </div>
+              <div className="product-action-2">
+                  <a href="#">Shop Here</a>
+              </div>
+          </div>
+          <div className="product-content">
+              <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+              <div className="product-price">
+              <span className="old">$35.00</span>
+                  <span>$29.00</span>
+              </div>
+              <div className="product-rating">
+                  <div className="yellow" ><AiTwotoneStar/></div>
+                  <div className="yellow" ><AiTwotoneStar/></div>
+                  <div className="yellow" ><AiTwotoneStar/></div>
+                  <div className="yellow" ><AiTwotoneStar/></div>
+                  <div className="yellow" ><AiTwotoneStar/></div>
+              </div>
+          </div>
+          </div>
 
           </Slider>
 
