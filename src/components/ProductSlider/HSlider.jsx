@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./pslider.scss";
+import "./hslider.scss";
 import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -20,10 +20,10 @@ import {AiOutlineHeart, AiOutlineZoomIn, AiFillSignal, AiTwotoneStar} from "reac
 export default class PCarousels extends Component {
     render() {
       var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
