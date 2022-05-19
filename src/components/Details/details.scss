@@ -1,123 +1,177 @@
-/*-------- 21. Product details style ---------*/
+
 .custom-container-6 {
     width: 1230px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-  }
-  
-  @media only screen and (min-width: 1366px) and (max-width: 1600px) {
-    .custom-container-6 {
-      width: 1266px;
+
+    @media only screen and (min-width: 1366px) and (max-width: 1600px) {
+          width: 1266px;
     }
+    @media only screen and (min-width: 1200px) and (max-width: 1365px) {
+          width: 1200px;
+      }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          width: 960px;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+          width: 708px;
+      }
+      @media only screen and (max-width: 767px) {
+          width: 100%;
+      }
+
+      .col-pro-60 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 60%;
+            -ms-flex: 0 0 60%;
+                flex: 0 0 60%;
+        max-width: 60%;
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 0 100%;
+                  -ms-flex: 0 0 100%;
+                      flex: 0 0 100%;
+              max-width: 100%;
+          }
+          
+          @media only screen and (max-width: 767px) {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 0 100%;
+                  -ms-flex: 0 0 100%;
+                      flex: 0 0 100%;
+              max-width: 100%;
+          }
+          
+          @media only screen and (min-width: 576px) and (max-width: 767px) {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 0 100%;
+                  -ms-flex: 0 0 100%;
+                      flex: 0 0 100%;
+              max-width: 100%;
+          }
+
+          .easyzoom-style{
+                position: relative;
+              
+               a{
+                .easyzoom-pop-up {
+                position: absolute;
+                right: 25px;
+                bottom: 25px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                display: inline-block;
+                background-color: #fff;
+                color: #000;
+                font-size: 16px;
+                text-align: center;
+                border-radius: 100%;
+                z-index: 999;
+
+                &:hover{
+                    color: #e77878;        
+                }
+                    }
+                }
+              
+              .easyzoom {
+                a {
+                -webkit-transition: none;
+                -o-transition: none;
+                transition: none;
+              }
+
+              a img{
+                width: 100%;
+                -webkit-transition: none;
+                -o-transition: none;
+                transition: none;
+              }
+                }
+
+                .easyzoom-pop-up{
+                    a img{
+                        width: 100%;
+                    }
+                }
+
+            span.product-sale {
+                background-color: #DE3535;
+                display: inline-block;
+                color: #fff;
+                right: 20px;
+                top: 20px;
+                width: 55px;
+                height: 55px;
+                line-height: 55px;
+                border-radius: 100%;
+                text-align: center;
+                position: absolute;
+                font-weight: 300;
+                z-index: 999;
+              }
+              
+
+          }
+          
+      }
+
+      .col-pro-40 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 40%;
+            -ms-flex: 0 0 40%;
+                flex: 0 0 40%;
+        max-width: 40%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 0 100%;
+                  -ms-flex: 0 0 100%;
+                      flex: 0 0 100%;
+              max-width: 100%;
+          }
+          
+          @media only screen and (max-width: 767px) {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 0 100%;
+                  -ms-flex: 0 0 100%;
+                      flex: 0 0 100%;
+              max-width: 100%;
+          }
+          
+          @media only screen and (min-width: 576px) and (max-width: 767px) {
+              -webkit-box-flex: 0;
+              -webkit-flex: 0 0 100%;
+                  -ms-flex: 0 0 100%;
+                      flex: 0 0 100%;
+              max-width: 100%;
+          }
+      }
+
+
+
   }
   
-  @media only screen and (min-width: 1200px) and (max-width: 1365px) {
-    .custom-container-6 {
-      width: 1200px;
-    }
-  }
   
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .custom-container-6 {
-      width: 960px;
-    }
-  }
   
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .custom-container-6 {
-      width: 708px;
-    }
-  }
   
-  @media only screen and (max-width: 767px) {
-    .custom-container-6 {
-      width: 100%;
-    }
-  }
   
-  .col-pro-60 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 60%;
-        -ms-flex: 0 0 60%;
-            flex: 0 0 60%;
-    max-width: 60%;
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
   
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .col-pro-60 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
   
-  @media only screen and (max-width: 767px) {
-    .col-pro-60 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
   
-  @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .col-pro-60 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
   
-  .col-pro-40 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 40%;
-        -ms-flex: 0 0 40%;
-            flex: 0 0 40%;
-    max-width: 40%;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-  }
   
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .col-pro-40 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
   
-  @media only screen and (max-width: 767px) {
-    .col-pro-40 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
-  
-  @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .col-pro-40 {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
   
   .product-dec-right {
     float: right;
@@ -125,62 +179,6 @@
     width: calc(100% - 101px);
   }
   
-  .easyzoom-style {
-    position: relative;
-  }
-  
-  .easyzoom-style a.easyzoom-pop-up {
-    position: absolute;
-    right: 25px;
-    bottom: 25px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    display: inline-block;
-    background-color: #fff;
-    color: #000;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 100%;
-    z-index: 999;
-  }
-  
-  .easyzoom-style a.easyzoom-pop-up:hover {
-    color: #e77878;
-  }
-  
-  .easyzoom-style .easyzoom > a {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-  
-  .easyzoom-style .easyzoom > a img {
-    width: 100%;
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-  
-  .easyzoom-style .easyzoom-popup > a img {
-    width: 100%;
-  }
-  
-  .easyzoom-style span.product-sale {
-    background-color: #DE3535;
-    display: inline-block;
-    color: #fff;
-    right: 20px;
-    top: 20px;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    border-radius: 100%;
-    text-align: center;
-    position: absolute;
-    font-weight: 300;
-    z-index: 999;
-  }
   
   .product-dec-left {
     position: relative;
