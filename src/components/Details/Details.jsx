@@ -7,7 +7,7 @@ import img5 from "../../assets/images/product-details/b-large-7.jpg";
 import img6 from "../../assets/images/product-details/sticky-sidebar3.jpg";
 import img7 from "../../assets/images/product-details/b-large-8.jpg";
 import img8 from "../../assets/images/product-details/sticky-sidebar4.jpg";
-import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle} from "react-icons/ai";
+import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle, AiOutlineFullscreen} from "react-icons/ai";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "react-icons/bs"
 
 
@@ -33,7 +33,7 @@ const Details = () => {
                                     <img src={img4} alt=""/>
                                 </a>
                             </div>
-                            <a className="easyzoom-pop-up img-popup" href={img3}><i className=" ti-fullscreen "></i></a>
+                            <a className="easyzoom-pop-up img-popup" href={img3}><AiOutlineFullscreen/></a>
                         </div>
                         <div className="easyzoom-style mb-10">
                             <div className="easyzoom easyzoom--overlay">
@@ -49,7 +49,7 @@ const Details = () => {
                                     <img src={img8} alt=""/>
                                 </a>
                             </div>
-                            <a className="easyzoom-pop-up img-popup" href={img7}><i className=" ti-fullscreen "></i></a>
+                            <a className="easyzoom-pop-up img-popup" href={img7}><AiOutlineFullscreen/></a>
                         </div>
                     </div>
                     <div className="col-pro-40 sidebar-active sidebar-active-left">
