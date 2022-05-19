@@ -2,6 +2,7 @@ import img1 from "../../assets/images/product-details/pro-details-banner.jpg";
 import img2 from "../../assets/images/icon-img/pro-dec-icon.jpg";
 import img3 from "../../assets/images/product-details/client-1.jpg";
 import { AiTwotoneStar} from "react-icons/ai";
+import "./reviews.scss";
 
 const Reviews = () => {
     return(
