@@ -159,69 +159,6 @@
 
 
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .pro-details-next-prv {
-    float: right;
-    line-height: 20px;
-    margin-top: -70px;
-  }
-  
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .pro-details-next-prv {
-      margin-top: 0px;
-    }
-  }
-  
-  @media only screen and (max-width: 767px) {
-    .pro-details-next-prv {
-      margin-top: 10px;
-    }
-  }
-  
-  .pro-details-next-prv a {
-    font-size: 20px;
-    margin: 0 3px;
-  }
-  
-  
-  
-  
-  
-  
-  @media only screen and (max-width: 767px) {
-    .sidebar-active .product-details-content {
-      margin-top: 0;
-    }
-  }
-  
-  .sidebar-active.col-pro-40 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .sidebar-active.col-pro-40.is-affixed {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  
-  .sidebar-active.col-pro-40.is-affixed .inner-wrapper-sticky {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
   .quickview-content {
     padding: 42px 35px 20px;
   }
@@ -839,6 +776,70 @@
     background-color: #ea4c89;
   }
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .pro-details-next-prv {
+    float: right;
+    line-height: 20px;
+    margin-top: -70px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pro-details-next-prv {
+      margin-top: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .pro-details-next-prv {
+      margin-top: 10px;
+    }
+  }
+  
+  .pro-details-next-prv a {
+    font-size: 20px;
+    margin: 0 3px;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 767px) {
+    .sidebar-active .product-details-content {
+      margin-top: 0;
+    }
+  }
+  
+  .sidebar-active.col-pro-40 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .sidebar-active.col-pro-40.is-affixed {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .sidebar-active.col-pro-40.is-affixed .inner-wrapper-sticky {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+ 
   @media only screen and (max-width: 767px) {
     .sidebar-active .product-details-content {
       margin-top: 0;
