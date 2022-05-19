@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Footer from "./components/footer/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 function App() {
