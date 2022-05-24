@@ -15,6 +15,21 @@ import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "r
 const Details = () => {
     return ( 
         <div>
+            <div className="breadcrumb-area border-top-2 pt-50 pb-50">
+            <div className="custom-container-6">
+                <div className="breadcrumb-content">
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <li><span>  </span></li>
+                        <li><a href="shop-3col.html">Shop Page </a></li>
+                        <li><span>  </span></li>
+                        <li><a href="shop-3col.html">Fashions </a></li>
+                        <li><span>  </span></li>
+                        <li class="active">Off-shoulder striped dress</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
             <div className="product-details-area pb-90">
             <div className="custom-container-6">
                 <div className="row">
@@ -116,8 +131,7 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-        </div>
-
+            </div>
         </div>
      );
 }

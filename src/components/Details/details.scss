@@ -493,6 +493,38 @@
     }
     }
   }  
+
+.breadcrumb-area{
+
+  .custom-container{
+    .breadcrumb-content{
+      position: relative;
+      z-index: 9;
+
+      ul{
+        li{
+          display: inline-block;
+          margin: 0 2px;
+          text-transform: capitalize;
+
+          span{
+            margin-right: 4px;
+            display: inline-block;
+            margin: 6px 4px 0 0;
+            line-height: 1;
+            position: relative;
+            top: 1px;
+          }
+
+          a{
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+
+}  
   
  
   
