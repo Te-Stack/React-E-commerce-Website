@@ -15,7 +15,7 @@ import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "r
 const Details = () => {
     return ( 
         <div>
-            <div className="breadcrumb-area border-top-2 pt-50 pb-50">
+            <div className="breadcrumb-area m-4 pt-50 pb-50">
             <div className="custom-container-6">
                 <div className="breadcrumb-content">
                     <ul>
