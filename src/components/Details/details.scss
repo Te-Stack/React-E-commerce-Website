@@ -207,16 +207,23 @@
             }
     
             .quickview-ratting-review {
-              display: flex;
-              align-items: center;
+              @include setFlex(row,none,center);
     
             
                 .quickview-ratting-wrap{
-                  display: flex;
-    
-                  .yellow{
-                    color: #f5b223;
-    
+                  @include setFlex(row,none,none);
+
+                  .quickview-ratting{
+                    @include setFlex(row,none,none);
+
+
+                    .yellow{
+                      color: #f5b223;
+                    }
+  
+                    .i{
+                      color: $GrayColor1;
+                    }
                   }
     
                   a{
@@ -235,7 +242,7 @@
                     font-size: 10px;
                   }
     
-                  i{
+                  .i{
                     font-size: 16px;
                     color: #e77878;
                     margin-right: 2px;

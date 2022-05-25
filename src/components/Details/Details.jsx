@@ -29,7 +29,7 @@ const Details = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+            </div>
             <div className="product-details-area pb-90">
             <div className="custom-container-6">
                 <div className="row">
@@ -67,13 +67,13 @@ const Details = () => {
                             <a className="easyzoom-pop-up img-popup" href={img7}><AiOutlineFullscreen/></a>
                         </div>
                     </div>
-                    <div className="col-pro-40 sidebar-active sidebar-active-left">
+                    <div className="col-pro-40 sidebar-active">
                         <div className="pl-35 product-details-content quickview-content">
                             <div className="pro-details-next-prv">
                                 <a href="#"><AiOutlineArrowLeft/></a>
                                 <a href="#"><AiOutlineArrowRight/></a>
                             </div>
-                            <h2>High Collar Jacket</h2>
+                            <h2>Off-shoulder striped dress</h2>
                             <div className="quickview-ratting-review">
                                 <div className="quickview-ratting-wrap">
                                     <div className="quickview-ratting">
@@ -81,12 +81,12 @@ const Details = () => {
                                         <div className="yellow" ><AiTwotoneStar/></div>
                                         <div className="yellow" ><AiTwotoneStar/></div>
                                         <div className="yellow" ><AiTwotoneStar/></div>
-                                        <div><AiTwotoneStar/></div>
+                                        <div className="i"><AiTwotoneStar/></div>
                                     </div>
                                     <a href="#"> (1 customer review)</a>
                                 </div>
                                 <div className="quickview-stock">
-                                    <span><AiOutlineCheckCircle/> in stock</span>
+                                    <span><div className="i"><AiOutlineCheckCircle/></div> in stock</span>
                                 </div>
                             </div>
                             <h3><span>$50.00</span>$29.00</h3>
