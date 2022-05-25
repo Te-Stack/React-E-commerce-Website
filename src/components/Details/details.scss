@@ -1,3 +1,5 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .custom-container-6 {
     width: 1230px;
@@ -149,6 +151,28 @@
             @media only screen and (max-width: 767px) {
                 padding: 15px 15px 15px;
             }
+
+            .pro-details-next-prv {
+              float: right;
+              line-height: 20px;
+              margin-top: -70px;
+              @include setFlex(row);
+
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                margin-top: 0px;
+              }
+            
+            @media only screen and (max-width: 767px) {
+                margin-top: 10px;
+            }
+            
+             a {
+              font-size: 20px;
+              margin: 0 3px;
+            }
+            }
+            
+           
             
             h2 {
               font-size: 36px;
@@ -583,29 +607,7 @@
   
   
   
-  .pro-details-next-prv {
-    float: right;
-    line-height: 20px;
-    margin-top: -70px;
-  }
-  
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .pro-details-next-prv {
-      margin-top: 0px;
-    }
-  }
-  
-  @media only screen and (max-width: 767px) {
-    .pro-details-next-prv {
-      margin-top: 10px;
-    }
-  }
-  
-  .pro-details-next-prv a {
-    font-size: 20px;
-    margin: 0 3px;
-  }
-  
+    
   
   
   
