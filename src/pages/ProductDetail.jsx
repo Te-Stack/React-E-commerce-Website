@@ -5,7 +5,6 @@ import Reviews from "../components/Reviews/Review";
 const ProductDetail = () => {
     return ( 
         <div>
-            <h1>This is the ProductDetail Section</h1>
             <Details/>
             <Reviews/>
             <PCarousels/>
