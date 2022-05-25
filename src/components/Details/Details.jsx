@@ -20,11 +20,11 @@ const Details = () => {
                 <div className="breadcrumb-content">
                     <ul>
                         <li><a href="index.html">Home </a></li>
-                        <li><span>  </span></li>
+                        <li><span> &gt; </span></li>
                         <li><a href="shop-3col.html">Shop Page </a></li>
-                        <li><span>  </span></li>
+                        <li><span> &gt;  </span></li>
                         <li><a href="shop-3col.html">Fashions </a></li>
-                        <li><span>  </span></li>
+                        <li><span> &gt; </span></li>
                         <li class="active">Off-shoulder striped dress</li>
                     </ul>
                 </div>
