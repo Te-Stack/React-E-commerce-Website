@@ -86,7 +86,7 @@ const Details = () => {
                                     <a href="#"> (1 customer review)</a>
                                 </div>
                                 <div className="quickview-stock">
-                                    <span><div className="i"><AiOutlineCheckCircle/></div> in stock</span>
+                                <div className="i"><AiOutlineCheckCircle/></div><span> in stock</span>
                                 </div>
                             </div>
                             <h3><span>$50.00</span>$29.00</h3>
@@ -108,10 +108,10 @@ const Details = () => {
                                     <a title="Add to cart" href="#">Add to cart</a>
                                 </div>
                                 <div className="quickview-wishlist">
-                                    <a title="Add to wishlist" href="#"><AiOutlineHeart/></a>
+                                    <a title="Add to wishlist" href="#" className="i"><AiOutlineHeart/></a>
                                 </div>
                                 <div className="quickview-compare">
-                                    <a title="Add to compare" href="#"><BsFillBarChartFill/></a>
+                                    <a title="Add to compare" href="#" className="i"><BsFillBarChartFill/></a>
                                 </div>
                             </div>
                             <div className="quickview-meta">
@@ -121,10 +121,10 @@ const Details = () => {
                             </div>
                             <div className="default-social">
                                 <ul>
-                                    <li><a className="facebook" href="#"><BsFacebook/></a></li>
-                                    <li><a className="twitter" href="#"><BsTwitter/></a></li>
-                                    <li><a className="youtube" href="#"><BsYoutube/></a></li>
-                                    <li><a className="dribbble" href="#"><BsDribbble/></a></li>
+                                    <li><a className="facebook i" href="#"><BsFacebook/></a></li>
+                                    <li><a className="twitter i" href="#"><BsTwitter/></a></li>
+                                    <li><a className="youtube i" href="#"><BsYoutube/></a></li>
+                                    <li><a className="dribble i" href="#"><BsDribbble/></a></li>
                                 </ul>
                             </div>
                         </div>

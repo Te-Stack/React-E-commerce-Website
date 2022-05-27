@@ -236,6 +236,7 @@
                   }
     
                 .quickview-stock{
+                  @include setFlex(row,none,center);
                   margin-left: 24px;
     
                   span{
@@ -298,8 +299,7 @@
           }
     
           .quickview-action-wrap{
-              display: flex;
-              align-items: center;
+            @include setFlex(row,none,center);
               margin: 80px 0 33px;  
     
               @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -334,30 +334,13 @@
                   display: inline-block;
                   font-size: 18px;
                   color: #fff;
-                  padding: 20px 45px;
+                  padding: 15px 35px;
                   background-color: #262626;
                   
                   &:hover{
                     background-color: #e77878;
                   }
                 }
-                
-                &.quickview-cart-mrg-none {
-                  margin: 0 26px 0 0px;
-                }
-              
-                @media only screen and (max-width: 767px) {
-                  &.quickview-cart-mrg-none {
-                    margin: 0 26px 20px 0px;
-                  }
-                }
-                
-                @media only screen and (min-width: 576px) and (max-width: 767px) {
-                   &.quickview-cart-mrg-none {
-                    margin: 0 26px 0 10px;
-                  }
-                }
-                
               }
     
               .quickview-compare{
@@ -373,6 +356,10 @@
                 a{
                   font-size: 20px;
                   font-weight: bold;
+
+                  &:hover{
+                    color: $BrightRed;
+                  }
                 }
     
                 .quickview-meta{
@@ -456,9 +443,38 @@
                   }
                 }
               }
+
+              .quickview-wishlist{
+                a{
+                  &:hover{
+                    color: $BrightRed;
+                  }
+                }
+              }
     
            
               
+          }
+
+          .quickview-meta{
+            margin: 0 0 15px;
+
+            span{
+              display: block;
+              font-size: 12px;
+              margin: 0 0 11px;
+              a{
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+
+              &:last-child{
+               margin: 0 0 0px;
+              }
+            }
+
+
           }
           .default-social { 
             ul {
@@ -493,7 +509,7 @@
                 width: 38px;
                 height: 38px;
     
-                i{
+                .i{
                   line-height: 37px;
                 }
     
