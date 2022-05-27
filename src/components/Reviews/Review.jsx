@@ -1,4 +1,3 @@
-
 import "./reviews.scss";
 import img1 from "../../assets/images/product-details/pro-details-banner.jpg";
 import img2 from "../../assets/images/icon-img/pro-dec-icon.jpg";
