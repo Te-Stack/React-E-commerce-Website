@@ -6,8 +6,10 @@ const ProductDetail = () => {
     return ( 
         <div>
             <Details/>
-            <Reviews/>
+            <Reviews/>  
+            
             <PCarousels/>
+            
         </div>
         
      );
