@@ -57,7 +57,7 @@ const Reviews = () => {
                                                         <div className="yellow"><AiTwotoneStar/></div>
                                                         <div className="yellow"><AiTwotoneStar/></div>
                                                         <div className="yellow"><AiTwotoneStar/></div>
-                                                        <div className=""><AiTwotoneStar/></div>
+                                                        <div className="i"><AiTwotoneStar/></div>
                                                     </div>
                                                 </div>
                                                 <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra</p>
@@ -88,26 +88,26 @@ const Reviews = () => {
                                                                 <a href="#"><AiTwotoneStar/></a>
                                                             </div>
                                                             <div className="single-ratting-star">
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
                                                             </div>
                                                             <div className="single-ratting-star">
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
                                                             </div>
                                                             <div className="single-ratting-star">
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
                                                             </div>
                                                             <div className="single-ratting-star">
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
-                                                                <a href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
+                                                                <a className="i" href="#"><AiTwotoneStar/></a>
                                                             </div>
                                                         </div>
                                                     </div>
