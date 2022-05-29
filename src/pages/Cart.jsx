@@ -1,7 +1,9 @@
+import CartComp from "../components/CartComp/CartComp";
+
 const Cart = () => {
     return ( 
         <div>
-            <h1>This is the cart section</h1>
+            <CartComp/>
         </div>
      );
 }
