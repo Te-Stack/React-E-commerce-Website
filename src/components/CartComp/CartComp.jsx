@@ -1,4 +1,6 @@
 import "./cartcomp.scss"
+import img1 from "../../assets/images/cart/cart-3.jpg";
+import img2 from "../../assets/images/cart/cart-4.jpg";
 
 const CartComp = () => {
     return ( 
@@ -45,7 +47,7 @@ const CartComp = () => {
                                                         <a href="#"><i className=" ti-close"></i></a>
                                                     </td>
                                                     <td className="product-img">
-                                                        <a href="#"><img src="assets/images/cart/cart-3.jpg" alt=""/></a>
+                                                        <a href="#"><img src={img1} alt="cart"/></a>
                                                     </td>
                                                     <td className="product-name"><a href="#">High Collar Jacket</a></td>
                                                     <td className="product-price"><span className="amount">$26.00</span></td>
@@ -63,7 +65,7 @@ const CartComp = () => {
                                                         <a href="#"><i class=" ti-close"></i></a>
                                                     </td>
                                                     <td className="product-img">
-                                                        <a href="#"><img src="assets/images/cart/cart-4.jpg" alt=""/></a>
+                                                        <a href="#"><img src={img2} alt=""/></a>
                                                     </td>
                                                     <td className="product-name"><a href="#">High Collar Jacket</a></td>
                                                     <td className="product-price"><span className="amount">$26.00</span></td>
