@@ -1,6 +1,7 @@
 import "./cartcomp.scss"
 import img1 from "../../assets/images/cart/cart-3.jpg";
 import img2 from "../../assets/images/cart/cart-4.jpg";
+import {AiOutlineClose} from "react-icons/ai"
 
 const CartComp = () => {
     return ( 
@@ -21,7 +22,7 @@ const CartComp = () => {
                 </div>
             </div>
             </div>
-
+        
             <div className="cart-main-area pt-95 pb-100">
             <div className="container">
                 <div className="row">
@@ -44,7 +45,7 @@ const CartComp = () => {
                                             <tbody>
                                                 <tr>
                                                     <td className="product-remove">
-                                                        <a href="#"><i className=" ti-close"></i></a>
+                                                        <a href="#"><AiOutlineClose/></a>
                                                     </td>
                                                     <td className="product-img">
                                                         <a href="#"><img src={img1} alt="cart"/></a>
@@ -62,7 +63,7 @@ const CartComp = () => {
                                                 </tr>
                                                 <tr>
                                                     <td className="product-remove">
-                                                        <a href="#"><i class=" ti-close"></i></a>
+                                                        <a href="#"><AiOutlineClose/></a>
                                                     </td>
                                                     <td className="product-img">
                                                         <a href="#"><img src={img2} alt=""/></a>
