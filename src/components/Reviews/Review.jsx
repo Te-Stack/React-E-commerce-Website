@@ -90,7 +90,7 @@ const Reviews = () => {
                                                             <div className="single-ratting-star">
                                                                 <a className="i" href="#"><AiTwotoneStar/></a>
                                                                 <a className="i" href="#"><AiTwotoneStar/></a>
-                                                            </div>
+                                                            </div> 
                                                             <div className="single-ratting-star">
                                                                 <a className="i" href="#"><AiTwotoneStar/></a>
                                                                 <a className="i" href="#"><AiTwotoneStar/></a>
