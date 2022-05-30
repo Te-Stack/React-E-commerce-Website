@@ -7,7 +7,7 @@ import img5 from "../../assets/images/product-details/b-large-7.jpg";
 import img6 from "../../assets/images/product-details/sticky-sidebar3.jpg";
 import img7 from "../../assets/images/product-details/b-large-8.jpg";
 import img8 from "../../assets/images/product-details/sticky-sidebar4.jpg";
-import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle, AiOutlineFullscreen} from "react-icons/ai";
+import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle, AiOutlineFullscreen,AiOutlinePlus, AiOutlineMinus} from "react-icons/ai";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "react-icons/bs"
 
 
@@ -100,8 +100,10 @@ const Details = () => {
                             </div>
                             <div className="quickview-action-wrap">
                                 <div className="quickview-quality">
-                                    <div className="cart-plus-minus">
+                                        <div className="cart-plus-minus">
+                                        <button className="qtybutton dec"><AiOutlineMinus/></button>
                                         <input className="cart-plus-minus-box" type="text" name="qtybutton" value="2"/>
+                                        <button className="qtybutton inc"><AiOutlinePlus/></button>
                                     </div>
                                 </div>
                                 <div className="quickview-cart">

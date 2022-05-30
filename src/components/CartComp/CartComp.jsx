@@ -55,9 +55,9 @@ const CartComp = () => {
                                                     <td className="cart-quality">
                                                         <div className="quickview-quality quality-height-dec2">
                                                             <div className="cart-plus-minus">
-                                                                <AiOutlineMinus/>
+                                                            <button className="qtybutton dec"><AiOutlineMinus/></button>
                                                                 <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2"/>
-                                                                <AiOutlinePlus/>
+                                                                <button className="qtybutton inc"><AiOutlinePlus/></button>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -75,9 +75,10 @@ const CartComp = () => {
                                                     <td className="cart-quality">
                                                         <div className="quickview-quality quality-height-dec2">
                                                             <div className="cart-plus-minus">
-                                                                <AiOutlineMinus/>
+                                                                <button className="qtybutton dec"><AiOutlineMinus/></button>
                                                                 <input className="cart-plus-minus-box" type="text" name="qtybutton" value="2"/>
-                                                                <AiOutlinePlus/>
+                                                                <button className="qtybutton inc"><AiOutlinePlus/></button>
+                                                                
                                                             </div>
                                                         </div>
                                                     </td>
