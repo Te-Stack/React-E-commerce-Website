@@ -1,7 +1,7 @@
 import "./cartcomp.scss"
 import img1 from "../../assets/images/cart/cart-3.jpg";
 import img2 from "../../assets/images/cart/cart-4.jpg";
-import {AiOutlineClose} from "react-icons/ai"
+import {AiOutlineClose,AiOutlineMinus, AiOutlinePlus} from "react-icons/ai"
 
 const CartComp = () => {
     return ( 
@@ -55,7 +55,9 @@ const CartComp = () => {
                                                     <td className="cart-quality">
                                                         <div className="quickview-quality quality-height-dec2">
                                                             <div className="cart-plus-minus">
+                                                                <AiOutlineMinus/>
                                                                 <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2"/>
+                                                                <AiOutlinePlus/>
                                                             </div>
                                                         </div>
                                                     </td>
