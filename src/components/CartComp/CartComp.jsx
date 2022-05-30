@@ -75,7 +75,9 @@ const CartComp = () => {
                                                     <td className="cart-quality">
                                                         <div className="quickview-quality quality-height-dec2">
                                                             <div className="cart-plus-minus">
+                                                                <AiOutlineMinus/>
                                                                 <input className="cart-plus-minus-box" type="text" name="qtybutton" value="2"/>
+                                                                <AiOutlinePlus/>
                                                             </div>
                                                         </div>
                                                     </td>

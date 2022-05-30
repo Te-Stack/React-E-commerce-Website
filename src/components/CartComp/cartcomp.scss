@@ -398,3 +398,104 @@
     padding: 0 30px;
   }
 }
+
+
+.quickview-quality .cart-plus-minus {
+  display: inline-block;
+  height: 56px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100px;
+  text-align: center;
+}
+
+.quickview-quality .cart-plus-minus .qtybutton {
+  color: #333;
+  cursor: pointer;
+  float: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 24px;
+}
+
+.quickview-quality .cart-plus-minus .qtybutton.dec {
+  height: 54px;
+  top: 17px;
+  left: 4px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.quickview-quality .cart-plus-minus .qtybutton.inc {
+  height: 54px;
+  top: 18px;
+  right: 4px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.quickview-quality .cart-plus-minus input.cart-plus-minus-box {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #262626;
+  font-size: 14px;
+  height: 54px;
+  line-height: 54px;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  width: 100px;
+  font-weight: 600;
+}
+
+.quickview-quality.quality-height-dec .cart-plus-minus {
+  height: 45px;
+}
+
+.quickview-quality.quality-height-dec .cart-plus-minus .qtybutton.dec {
+  height: 45px;
+  top: 11px;
+}
+
+.quickview-quality.quality-height-dec .cart-plus-minus .qtybutton.inc {
+  height: 45px;
+  top: 12px;
+}
+
+.quickview-quality.quality-height-dec .cart-plus-minus input.cart-plus-minus-box {
+  height: 45px;
+  line-height: 45px;
+}
+
+.quickview-quality.quality-height-dec2 .cart-plus-minus {
+  height: 45px;
+  margin-left: -15px;
+}
+
+.quickview-quality.quality-height-dec2 .cart-plus-minus .qtybutton.dec {
+  height: 45px;
+  top: 11px;
+  font-weight: 500;
+  left: 22px;
+}
+
+.quickview-quality.quality-height-dec2 .cart-plus-minus .qtybutton.inc {
+  height: 45px;
+  top: 12px;
+  font-weight: 500;
+  right: 22px;
+}
+
+.quickview-quality.quality-height-dec2 .cart-plus-minus input.cart-plus-minus-box {
+  height: 45px;
+  line-height: 45px;
+  width: 80px;
+  font-weight: 400;
+}
