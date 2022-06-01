@@ -5,11 +5,14 @@ import "./styles/index.scss";
 import CartState from "./Context/Cart/CartState";
 
 
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 
 root.render(
     <CartState>
         <App/>
     </CartState>
 )
+
+
+
