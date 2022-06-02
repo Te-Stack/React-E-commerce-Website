@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram} from "react-icons/bs";
@@ -6,7 +6,9 @@ import {BsGithub} from "react-icons/bs";
 import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp} from "react-icons/ai";
 import  "./navbar.scss";
 import MobileNav from "./MobileNav";
-import logo from "../../assets/images/logo/logo.png"
+import logo from "../../assets/images/logo/logo.png";
+import CartContext from "../../context/cart/CartContext";
+
  
 
 const Navbar = () => {
@@ -45,6 +47,9 @@ const Navbar = () => {
     const toggleLinks7= () => {
         setActive7(!active7);
       };
+
+    // Extract itemscount from CartContext
+    const { cartItems } = useContext(CartContext);
     
 
     return ( 
@@ -76,7 +81,14 @@ const Navbar = () => {
                         < AiOutlineSearch/>
                     </div>
                     
-                    <Link className="icons" to="/Cart" ><AiOutlineShoppingCart/></Link>
+                    <Link className="icons" to="/Cart" >
+                        <AiOutlineShoppingCart/>
+                    {/* If the number of cartItems is greater than 0, display the
+                    number of items in the cart */}
+                    {cartItems.length > 0 && (
+                      <div className="Circlecart">{cartItems.length}</div>
+                    )}
+                    </Link>
                 </div>        
             </nav>
             <div className={active? "broad active" :"broad"}>
