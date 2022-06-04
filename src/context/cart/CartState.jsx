@@ -3,12 +3,20 @@ import CartContext from "./CartContext";
 import CartReducer from "./CartReducer";
 import { sumItems } from "./CartReducer";
 
+//Local Storage
+const storage = localStorage.getItem("cartItems")
+  ? JSON.parse(localStorage.getItem("cartItems"))
+  : [];
+
+
 const CartState = ({ children }) => {
   //   Initial State of the cart
   const initialState = {
-    cartItems: [],
+    cartItems: storage,
+    ...sumItems(storage),
     checkout: false,
   };
+  
 
   //Set up the reducer
   const [state, dispatch] = useReducer(CartReducer, initialState);

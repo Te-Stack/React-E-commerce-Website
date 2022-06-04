@@ -9,6 +9,15 @@ import {
     CHECKOUT,
     CLEAR,
   } from "./CartTypes.js";
+
+ //Save the CartItems to Local Storage
+  const Storage = (cartItems) => {
+    localStorage.setItem(
+      "cartItems",
+      JSON.stringify(cartItems.length > 0 ? cartItems : [])
+    );
+  };
+  
   
   // Export function to calculate the total price of the cart and the total quantity of the cart
   export const sumItems = (cartItems) => {

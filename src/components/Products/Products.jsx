@@ -1,22 +1,9 @@
 import "./product.scss";
+import {products} from "../../data";
+import PSample from "../PSample/psample"
+
 import { Link } from "react-router-dom";
-import img1 from "../../assets/images/product/hm-1-pro-1.jpg";
-import img2 from "../../assets/images/product/hm-1-pro-1-2.jpg";
-import img3 from "../../assets/images/product/hm-1-pro-2.jpg";
-import img4 from "../../assets/images/product/hm-1-pro-2-2.jpg";
-import img5 from "../../assets/images/product/hm-1-pro-3.jpg";
-import img6 from "../../assets/images/product/hm-1-pro-3-2.jpg";
-import img7 from "../../assets/images/product/hm-1-pro-4.jpg";
-import img8 from "../../assets/images/product/hm-1-pro-4-2.jpg";
-import img9 from "../../assets/images/product/hm-1-pro-5.jpg";
-import img10 from "../../assets/images/product/hm-1-pro-5-2.jpg";
-import img11 from "../../assets/images/product/hm-1-pro-6.jpg";
-import img12 from "../../assets/images/product/hm-1-pro-6-2.jpg";
-import img13 from "../../assets/images/product/hm-1-pro-7.jpg";
-import img14 from "../../assets/images/product/hm-1-pro-7-2.jpg";
-import img15 from "../../assets/images/product/hm-1-pro-8.jpg";
-import img16 from "../../assets/images/product/hm-1-pro-8-2.jpg";
-import {AiOutlineHeart, AiOutlineZoomIn, AiFillSignal, AiTwotoneStar} from "react-icons/ai";
+
 
 const Product = () => {
     return ( 
@@ -51,7 +38,11 @@ const Product = () => {
 
 
             <div className="products">
-                <div className="div">
+                {/* <Product/> */}
+            {products.map((product) => (
+          <PSample key={product.id} product={product} />
+        ))}
+                {/* <div className="div">
                                 <div className="product-wrap">
                                     <div className="product-img default-overlay mb-5">
                                         <Link className="a" to="/ProductDetail">
@@ -318,7 +309,7 @@ const Product = () => {
                                         </div>
                                     </div>
                                 </div>
-                </div>
+                </div> */}
             </div>
         </div>
      );
