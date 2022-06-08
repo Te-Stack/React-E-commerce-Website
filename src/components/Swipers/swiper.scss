@@ -29,10 +29,11 @@
             display: block;
             background-color: $BlackColor;
             color: $mainBackground;
-            padding: 0.5rem 1rem;
+            padding: 0.4rem 0.9rem;
+            font-size: 10;
 
             &:hover{
-                background-color: $BrightRed
+                background-color: $BrightRed;
             }
         }
 

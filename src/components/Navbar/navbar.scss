@@ -62,8 +62,9 @@
         justify-self: start;
         cursor: pointer;
         text-decoration: none;
-        height: 2rem;
-        width: 10rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+        font-weight: bold;
     }
     
 
@@ -86,11 +87,32 @@
 
         .icons{
             font-size: 1.6rem;
+            position: relative;
             &:hover{
                 color: $BrightRed;
                 transition: all 0.5s ease-in;
                 transform: scale(1.1);
 
+            }
+
+            .count-style{
+                position: absolute;
+                font-size: 10px;
+                height: 20px;
+                line-height: 20px;
+                color: #fff;
+                display: block;
+                top: -10px;
+                right: -9px;
+                width: 20px;
+                text-align: center;
+                padding: 0;
+                border-radius: 50%;
+                background-color: #e77878;
+
+                @media only screen and (min-width: 1200px) and (max-width: 1365px) {
+                      right: -8px;
+                  }
             }
         }
     } 
@@ -216,6 +238,26 @@
             top: 1rem;
             right: 4.3rem;
             font-size: 1.9rem;
+
+            .count-style{
+                position: absolute;
+                font-size: 10px;
+                height: 20px;
+                line-height: 20px;
+                color: #fff;
+                display: block;
+                top: -10px;
+                right: -9px;
+                width: 20px;
+                text-align: center;
+                padding: 0;
+                border-radius: 50%;
+                background-color: #e77878;
+
+                @media only screen and (min-width: 1200px) and (max-width: 1365px) {
+                      right: -8px;
+                  }
+            }
         }
 
         .menuicon{

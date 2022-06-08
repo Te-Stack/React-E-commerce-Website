@@ -171,7 +171,11 @@
   }
   
   .cart-table-content table tbody > tr td.product-img {
-    width: 90px;
+    // width: 50px;
+    .image-fluid{
+      width: 2px;
+      height: 20px;
+    }
   }
   
   .cart-table-content table tbody > tr td.product-name {
@@ -498,4 +502,11 @@
   line-height: 45px;
   width: 80px;
   font-weight: 400;
+}
+
+
+// Let Go
+.empty{
+  font-size:2rem;
+  margin: 0.3rem 0.3rem 0.5rem 5rem;
 }

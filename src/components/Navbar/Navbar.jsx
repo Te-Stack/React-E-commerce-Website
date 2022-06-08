@@ -6,9 +6,9 @@ import {BsGithub} from "react-icons/bs";
 import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp} from "react-icons/ai";
 import  "./navbar.scss";
 import MobileNav from "./MobileNav";
-import logo from "../../assets/images/logo/logo.png";
+// import logo from "../../assets/images/logo/logo.png";
 import CartContext from "../../context/cart/CartContext";
-
+  
  
 
 const Navbar = () => {
@@ -74,7 +74,7 @@ const Navbar = () => {
                         </li>    
                     </ul>
                 </div>
-                <Link to="/"><img className="navbarlogo" src={logo} alt="logo" /></Link>
+                <Link to="/"><h1 className="navbarlogo">S.T.O.R.E</h1></Link>
                     <div className="Search">
                     <p>English <span>/italy</span></p>
                     <div className="icons">
@@ -86,7 +86,7 @@ const Navbar = () => {
                     {/* If the number of cartItems is greater than 0, display the
                     number of items in the cart */}
                     {cartItems.length > 0 && (
-                      <div className="Circlecart">{cartItems.length}</div>
+                      <div className="count-style">{cartItems.length}</div>
                     )}
                     </Link>
                 </div>        

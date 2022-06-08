@@ -17,7 +17,7 @@ const Cart = () => {
             <div className="container-fluid">
                 <div className="breadcrumb-content text-center">
                     <div className="breadcrumb-title">
-                        <h2>Cart {cartItems.length}</h2>
+                        <h2>Cart({cartItems.length})</h2>
                     </div>
                     <ul>
                         <li>
@@ -37,7 +37,7 @@ const Cart = () => {
             hours.
             </p>
             <Link to="/">
-            <button onClick={clearCart}>Continue Shopping</button>
+            <button className="btn btn-success" onClick={clearCart}>Continue Shopping</button>
             </Link>
             </div>
             )}
@@ -48,32 +48,30 @@ const Cart = () => {
                         <form action="#">
                             <div className="row">
                                 <div className="col-lg-8">
-                                    <div className="table-content table-responsive cart-table-content">
+                                    {cartItems.length === 0 ? (<h4 className="empty">Cart is Empty</h4>):(
+                                        <div className="table-content table-responsive cart-table-content">
                                         <table>
-                                            <thead>
-                                                <tr>
-                                                    <th></th>
-                                                    <th></th>
-                                                    <th>Product</th>
-                                                    <th> Price</th>
-                                                    <th>Quantity</th>
-                                                    <th>total</th>
-                                                </tr>
-                                            </thead>
-                                            {/* If cart is empty, display message, and if not, display each cart
-                                            Item in cart: {cartItems.length} */}
-                                            {cartItems.length === 0 ? (
-                                            <h4 style={{}}>Cart is empty</h4>
-                                            ) : (
-                                            <tbody>
-                                            {cartItems.map((product) => (
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Product</th>
+                                                <th> Price</th>
+                                                <th>Quantity</th>
+                                                <th>total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        {cartItems.map((product) => (
                                             <CartComp key={product.id} product={product} />
                                             ))}
-                                            </tbody>
-                                            )}
-                                       </table>
-                                    </div>
-                                    <div className="cart-shiping-update-wrapper">
+                                        
+                                        </tbody>
+                                        </table>
+                                        </div>  
+                                    )}
+                                    {cartItems.length === 0 ? (<h1></h1>):(
+                                        <div className="cart-shiping-update-wrapper">
                                         <div className="discount-code">
                                             <input type="text" required="" name="name" placeholder="Coupon code"/>
                                             <button className="coupon-btn" type="submit">Apply coupon</button>
@@ -82,6 +80,9 @@ const Cart = () => {
                                             <a href="#" onClick={clearCart}>Clear Cart</a>
                                         </div>
                                     </div>
+                                    )}
+                                    
+                                    
                                 </div>
                                 {cartItems.length > 0 && 
                                 <div className="col-lg-4">

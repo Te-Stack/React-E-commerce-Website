@@ -31,7 +31,7 @@ const Product = () => {
                         </a>
                     </div>
                     <div className="more">
-                        <Link to="/">View more</Link>
+                        <Link className="a" to="/">View more</Link>
                     </div>
             </div>
 

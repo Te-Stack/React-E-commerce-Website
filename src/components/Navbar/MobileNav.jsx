@@ -1,20 +1,22 @@
-import { useState } from "react";
+import { useState,useContext } from "react";
 import { Link } from "react-router-dom";
 import {ImFacebook} from "react-icons/im";
 import {BsInstagram,BsGithub} from "react-icons/bs";
 import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import  "./navbar.scss";
+import CartContext from "../../context/cart/CartContext";
+
  
 
 const MobileNav = () => {
     const [active, setActive] = useState(false);
-    const [active1, setActive1] = useState(false);
-    const [active2, setActive2] = useState(false);
-    const [active3, setActive3] = useState(false);
-    const [active4, setActive4] = useState(false);
-    const [active5, setActive5] = useState(false);
-    const [active6, setActive6] = useState(false);
-    const [active7, setActive7] = useState(false);
+    const [active1, setActive1] = useState(true);
+    const [active2, setActive2] = useState(true);
+    const [active3, setActive3] = useState(true);
+    const [active4, setActive4] = useState(true);
+    const [active5, setActive5] = useState(true);
+    const [active6, setActive6] = useState(true);
+    const [active7, setActive7] = useState(true);
 
 
     const toggleLinks = () => {
@@ -43,6 +45,9 @@ const MobileNav = () => {
     const toggleLinks7= () => {
         setActive7(!active7);
       };
+
+      // Extract itemscount from CartContext
+    const { cartItems } = useContext(CartContext);
     
 
     return ( 
@@ -50,7 +55,14 @@ const MobileNav = () => {
 
             <nav className="MobileNavbarItem">
                 <Link to="/"><h1 className="navbarlogo text-3xl"  > PAYNA</h1></Link>
-                <Link className="icons"  to="/Cart" ><AiOutlineShoppingCart/></Link>
+                <Link className="icons"  to="/Cart" >
+                    <AiOutlineShoppingCart/>
+                     {/* If the number of cartItems is greater than 0, display the
+                    number of items in the cart */}
+                    {cartItems.length > 0 && (
+                      <div className="count-style">{cartItems.length}</div>
+                    )}
+                </Link>
                 <div className="menuicon" onClick={toggleLinks}> 
                 {active ? <AiOutlineClose/> : <AiOutlineAlignLeft />}
                 </div>
