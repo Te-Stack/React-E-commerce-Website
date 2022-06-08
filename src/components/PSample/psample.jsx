@@ -23,10 +23,10 @@ const PSample = ({product}) => {
             <div className="div">
                             <div className="product-wrap">
                                 <div className="product-img default-overlay mb-5">
-                                    <Link className="a" to="/ProductDetail">
+                                    <div className="a">
                                         <img className="default-img" src={product.image1} alt=""/>
                                         <img className="hover-img" src={product.image2} alt=""/>
-                                    </Link>
+                                    </div>
                                     <div className="product-action"> 
                                         <a title="Quick View" href="#"><div className="itag"><AiOutlineZoomIn/></div><span>Quick Shop</span></a>
                                         <a title="Wishlist" href="#"><div className="itag"><AiOutlineHeart/></div><span>Add to Wishlist</span></a>
@@ -45,7 +45,7 @@ const PSample = ({product}) => {
                                         )}
 
                                         {!isInCart(product) && (
-                                        <a onClick={() => addToCart(product)}>Add to Cart</a>
+                                        <a onClick={() => addToCart(product)} className="btn">Add to Cart</a>
                                         )}
                                     </div>
                                 </div>
