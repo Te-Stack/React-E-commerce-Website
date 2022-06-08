@@ -500,6 +500,7 @@
               }
     
               a {
+                position: relative;
                 font-size: 16px;
                 border-style: solid;
                 border-width: 1px 1px 1px 1px;
@@ -515,7 +516,10 @@
                 height: 38px;
     
                 .i{
-                  line-height: 37px;
+                  line-height: 20px;
+                  position: absolute;
+                  top: 10px;
+                  right: 12px;
                 }
     
                 &:hover{
@@ -523,6 +527,7 @@
     
                   &.facebook{
                     background-color: #3b5998;
+                   
                   }
     
                   &.twitter{

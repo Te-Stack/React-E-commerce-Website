@@ -134,10 +134,10 @@ const Details = () => {
                             </div>
                             <div className="default-social">
                                 <ul>
-                                    <li><a className="facebook i" href="#"><BsFacebook/></a></li>
-                                    <li><a className="twitter i" href="#"><BsTwitter/></a></li>
-                                    <li><a className="youtube i" href="#"><BsYoutube/></a></li>
-                                    <li><a className="dribble i" href="#"><BsDribbble/></a></li>
+                                    <li><a className="facebook" href="#"><span className="i"><BsFacebook/></span></a></li>
+                                    <li><a className="twitter" href="#"><span className="i"><BsTwitter/></span></a></li>
+                                    <li><a className="youtube" href="#"><span className="i"><BsYoutube/></span></a></li>
+                                    <li><a className="dribble" href="#"><span className="i"><BsDribbble/></span></a></li>
                                 </ul>
                             </div>
                         </div>
