@@ -1,12 +1,12 @@
 import "./details.scss";
-import img1 from "../../assets/images/product-details/b-large-5.jpg";
-import img2 from "../../assets/images/product-details/sticky-sidebar1.jpg";
-import img3 from "../../assets/images/product-details/b-large-6.jpg";
-import img4 from "../../assets/images/product-details/sticky-sidebar2.jpg";
-import img5 from "../../assets/images/product-details/b-large-7.jpg";
-import img6 from "../../assets/images/product-details/sticky-sidebar3.jpg";
-import img7 from "../../assets/images/product-details/b-large-8.jpg";
-import img8 from "../../assets/images/product-details/sticky-sidebar4.jpg";
+import img1 from "../../assets/images/product-details/b-large-9.jpg";
+import img2 from "../../assets/images/product-details/large-5.jpg";
+import img3 from "../../assets/images/product-details/b-large-10.jpg";
+import img4 from "../../assets/images/product-details/large-6.jpg";
+import img5 from "../../assets/images/product-details/b-large-11.jpg";
+import img6 from "../../assets/images/product-details/large-7.jpg";
+import img7 from "../../assets/images/product-details/b-large-12.jpg";
+import img8 from "../../assets/images/product-details/large-8.jpg";
 import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle, AiOutlineFullscreen,AiOutlinePlus, AiOutlineMinus} from "react-icons/ai";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "react-icons/bs"
 
@@ -34,37 +34,48 @@ const Details = () => {
             <div className="custom-container-6">
                 <div className="row">
                     <div className="col-pro-60">
-                        <div className="easyzoom-style mb-10">
-                            <div className="easyzoom easyzoom--overlay">
-                                <a href={img1}>
-                                    <img src={img2} alt=""/>
-                                </a>
+                        <div className="padding-5-row-col">
+                            <div className="row">
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <div className="easyzoom-style mb-10">
+                                        <div className="easyzoom easyzoom--overlay">
+                                            <a href={img1}>
+                                                <img src={img2} alt=""/>
+                                            </a>
+                                        </div>
+                                        <span className="product-sale">Sale!</span>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <div className="easyzoom-style mb-10">
+                                        <div className="easyzoom easyzoom--overlay">
+                                            <a href={img3}>
+                                                <img src={img4} alt=""/>
+                                            </a>
+                                        </div>
+                                        <a className="easyzoom-pop-up img-popup" href={img3}><span><AiOutlineFullscreen/></span></a>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <div className="easyzoom-style mb-10">
+                                        <div className="easyzoom easyzoom--overlay">
+                                            <a href={img5}>
+                                                <img src={img6} alt=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <div className="easyzoom-style">
+                                        <div className="easyzoom easyzoom--overlay">
+                                            <a href={img7}>
+                                                <img src={img8} alt=""/>
+                                            </a>
+                                        </div>
+                                        <a className="easyzoom-pop-up img-popup" href={img7}><span><AiOutlineFullscreen/></span></a>
+                                    </div>
+                                </div>
                             </div>
-                            <span className="product-sale">Sale!</span>
-                        </div>
-                        <div className="easyzoom-style mb-10">
-                            <div className="easyzoom easyzoom--overlay">
-                                <a href={img3}>
-                                    <img src={img4} alt=""/>
-                                </a>
-                            </div>
-                            <a className="easyzoom-pop-up img-popup" href={img3}><AiOutlineFullscreen/></a>
-                        </div>
-                        <div className="easyzoom-style mb-10">
-                            <div className="easyzoom easyzoom--overlay">
-                                <a href={img5}>
-                                    <img src={img6} alt=""/>
-                                </a>
-                            </div>
-                            <span className="product-sale">Sale!</span>
-                        </div>
-                        <div className="easyzoom-style">
-                            <div className="easyzoom easyzoom--overlay">
-                                <a href={img7}>
-                                    <img src={img8} alt=""/>
-                                </a>
-                            </div>
-                            <a className="easyzoom-pop-up img-popup" href={img7}><AiOutlineFullscreen/></a>
                         </div>
                     </div>
                     <div className="col-pro-40 sidebar-active">
