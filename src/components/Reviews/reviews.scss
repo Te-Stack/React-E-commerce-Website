@@ -127,94 +127,96 @@
           margin: 0 0 18px;
       }
 
-      .single-review {
-        margin: 0 0 60px;
-        padding: 50px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+      
+      
+
+    }
+  }
+
+  .single-review {
+    margin: 0 0 60px;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+
+    @media only screen and (max-width: 767px) {
+        padding: 30px;
+        display: block;
+        margin: 0 0 30px;
+    }
+
+    .review-img{
+      img{
+        border-radius: 100%;
+      }
+    }
+
+    .review-content{
+      margin-left: 50px;
+
+      @media only screen and (max-width: 767px) {
+          margin-left: 0px;
+      }
+
+      .review-top-wrap {
         display: flex;
+        justify-content: space-between;
+        margin: 0 0 40px;
 
         @media only screen and (max-width: 767px) {
-            padding: 30px;
             display: block;
-            margin: 0 0 30px;
+            margin: 10px 0 10px;
         }
 
-        .review-img{
-          img{
-            border-radius: 100%;
+        .review-name{ 
+          h5 {
+          font-size: 12px;
+          margin: 0;
+
+          span{
+            font-weight: bold;
           }
-        }
-
-        .review-content{
-          margin-left: 50px;
-
-          @media only screen and (max-width: 767px) {
-              margin-left: 0px;
-          }
-
-          .review-top-wrap {
-            display: flex;
-            justify-content: space-between;
-            margin: 0 0 40px;
-
-            @media only screen and (max-width: 767px) {
-                display: block;
-                margin: 10px 0 10px;
-            }
-
-            .review-name{ 
-              h5 {
-              font-size: 12px;
-              margin: 0;
-
-              span{
-                font-weight: bold;
-              }
-            }
-          }
-
-          .review-rating{
-              line-height: 1;
-            
-            @media only screen and (max-width: 767px) {
-                margin: 10px 0 0px;
-            }
-            
-             .i {
-              font-size: 12px;
-              color: #d5d6d8;
-            }
-            
-            .yellow {
-              color: #f5b223;
-            }
-
-          }
-
-            
-          }
-
-          p {
-            font-size: 16px;
-            color: #535353;
-            font-family: "Playfair Display", serif;
-            line-height: 1.714286;
-            margin: 0;
-
-            @media only screen and (max-width: 767px) {
-                font-size: 15px;
-            }
-
-          }
-          
-         
-          
-          
-      
         }
       }
-      
 
+      .review-rating{
+          line-height: 1;
+        
+        @media only screen and (max-width: 767px) {
+            margin: 10px 0 0px;
+        }
+        
+         .i {
+          font-size: 12px;
+          color: #d5d6d8;
+        }
+        
+        .yellow {
+          color: #f5b223;
+        }
+
+      }
+
+        
+      }
+
+      p {
+        font-size: 16px;
+        color: #535353;
+        font-family: "Playfair Display", serif;
+        line-height: 1.714286;
+        margin: 0;
+
+        @media only screen and (max-width: 767px) {
+            font-size: 15px;
+        }
+
+      }
+      
+     
+      
+      
+  
     }
   }
 
@@ -247,7 +249,7 @@
           display: flex;
 
           &:hover{
-            i{
+            .i{
               color: #f5b223;
             }
           }
