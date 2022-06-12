@@ -17,32 +17,30 @@ const Product = () => {
                         <a className="active" data-bs-toggle="tab" href="#product-1"  >
                             Man 
                         </a>
-                        <a data-bs-toggle="tab" href="#product-2"  >
+                        <a data-bs-toggle="tab" href="#product-1"  >
                             Woman
                         </a>
-                        <a data-bs-toggle="tab" href="#product-3"  >
+                        <a data-bs-toggle="tab" href="#product-1"  >
                             Kids
                         </a>
-                        <a data-bs-toggle="tab" href="#product-4"  >
+                        <a data-bs-toggle="tab" href="#product-1"  >
                             Accessories
                         </a>
-                        <a data-bs-toggle="tab" href="#product-5" >
+                        <a data-bs-toggle="tab" href="#product-1" >
                             Essential prices
                         </a>
                     </div>
                     <div className="more">
-                        <Link className="a" to="/">View more</Link>
+                        <Link className="a" to="/Shop">View more</Link>
                     </div>
             </div>
 
 
-            <div className="tab-content">
             <div className="products tab-pane active" id="product-1">
                 {/* <Product/> */}
             {products.map((product) => (
           <PSample key={product.id} product={product} />
           ))}
-            </div>
             
             </div>
             

@@ -56,4 +56,4 @@ export const products = [
       image2: "/assets/images/product/hm-1-pro-8-2.jpg"
     },
   ];
-  
+
