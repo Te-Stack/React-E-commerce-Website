@@ -13,20 +13,20 @@ const Product = () => {
                     <p>Show popular your products</p>
             </div>
             <div className="tabs">
-                    <div className="product-tab-list tab-width ">
-                        <a className="active" href="#product-1" >
-                            Man
+                    <div className="product-tab-list tab-width nav ">
+                        <a className="active" data-bs-toggle="tab" href="#product-1"  >
+                            Man 
                         </a>
-                        <a href="#product-2" >
+                        <a data-bs-toggle="tab" href="#product-2"  >
                             Woman
                         </a>
-                        <a href="#product-3" >
+                        <a data-bs-toggle="tab" href="#product-3"  >
                             Kids
                         </a>
-                        <a href="#product-4" >
+                        <a data-bs-toggle="tab" href="#product-4"  >
                             Accessories
                         </a>
-                        <a href="#product-5">
+                        <a data-bs-toggle="tab" href="#product-5" >
                             Essential prices
                         </a>
                     </div>
@@ -36,13 +36,40 @@ const Product = () => {
             </div>
 
 
-
-            <div className="products">
+            <div className="tab-content">
+            <div className="products tab-pane active" id="product-1">
+                {/* <Product/> */}
+            {products.map((product) => (
+          <PSample key={product.id} product={product} />
+          ))}
+            </div>
+            <div className="products tab-pane" id="product-2">
                 {/* <Product/> */}
             {products.map((product) => (
           <PSample key={product.id} product={product} />
         ))}
             </div>
+            <div className="products tab-pane" id="product-3">
+                {/* <Product/> */}
+            {products.map((product) => (
+          <PSample key={product.id} product={product} />
+        ))}
+            </div>
+            <div className="products tab-pane" id="product-4">
+                {/* <Product/> */}
+            {products.map((product) => (
+          <PSample key={product.id} product={product} />
+        ))}
+            </div>
+            <div className="products tab-pane" id="product-5">
+                {/* <Product/> */}
+            {products.map((product) => (
+          <PSample key={product.id} product={product} />
+        ))}
+            </div>
+
+            </div>
+            
         </div>
      );
 }
