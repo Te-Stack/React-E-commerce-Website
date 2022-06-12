@@ -43,31 +43,7 @@ const Product = () => {
           <PSample key={product.id} product={product} />
           ))}
             </div>
-            <div className="products tab-pane" id="product-2">
-                {/* <Product/> */}
-            {products.map((product) => (
-          <PSample key={product.id} product={product} />
-        ))}
-            </div>
-            <div className="products tab-pane" id="product-3">
-                {/* <Product/> */}
-            {products.map((product) => (
-          <PSample key={product.id} product={product} />
-        ))}
-            </div>
-            <div className="products tab-pane" id="product-4">
-                {/* <Product/> */}
-            {products.map((product) => (
-          <PSample key={product.id} product={product} />
-        ))}
-            </div>
-            <div className="products tab-pane" id="product-5">
-                {/* <Product/> */}
-            {products.map((product) => (
-          <PSample key={product.id} product={product} />
-        ))}
-            </div>
-
+            
             </div>
             
         </div>
