@@ -1,5 +1,5 @@
 import PSample from "../PSample/psample";
-import {shops} from "../../ShopData3";
+import {shops} from "../../data/ShopData3";
 import "./shopcomp.scss";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";

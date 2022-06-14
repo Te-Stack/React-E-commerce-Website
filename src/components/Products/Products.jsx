@@ -1,5 +1,5 @@
 import "./product.scss";
-import {products} from "../../data";
+import {products} from "../../data/data";
 import PSample from "../PSample/psample"
 
 import { Link } from "react-router-dom";
