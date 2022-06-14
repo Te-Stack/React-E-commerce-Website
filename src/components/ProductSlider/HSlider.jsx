@@ -57,7 +57,7 @@ export default class PCarousels extends Component {
         <div className="carousel">
           <div className="title text-center">
                     <h2 className="text-3xl font-bold">SPECIAL OFFERS</h2>
-                    <p>Show popular your products</p>
+                    <p>Popular products</p>
             </div>
           <Slider {...settings}>
             
@@ -73,7 +73,7 @@ export default class PCarousels extends Component {
                   <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
               </div>
               <div className="product-action-2">
-                  <a href="#">Shop Here</a>
+                  <Link to="/Shop">Shop Here</Link>
               </div>
           </div>
           <div className="product-content">
@@ -103,7 +103,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a href="#">Shop Here</a>
+              <Link to="/Shop">Shop Here</Link>
           </div>
         </div>
       <div className="product-content">
@@ -133,7 +133,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a  href="#">Shop Here</a>
+              <Link to="/ProductDetail">Product Detail</Link>
           </div>
         </div>
       <div className="product-content">
@@ -163,7 +163,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a href="#">Shop Here</a>
+              <Link to="/ProductDetail">Shop Here</Link>
           </div>
         </div>
       <div className="product-content">

@@ -63,7 +63,7 @@ export default class PCarousels extends Component {
             
           <div className="product-wrap">
           <div className="product-img default-overlay mb-5">
-              <Link className="a" to="/ProductDetail">
+              <Link className="a" to="#">
                   <img className="default-img" src={img1} alt=""/>
                   <img className="hover-img" src={img2} alt=""/>
               </Link>
@@ -103,7 +103,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a href="#">Shop Here</a>
+              <Link to="/Shop">Shop Here</Link>
           </div>
         </div>
       <div className="product-content">
@@ -133,7 +133,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a  href="#">Shop Here</a>
+              <Link to="/ProductDetail">Product Detail</Link>
           </div>
         </div>
       <div className="product-content">
@@ -163,7 +163,7 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <a href="#">Shop Here</a>
+              <Link to="/Shop">Shop Here</Link>
           </div>
         </div>
       <div className="product-content">
@@ -193,7 +193,7 @@ export default class PCarousels extends Component {
                   <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
               </div>
               <div className="product-action-2">
-                  <a href="#">Shop Here</a>
+                  <Link to="/Shop">Shop Here</Link>
               </div>
           </div>
           <div className="product-content">
