@@ -52,29 +52,29 @@ export default class Carousels extends Component {
             
             <div className="category-wrap">
               <div className="default-overlay">
-              <Link to="/ProductDetail" ><img src={img3} alt="product"/></Link>
+              <Link to="/ProductDetail/Men" ><img src={img3} alt="product"/></Link>
               <div className="category-content">
-                    <h4><Link to="/ProductDetail">Men Jacket</Link></h4>
+                    <h4><Link to="/ProductDetail/Men">Men Jacket</Link></h4>
                  </div>
               </div>
               
            </div>
             <div className="category-wrap default-overlay">
-              <Link to="/ProductDetail" ><img src={img4} alt="product"/></Link>
+              <Link to="/ProductDetail/Women" ><img src={img4} alt="product"/></Link>
               <div className="category-content">
-                    <h4><Link to="/ProductDetail">Women Dress</Link></h4>
+                    <h4><Link to="/ProductDetail/Women">Women Dress</Link></h4>
                  </div>
            </div>
             <div className="category-wrap default-overlay">
-              <Link to="/ProductDetail" ><img src={img5} alt="product"/></Link>
+              <Link to="/ProductDetail/Child" ><img src={img5} alt="product"/></Link>
               <div className="category-content">
-                    <h4><Link to="/ProductDetail">Kid</Link></h4>
+                    <h4><Link to="/ProductDetail/Child">Kid</Link></h4>
                  </div>
            </div>
             <div className="category-wrap default-overlay">
-              <Link to="/ProductDetail" ><img src={img4} alt="product"/></Link>
+              <Link to="/ProductDetail/Women" ><img src={img4} alt="product"/></Link>
               <div className="category-content">
-                    <h4><Link to="/ProductDetail">Women Dress</Link></h4>
+                    <h4><Link to="/ProductDetail/Women">Women Dress</Link></h4>
                  </div>
            </div>
             
