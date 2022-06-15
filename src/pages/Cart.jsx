@@ -36,7 +36,7 @@ const Cart = () => {
             Your order has been placed and will be delivered to you within 24
             hours.
             </p>
-            <Link to="/">
+            <Link to="/Shop">
             <button className="btn btn-success" onClick={clearCart}>Continue Shopping</button>
             </Link>
             </div>

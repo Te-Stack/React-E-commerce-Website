@@ -1,4 +1,4 @@
-// import Button from "../button/Button";
+
 import "./footer.scss"
 import logo from "../../assets/images/logo/logo-white.png";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble } from "react-icons/bs"

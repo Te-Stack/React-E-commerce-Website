@@ -73,11 +73,11 @@ export default class PCarousels extends Component {
                   <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
               </div>
               <div className="product-action-2">
-                  <a href="#">Shop Here</a>
+                  <Link to="/Shop">Shop Here</Link>
               </div>
           </div>
           <div className="product-content">
-              <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+              <h3><Link to="#">Slim-fit cotton shirt</Link></h3>
               <div className="product-price">
               <span className="old">$35.00</span>
                   <span>$29.00</span>
@@ -93,7 +93,7 @@ export default class PCarousels extends Component {
           </div>
           <div className="product-wrap">
         <div className="product-img default-overlay mb-5">
-          <Link className="a" to="/ProductDetail">
+          <Link className="a" to="#">
               <img className="default-img" src={img3} alt=""/>
               <img className="hover-img" src={img4} alt=""/>
           </Link>
@@ -107,7 +107,7 @@ export default class PCarousels extends Component {
           </div>
         </div>
       <div className="product-content">
-          <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+          <h3><Link to="#">Slim-fit cotton shirt</Link></h3>
           <div className="product-price">
           <span className="old">$90.00</span>
               <span>$80.00</span>
@@ -123,7 +123,7 @@ export default class PCarousels extends Component {
           </div>
           <div className="product-wrap">
         <div className="product-img default-overlay mb-5">
-          <Link className="a" to="/ProductDetail">
+          <Link className="a" to="#">
               <img className="default-img" src={img5} alt=""/>
               <img className="hover-img" src={img6} alt=""/>
           </Link>
@@ -133,11 +133,11 @@ export default class PCarousels extends Component {
               <a title="Compare" href="#"><div className="itag"><AiFillSignal/></div><span>Add to Compare</span></a>
           </div>
           <div className="product-action-2">
-              <Link to="/ProductDetail">Product Detail</Link>
+              <Link to="/Shop">Shop Here</Link>
           </div>
         </div>
       <div className="product-content">
-          <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+          <h3><Link to="#">Slim-fit cotton shirt</Link></h3>
           <div className="product-price">
           <span className="old">$90.00</span>
               <span>$79.00</span>
@@ -153,7 +153,7 @@ export default class PCarousels extends Component {
           </div>
           <div className="product-wrap">
         <div className="product-img default-overlay mb-5">
-          <Link className="a" to="/ProductDetail">
+          <Link className="a" to="#">
               <img className="default-img" src={img7} alt=""/>
               <img className="hover-img" src={img8} alt=""/>
           </Link>
@@ -167,7 +167,7 @@ export default class PCarousels extends Component {
           </div>
         </div>
       <div className="product-content">
-          <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+          <h3><Link to="#">Slim-fit cotton shirt</Link></h3>
           <div className="product-price">
               <span className="old">$85.00</span>
               <span>$49.00</span>
@@ -183,7 +183,7 @@ export default class PCarousels extends Component {
           </div>
           <div className="product-wrap">
           <div className="product-img default-overlay mb-5">
-              <Link className="a" to="/ProductDetail">
+              <Link className="a" to="#">
                   <img className="default-img" src={img3} alt=""/>
                   <img className="hover-img" src={img4} alt=""/>
               </Link>
@@ -197,7 +197,7 @@ export default class PCarousels extends Component {
               </div>
           </div>
           <div className="product-content">
-              <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+              <h3><Link to="#">Slim-fit cotton shirt</Link></h3>
               <div className="product-price">
               <span className="old">$35.00</span>
                   <span>$29.00</span>
