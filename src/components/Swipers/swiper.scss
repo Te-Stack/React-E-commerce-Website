@@ -21,7 +21,8 @@
         @include setFlex(row, space-evenly,center);
 
         @media screen and (max-width:600px) {
-            @include setFlex(column, space-evenly, center)
+            @include setFlex(column, center);
+            padding:1rem 1rem ;
             
         }
 
@@ -36,7 +37,7 @@
 
             span{
                 font-size: small;
-            }
+            } 
         }
 
 
