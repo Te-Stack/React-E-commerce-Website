@@ -1,19 +1,23 @@
 import "./details.scss";
-import img1 from "../../assets/images/product-details/b-large-9.jpg";
-import img2 from "../../assets/images/product-details/large-5.jpg";
-import img3 from "../../assets/images/product-details/b-large-10.jpg";
-import img4 from "../../assets/images/product-details/large-6.jpg";
-import img5 from "../../assets/images/product-details/b-large-11.jpg";
-import img6 from "../../assets/images/product-details/large-7.jpg";
-import img7 from "../../assets/images/product-details/b-large-12.jpg";
-import img8 from "../../assets/images/product-details/large-8.jpg";
-
+import { Link } from "react-router-dom";
+import  CartContext from "../../context/cart/CartContext";
+import { useContext } from "react";
+import { formatCurrency } from "../../utils";
 import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle, AiOutlineFullscreen,AiOutlinePlus, AiOutlineMinus} from "react-icons/ai";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "react-icons/bs"
 
 
 
 const Details = ({product}) => {
+    const { addToCart, increase, cartItems, sumItems, itemCount,decrease } =
+    useContext(CartContext);
+
+    //Check whether the product is in the cart or not
+  const isInCart = (product) => { 
+    return !!cartItems.find((item) => item.id === product.id);
+  };
+
+
     return ( 
         <div>
             <div className="breadcrumb-area m-4 pt-50 pb-50">
@@ -26,7 +30,7 @@ const Details = ({product}) => {
                         <li><span> &gt;  </span></li>
                         <li><a href="shop-3col.html">Fashions </a></li>
                         <li><span> &gt; </span></li>
-                        <li class="active">Off-shoulder striped dress</li>
+                        <li class="active">{product.name}</li>
                     </ul>
                 </div>
             </div>
@@ -40,7 +44,7 @@ const Details = ({product}) => {
                                 <div className="col-lg-12 col-md-12 col-sm-12">
                                     <div className="easyzoom-style mb-10">
                                         <div className="easyzoom easyzoom--overlay">
-                                            <a href={img1}>
+                                            <a href={product.image1}>
                                                 <img src={product.image1} alt=""/>
                                             </a>
                                         </div>
@@ -50,7 +54,7 @@ const Details = ({product}) => {
                                 <div className="col-lg-6 col-md-6 col-sm-6">
                                     <div className="easyzoom-style mb-10">
                                         <div className="easyzoom easyzoom--overlay">
-                                            <a href={img3}>
+                                            <a href={product.image2}>
                                                 <img src={product.image2} alt=""/>
                                             </a>
                                         </div>
@@ -60,7 +64,7 @@ const Details = ({product}) => {
                                 <div className="col-lg-6 col-md-6 col-sm-6">
                                     <div className="easyzoom-style mb-10">
                                         <div className="easyzoom easyzoom--overlay">
-                                            <a href={img5}>
+                                            <a href={product.image3}>
                                                 <img src={product.image3} alt=""/>
                                             </a>
                                         </div>
@@ -69,7 +73,7 @@ const Details = ({product}) => {
                                 <div className="col-lg-12 col-md-12 col-sm-12">
                                     <div className="easyzoom-style">
                                         <div className="easyzoom easyzoom--overlay">
-                                            <a href={img7}>
+                                            <a href={product.image4}>
                                                 <img src={product.image4} alt=""/>
                                             </a>
                                         </div>
@@ -85,7 +89,7 @@ const Details = ({product}) => {
                                 <a href="#"><AiOutlineArrowLeft/></a>
                                 <a href="#"><AiOutlineArrowRight/></a>
                             </div>
-                            <h2>Off-shoulder striped dress</h2>
+                            <h2>{product.name}</h2>
                             <div className="quickview-ratting-review">
                                 <div className="quickview-ratting-wrap">
                                     <div className="quickview-ratting">
@@ -101,7 +105,7 @@ const Details = ({product}) => {
                                 <div className="i"><AiOutlineCheckCircle/></div><span> in stock</span>
                                 </div>
                             </div>
-                            <h3><span>$50.00</span>$29.00</h3>
+                            <h3><span>$50.00</span>{formatCurrency(product.price)}</h3>
                             <div className="quickview-peragraph">
                                 <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra</p>
                                 <ul>
@@ -111,15 +115,27 @@ const Details = ({product}) => {
                                 </ul>
                             </div>
                             <div className="quickview-action-wrap">
-                                <div className="quickview-quality">
-                                        <div className="cart-plus-minus">
-                                        <button className="qtybutton dec"><AiOutlineMinus/></button>
-                                        <input className="cart-plus-minus-box" type="text" name="qtybutton" value="2"/>
-                                        <button className="qtybutton inc"><AiOutlinePlus/></button>
-                                    </div>
+                            <div className="quickview-quality quality-height-dec2">
+                                <div className="cart-plus-minus">
+                                <button onClick={() => decrease(product)}  className="qtybutton dec"><AiOutlineMinus/></button>
+                                <input class="cart-plus-minus-box" type="text" value={product.quantity}/>
+                                <button onClick={() => increase(product)} className="qtybutton inc"><AiOutlinePlus/></button>
                                 </div>
+                            </div>
                                 <div className="quickview-cart">
-                                    <a title="Add to cart" href="#">Add to cart</a>
+                                        {isInCart(product) && (
+                                        <a
+                                            onClick={() => {
+                                            increase(product);
+                                            }}
+                                            className="btn"
+                                        >
+                                            Add More
+                                        </a>
+                                        )}
+                                        {!isInCart(product) && (
+                                        <a onClick={() => addToCart(product)} className="btn">Add to Cart</a>
+                                        )}
                                 </div>
                                 <div className="quickview-wishlist">
                                     <a title="Add to wishlist" href="#" className="i"><AiOutlineHeart/></a>

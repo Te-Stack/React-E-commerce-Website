@@ -28,7 +28,7 @@ const CartComp = ({product}) => {
                         <div className="quickview-quality quality-height-dec2">
                             <div className="cart-plus-minus">
                             <button onClick={() => decrease(product)}  className="qtybutton dec"><AiOutlineMinus/></button>
-                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value={product.quantity}/>
+                            <input class="cart-plus-minus-box" type="text" value={product.quantity}/>
                             <button onClick={() => increase(product)} className="qtybutton inc"><AiOutlinePlus/></button>
                             </div>
                         </div>

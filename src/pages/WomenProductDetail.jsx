@@ -1,5 +1,5 @@
-// import Details from "../components/Details/Details";
-import Details from "../components/Details/MenDetails";
+
+import Details from "../components/Details/Detail";
 import PCarousels from "../components/ProductSlider/PSlider";
 import Reviews from "../components/Reviews/Review";
 import { women } from "../data/WomenData";
