@@ -7,13 +7,13 @@ import img5 from "../../assets/images/product-details/b-large-11.jpg";
 import img6 from "../../assets/images/product-details/large-7.jpg";
 import img7 from "../../assets/images/product-details/b-large-12.jpg";
 import img8 from "../../assets/images/product-details/large-8.jpg";
-import {men} from  "../../data/MenData";
+
 import {AiOutlineHeart, AiTwotoneStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCheckCircle, AiOutlineFullscreen,AiOutlinePlus, AiOutlineMinus} from "react-icons/ai";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble, BsFillBarChartFill } from "react-icons/bs"
 
 
 
-const Details = () => {
+const Details = ({product}) => {
     return ( 
         <div>
             <div className="breadcrumb-area m-4 pt-50 pb-50">
@@ -41,7 +41,7 @@ const Details = () => {
                                     <div className="easyzoom-style mb-10">
                                         <div className="easyzoom easyzoom--overlay">
                                             <a href={img1}>
-                                                <img src={men.image1} alt=""/>
+                                                <img src={product.image1} alt=""/>
                                             </a>
                                         </div>
                                         <span className="product-sale">Sale!</span>
@@ -51,17 +51,17 @@ const Details = () => {
                                     <div className="easyzoom-style mb-10">
                                         <div className="easyzoom easyzoom--overlay">
                                             <a href={img3}>
-                                                <img src={img4} alt=""/>
+                                                <img src={product.image2} alt=""/>
                                             </a>
                                         </div>
-                                        <a className="easyzoom-pop-up img-popup" href={img3}><span><AiOutlineFullscreen/></span></a>
+                                        <a className="easyzoom-pop-up img-popup" href={product.image2}><span><AiOutlineFullscreen/></span></a>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-6">
                                     <div className="easyzoom-style mb-10">
                                         <div className="easyzoom easyzoom--overlay">
                                             <a href={img5}>
-                                                <img src={img6} alt=""/>
+                                                <img src={product.image3} alt=""/>
                                             </a>
                                         </div>
                                     </div>
@@ -70,10 +70,10 @@ const Details = () => {
                                     <div className="easyzoom-style">
                                         <div className="easyzoom easyzoom--overlay">
                                             <a href={img7}>
-                                                <img src={img8} alt=""/>
+                                                <img src={product.image4} alt=""/>
                                             </a>
                                         </div>
-                                        <a className="easyzoom-pop-up img-popup" href={img7}><span><AiOutlineFullscreen/></span></a>
+                                        <a className="easyzoom-pop-up img-popup" href={product.image4}><span><AiOutlineFullscreen/></span></a>
                                     </div>
                                 </div>
                             </div>
