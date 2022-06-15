@@ -25,7 +25,7 @@
 
     .firstRow{
         @include setFlex(column);
-        grid-gap: 3rem;
+        grid-gap: 1rem;
 
        div{
            @include setFlex(row);
@@ -41,10 +41,14 @@
         }
        }
 
+       .navbarlogo{
+           font-size: 2.5rem;
+       }
+
     }
     .secondRow{
         @include setFlex(row);
-        grid-gap: 1rem;
+        grid-gap: 0.5rem;
         padding: 1rem 0;
 
         li{
@@ -59,7 +63,6 @@
 
     .thirdRow{
         @include setFlex(column);
-        grid-gap: 2rem;
 
         input {
             width: 18rem;
@@ -85,6 +88,7 @@
 
 @media screen and (max-width:650px) {
     .footer{
+        overflow: hidden;
         @include setFlex(column-reverse,space-evenly);
         background-color:$BlackColor;
         color: $mainBackground;
@@ -115,26 +119,28 @@
             grid-gap: 7rem;
     
             input {
-                width: 15rem;
+                width: 18rem;
                 height: 5rem;
-                border: none;
+                background-color: transparent;
+                color: $mainBackground;
                 text-align: center;
-                color: $BrightRed;
+                border: 1px solid $mainBackground;
             }
             button{
-                padding: 0.5rem 1rem !important;
-                border-radius: 3rem !important;
+                padding: 1.3rem 7rem;
+                background-color: $BrightRed;
+                color: $mainBackground;
             }
             p{
                 display: none;
                 opacity: 0.7;
             }
 
-            button{
-                padding: 3rem 2rem;
-                background-color: $BrightRed;
-                color: $mainBackground;
-            }
+            // button{
+            //     padding: 3rem 2rem;
+            //     background-color: $BrightRed;
+            //     color: $mainBackground;
+            // }
         }
     }
     

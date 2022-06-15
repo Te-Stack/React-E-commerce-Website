@@ -71,7 +71,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a className="navlinks" href="https://github.com/Te-Stack"><AiOutlineDribbble/></a>
-                        </li>    
+                        </li>     
                     </ul>
                 </div>
                 <Link to="/"><h1 className="navbarlogo">S.T.O.R.E</h1></Link>

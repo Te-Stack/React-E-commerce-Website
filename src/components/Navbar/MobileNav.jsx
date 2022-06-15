@@ -54,7 +54,7 @@ const MobileNav = () => {
         <div>
 
             <nav className="MobileNavbarItem">
-                <Link to="/"><h1 className="navbarlogo text-3xl"  > PAYNA</h1></Link>
+                <Link to="/"><h1 className="navbarlogo text-3xl"  > S.T.O.R.E</h1></Link>
                 <Link className="icons"  to="/Cart" >
                     <AiOutlineShoppingCart/>
                      {/* If the number of cartItems is greater than 0, display the

@@ -1,6 +1,5 @@
-
+import { Link } from "react-router-dom";
 import "./footer.scss"
-import logo from "../../assets/images/logo/logo-white.png";
 import {BsFacebook, BsTwitter,BsYoutube,BsDribbble } from "react-icons/bs"
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="footer text-center">
             <div className="firstRow">
                 <div>
-                    <img alt="logo" src={logo} />
+                <Link to="/"><h1 className="navbarlogo">S.T.O.R.E</h1></Link>
                     
                     
                 </div>
@@ -78,8 +77,7 @@ const Footer = () => {
                 <div>
                     <h3>JOIN OUR NEWSLETTER</h3>
                     <input type="text" name="text" placeholder="Enter your email address..." />
-                    {/* <Button text={"Go"} /> */}
-                    <button>Subsribe</button>
+                    <button>Subscribe</button>
 
                 </div>
 
