@@ -11,13 +11,13 @@
 
 ## About the Project
 
-> An E-commerce React Store Through which customers view through the bshop add product tio the cart option. I use React State and Context Apifor state management . it has different pages 
--[The Home Page](https://react-e-commerce-website-amber.vercel.app/)
--[The Shop Page](https://react-e-commerce-website-amber.vercel.app/Shop)
--[The Men Details Page](https://react-e-commerce-website-amber.vercel.app/ProductDetail/Men) 
--[The Women Details Page](https://react-e-commerce-website-amber.vercel.app/ProductDetail/Women) 
--[The Child Details Page](https://react-e-commerce-website-amber.vercel.app/ProductDetail/Child) 
--[The Cart Page](https://react-e-commerce-website-amber.vercel.app/Cart)       
+> An E-commerce Store built with React.js, Tailwindcss and Sass through which customers view through the home and the shop page and can add,remove and checkout their respective products.It is uses local Storage of your device as DB.  React State and Context Api are used in this project for state management . This store has different pages which are shown below:
+- [The Home Page](https://react-e-commerce-website-amber.vercel.app/)
+- [The Shop Page](https://react-e-commerce-website-amber.vercel.app/Shop)
+- [The Men Details Page](https://react-e-commerce-website-amber.vercel.app/ProductDetail/Men) 
+- [The Women Details Page](https://react-e-commerce-website-amber.vercel.app/ProductDetail/Women) 
+- [The Child Details Page](https://react-e-commerce-website-amber.vercel.app/ProductDetail/Child) 
+- [The Cart Page](https://react-e-commerce-website-amber.vercel.app/Cart)       
 ## Author
 
 👤 **Quincy Oghenetejiri**
