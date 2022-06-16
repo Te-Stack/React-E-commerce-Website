@@ -11,7 +11,7 @@ const Shop = () => {
                     </div>
                     <ul>
                         <li>
-                            <a href="index.html">Home </a>
+                            <a href="/">Home </a>
                         </li>
                         <li><span> &gt; </span></li>
                         <li className="active"> Shop</li>

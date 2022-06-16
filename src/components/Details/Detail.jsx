@@ -24,11 +24,11 @@ const Details = ({product}) => {
             <div className="custom-container-6">
                 <div className="breadcrumb-content">
                     <ul>
-                        <li><a href="index.html">Home </a></li>
+                        <li><a href="#">Home </a></li>
                         <li><span> &gt; </span></li>
-                        <li><a href="shop-3col.html">Shop Page </a></li>
+                        <li><a href="/Shop">Shop Page </a></li>
                         <li><span> &gt;  </span></li>
-                        <li><a href="shop-3col.html">Fashions </a></li>
+                        <li><a href="#">Fashions </a></li>
                         <li><span> &gt; </span></li>
                         <li class="active">{product.name}</li>
                     </ul>

@@ -6,7 +6,6 @@ import {BsGithub} from "react-icons/bs";
 import {AiOutlineShoppingCart,AiOutlineAlignLeft,AiOutlineClose,AiOutlineDribbble,AiOutlineSearch,AiOutlineDown,AiOutlineUp} from "react-icons/ai";
 import  "./navbar.scss";
 import MobileNav from "./MobileNav";
-// import logo from "../../assets/images/logo/logo.png";
 import CartContext from "../../context/cart/CartContext";
   
  

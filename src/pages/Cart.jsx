@@ -30,7 +30,7 @@ const Cart = () => {
             </div>
             </div>
             {checkout && (
-            <div>
+            <div className="text-center">
             <h4>Thank you for your purchase!</h4>
             <p>
             Your order has been placed and will be delivered to you within 24
@@ -48,7 +48,7 @@ const Cart = () => {
                         <form action="#">
                             <div className="row">
                                 <div className="col-lg-8">
-                                    {cartItems.length === 0 ? (<h4 className="empty">Cart is Empty</h4>):(
+                                    {cartItems.length === 0 ? (<h4 className="empty text-center">Cart is Empty</h4>):(
                                         <div className="table-content table-responsive cart-table-content">
                                         <table>
                                         <thead>

@@ -48,7 +48,7 @@
     }
     .secondRow{
         @include setFlex(row);
-        grid-gap: 0.5rem;
+        grid-gap: 3rem;
         padding: 1rem 0;
 
         li{
@@ -63,9 +63,10 @@
 
     .thirdRow{
         @include setFlex(column);
+        // grid-gap: 5rem;
 
         input {
-            width: 18rem;
+            width: 22rem;
             height: 5rem;
             background-color: transparent;
             color: $mainBackground;
