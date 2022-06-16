@@ -77,10 +77,10 @@ export default class PCarousels extends Component {
               </div>
           </div>
           <div className="product-content">
-              <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+              <h3><Link to="/ProductDetail">Long Sleeved Gown</Link></h3>
               <div className="product-price">
-              <span className="old">$35.00</span>
-                  <span>$29.00</span>
+              <span className="old">$75.00</span>
+                  <span>$59.00</span>
               </div>
               <div className="product-rating">
                   <div className="yellow" ><AiTwotoneStar/></div>
@@ -107,7 +107,7 @@ export default class PCarousels extends Component {
           </div>
         </div>
       <div className="product-content">
-          <h3><Link to="/ProductDetail">Slim-fit cotton shirt</Link></h3>
+          <h3><Link to="/ProductDetail">Long Coat</Link></h3>
           <div className="product-price">
           <span className="old">$90.00</span>
               <span>$80.00</span>
@@ -137,7 +137,7 @@ export default class PCarousels extends Component {
           </div>
         </div>
       <div className="product-content">
-          <h3><Link to="/ProductDetail/Women">Slim-fit cotton shirt</Link></h3>
+          <h3><Link to="/ProductDetail/Women">Cowboy hat with gown</Link></h3>
           <div className="product-price">
           <span className="old">$90.00</span>
               <span>$79.00</span>
@@ -167,7 +167,7 @@ export default class PCarousels extends Component {
           </div>
         </div>
       <div className="product-content">
-          <h3><Link to="/ProductDetail/Women">Slim-fit cotton shirt</Link></h3>
+          <h3><Link to="/ProductDetail/Women">Off Shoulder Striped Dress</Link></h3>
           <div className="product-price">
               <span className="old">$85.00</span>
               <span>$49.00</span>

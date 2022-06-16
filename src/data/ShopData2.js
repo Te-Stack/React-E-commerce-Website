@@ -9,7 +9,7 @@ export const shops = [
   
   {
     id: 22,
-    name: "Slim-fit cotton shirt",
+    name: "Pearl Bag",
     price: 23.00,
     image1: "/assets/images/product/hm-9-pro-1.jpg",
     image2: "/assets/images/product/hm-9-pro-1-2.jpg"
@@ -17,21 +17,21 @@ export const shops = [
   
   {
     id: 23,
-    name: "Slim-fit cotton shirt",
+    name: "Waterfly Sling bag",
     price: 45.00,
     image1: "/assets/images/product/hm-9-pro-2.jpg",
     image2: "/assets/images/product/hm-9-pro-2-2.jpg"
   },
   {
       id: 24,
-      name: "Slim-fit cotton shirt",
+      name: "Mini Tote bag ",
       price: 14.00,
       image1: "/assets/images/product/hm-9-pro-3.jpg",
       image2: "/assets/images/product/hm-9-pro-3-2.jpg"
   },
   {
     id: 25,
-    name: "Slim-fit cotton shirt",
+    name: "Black Metallic Pinatex Vegan Crossbody",
     price: 35.00,
     image1: "/assets/images/product/hm-9-pro-4.jpg",
     image2: "/assets/images/product/hm-9-pro-4-2.jpg"
@@ -39,49 +39,49 @@ export const shops = [
   
   {
     id: 26,
-    name: "Slim-fit cotton shirt",
+    name: "Women Shoulder Messenger",
     price: 35.00,
     image1: "/assets/images/product/hm-9-pro-5.jpg",
     image2: "/assets/images/product/hm-9-pro-5-2.jpg"
   },
   {
     id: 27,
-    name: "Slim-fit cotton shirt",
+    name: "Sling bag ",
     price: 35.00,
     image1: "/assets/images/product/hm-9-pro-6.jpg",
     image2: "/assets/images/product/hm-9-pro-6-2.jpg"
   },
   {
     id: 28,
-    name: "Slim-fit cotton shirt",
+    name: "Women Fashion Handbag",
     price: 45.00,
     image1: "/assets/images/product/hm-9-pro-7.jpg",
     image2: "/assets/images/product/hm-9-pro-7-2.jpg"
   },
   {
     id: 29,
-    name: "Slim-fit cotton shirt",
+    name: "Chain Cassette Bag",
     price: 85.00,
     image1: "/assets/images/product/hm-9-pro-8.jpg",
     image2: "/assets/images/product/hm-9-pro-8-2.jpg"
   },
   {
     id: 30,
-    name: "Slim-fit cotton shirt",
+    name: "Female Handbag White",
     price: 65.00,
     image1: "/assets/images/product/hm-9-pro-9.jpg",
     image2: "/assets/images/product/hm-9-pro-9-2.jpg"
   },
   {
     id: 31,
-    name: "Slim-fit cotton shirt",
+    name: "Great Star Women's Leather",
     price: 42.00,
     image1: "/assets/images/product/hm-9-pro-10.jpg",
     image2: "/assets/images/product/hm-9-pro-10-2.jpg"
   },
   {
     id: 32,
-    name: "Slim-fit cotton shirt",
+    name: "Ladies Casual Fashion Framed",
     price: 37.00,
     image1: "/assets/images/product/hm-9-pro-11.jpg",
     image2: "/assets/images/product/hm-9-pro-11-2.jpg"
