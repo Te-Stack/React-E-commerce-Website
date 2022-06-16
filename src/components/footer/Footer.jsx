@@ -63,15 +63,6 @@ const Footer = () => {
                         <li>Terms and Condition</li>
                     </ul>
                 </div>
-                <div>
-                    <h3>QUICKLINKS</h3>
-                    <ul>
-                        <li>The collections </li>
-                        <li>Size guide</li>
-                        <li>Compare</li>
-                        <li>My Account</li>
-                    </ul>
-                </div>
             </div>
             <div className="thirdRow">
                 <div>

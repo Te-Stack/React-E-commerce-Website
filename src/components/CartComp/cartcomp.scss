@@ -126,6 +126,8 @@
     }
   }
 
+  
+
   .cart-table-content table thead > tr th {
     border-top: medium none;
     font-size: 11px;
@@ -136,7 +138,23 @@
     letter-spacing: 1px;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0 0 33px 0;
+    padding: 0 0.2rem 33px 0.2rem;
+    margin-left: 7rem;
+    display: inline-block;
+    align-items: center;
+    opacity: 1;
+    @media screen and (max-width:1100px){
+      margin-left: 6rem;
+
+
+    }
+    @media screen and (max-width:600px){
+      margin-left: 1px;
+      opacity: 1;
+      font-size: 9px;
+      letter-spacing: 0.5px;
+      padding: 0 16px 33px 33px;
+    }
   }
   
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -151,81 +169,87 @@
     }
   }
   
-  .cart-table-content table tbody > tr td {
+   td {
     font-size: 14px;
     padding: 0px 0px 40px;
   }
   
   @media only screen and (max-width: 767px) {
-    .cart-table-content table tbody > tr td {
+     td {
       padding: 0px 0px 40px;
     }
   }
   
-  .cart-table-content table tbody > tr td.product-remove {
+   td.product-remove {
     width: 30px;
   }
   
-  .cart-table-content table tbody > tr td.product-remove a {
+   td.product-remove a {
     color: #777777;
   }
   
-  .cart-table-content table tbody > tr td.product-img {
-    // width: 50px;
-    .image-fluid{
-      width: 2px;
-      height: 20px;
-    }
+   td.product-img {
+    
+      width: 200px;
+      height: auto;
+      padding-right: 2rem;
+
+      @media screen and (max-width:600px) {
+        width: 250px;        
+      }
+      
+   
+    
   }
   
-  .cart-table-content table tbody > tr td.product-name {
-    width: 370px;
+   td.product-name {
+    width: 200px;
   }
   
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .cart-table-content table tbody > tr td.product-name {
+     td.product-name {
       width: 250px;
     }
   }
   
   @media only screen and (max-width: 767px) {
-    .cart-table-content table tbody > tr td.product-name {
+    td.product-name {
       width: 200px;
       padding-left: 20px;
       padding-right: 0px;
     }
   }
   
-  .cart-table-content table tbody > tr td.product-name a {
+   td.product-name a {
     font-size: 12px;
     color: #777;
   }
   
-  .cart-table-content table tbody > tr td.product-name a:hover {
+   td.product-name a:hover {
     color: #e77878;
   }
   
-  .cart-table-content table tbody > tr td.product-price {
+   td.product-price {
     width: 90px;
   }
   
-  .cart-table-content table tbody > tr td.product-price span {
+  td.product-price span {
     color: #1f2226;
   }
   
-  .cart-table-content table tbody > tr td.cart-quality {
+   td.cart-quality {
     width: 110px;
   }
   
-  .cart-table-content table tbody > tr td.product-total {
-    width: 70px;
+   td.product-total {
+    width: 100px;
   }
   
-  .cart-table-content table tbody > tr td.product-total span {
+  td.product-total span {
     font-weight: 600;
   }
   
-  .cart-table-content table tbody > tr td.product-wishlist-cart > a {
+  td.product-wishlist-cart > a {
     background-color: #232323;
     color: #fff;
     font-size: 12px;
@@ -234,7 +258,7 @@
     text-transform: capitalize;
   }
   
-  .cart-table-content table tbody > tr td.product-wishlist-cart > a:hover {
+   td.product-wishlist-cart > a:hover {
     background-color: #e77878;
   }
 
@@ -410,7 +434,7 @@
   overflow: hidden;
   padding: 0;
   position: relative;
-  width: 100px;
+  width: 110px;
   text-align: center;
 }
 
@@ -455,7 +479,7 @@
   margin: 0;
   padding: 0px;
   text-align: center;
-  width: 100px;
+  width: 110px;
   font-weight: 600;
 }
 

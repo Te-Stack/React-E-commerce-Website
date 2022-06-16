@@ -21,7 +21,7 @@ const Cart = () => {
                     </div>
                     <ul>
                         <li>
-                            <a href="index.html">Home </a>
+                            <a href="#">Home </a>
                         </li>
                         <li><span> &gt; </span></li>
                         <li className="active">Cart</li>
@@ -35,7 +35,7 @@ const Cart = () => {
             <p>
             Your order has been placed and will be delivered to you within 24
             hours.
-            </p>
+            </p> 
             <Link to="/Shop">
             <button className="btn btn-success" onClick={clearCart}>Continue Shopping</button>
             </Link>
@@ -53,7 +53,7 @@ const Cart = () => {
                                         <table>
                                         <thead>
                                             <tr>
-                                                <th></th>
+                                                {/* <th></th> */}
                                                 <th></th>
                                                 <th>Product</th>
                                                 <th> Price</th>

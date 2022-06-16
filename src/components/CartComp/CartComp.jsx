@@ -16,7 +16,7 @@ const CartComp = ({product}) => {
                         <a href="#" onClick={() => removeFromCart(product)}><AiOutlineClose/></a>
                     </td>
                     <td className="product-img">
-                        <a href="#"><img className="image-fluid" src={product.image1} alt="cart"/></a>
+                        <a href="#"><img  src={product.image1} alt="cart"/></a>
                     </td>
                     <td className="product-name">
                         <a href="#">{product.name}</a>

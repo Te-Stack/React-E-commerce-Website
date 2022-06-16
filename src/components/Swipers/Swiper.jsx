@@ -4,6 +4,7 @@ import "./swiper.scss"
 import img1 from "../../assets/images/slider/img-slide2-01-4.jpg";
 import img2 from "../../assets/images/slider/img-slide2-03-2.jpg";
 import img3 from "../../assets/images/slider/img-slide2-04-1.jpg";
+import { Link } from 'react-router-dom';
 
 const Swiper = () => {
     const { 
@@ -22,7 +23,8 @@ const Swiper = () => {
                                     <p>#boots collection</p>
                                         <h1 className="text-2xl">Lace-Up leather shoes</h1>
                                     <p className="dollars" >$99.99</p>
-                                    <button><span>Shop now</span></button> 
+                                    <Link to="/Shop"><button><span>Shop now</span></button> </Link>
+                                    
                             </div>
                             <div>
                                 <img alt="shoes" src={img1} />
@@ -45,7 +47,8 @@ const Swiper = () => {
                                         <h1 className="text-2xl">Chunky Knit Sweaters</h1>
                                     </div>
                                     <p className="dollars">$69.99</p>
-                                    <button><span>Shop now</span></button> 
+                                    <Link to="/Shop"><button><span>Shop now</span></button></Link>
+                                     
                             </div>
                             
                             <div>
@@ -68,7 +71,7 @@ const Swiper = () => {
                                             <h1 className="text-2xl">Hood quilted coats</h1>
                                         </div>
                                         <p className="dollars">$69.99</p>
-                                        <button><span>Shop now</span></button>   
+                                        <Link to="/Shop"><button><span>Shop now</span></button>  </Link>       
                             </div>
                             <div>
                                 <img alt="coats" src={img3} />
