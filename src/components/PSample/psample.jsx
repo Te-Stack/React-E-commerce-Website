@@ -50,7 +50,7 @@ const PSample = ({product}) => {
                                     </div>
                                 </div>
                                 <div className="product-content">
-                                    <h3><Link to="/ProductDetail">{product.name}</Link></h3>
+                                    <h3>{product.name}</h3>
                                     <div className="product-price">
                                         <span>{formatCurrency(product.price)}</span>
                                     </div>
